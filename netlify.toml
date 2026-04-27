@@ -1,0 +1,40 @@
+# Netlify configuration for Cross-Examination Issues Study.
+# Static site, no build step — vanilla HTML/CSS/JS served from repo root.
+# Deploy with:  netlify deploy --prod  (after  netlify init  / link to site
+# named "cross-examination-issues-study").
+
+[build]
+  publish = "."
+  # No command needed — there is no build step.
+  command = ""
+
+# SPA-style fallback isn't needed (the site is single-page hash-anchored),
+# so we don't redirect 404s to /index.html — let real 404s show.
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "geolocation=(), microphone=(), camera=()"
+
+# Long cache for fingerprint-stable static assets. Audio/portraits/video
+# never change once committed, and the filenames are stable, so a 1-year
+# cache is safe; bust by renaming if you ever swap one.
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# Data JSON is content the lab content owners will likely iterate on, so
+# keep cache short and use stale-while-revalidate.
+[[headers]]
+  for = "/data/*.json"
+  [headers.values]
+    Cache-Control = "public, max-age=300, stale-while-revalidate=86400"
+
+# HTML must always be revalidated so content updates ship fast.
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
