@@ -1,0 +1,215 @@
+/* ==================================================================
+   Print-view stylesheet
+   Cross-Examination, but inverted for paper:
+   white ground, charcoal ink, struck red, granted slate.
+   Designed to fit one A4 page.
+   ================================================================== */
+
+:root {
+    --paper:   #FAFAF6;
+    --ink:     #14161A;
+    --quote:   #4D4A40;
+    --rule:    #B8B5AE;
+    --struck:  #B23E2E;
+    --granted: #4F5E70;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+html, body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 11pt;
+    line-height: 1.45;
+}
+
+body {
+    max-width: 18cm;
+    margin: 0 auto;
+    padding: 1.5cm 1.5cm 1.2cm;
+}
+
+.print__head {
+    border-bottom: 2px solid var(--ink);
+    padding-bottom: 8pt;
+    margin-bottom: 18pt;
+}
+
+.print__eyebrow {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 8pt;
+    color: var(--quote);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-bottom: 4pt;
+}
+
+.print__title {
+    font-family: "Source Serif 4", Georgia, serif;
+    font-size: 22pt;
+    font-weight: 600;
+    line-height: 1.1;
+    letter-spacing: -0.01em;
+    color: var(--ink);
+}
+
+.print__author {
+    font-family: "Source Serif 4", Georgia, serif;
+    font-size: 14pt;
+    font-weight: 600;
+    color: var(--ink);
+    margin-top: 6pt;
+}
+
+.print__date {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 9pt;
+    color: var(--quote);
+    margin-top: 4pt;
+}
+
+.print__block {
+    margin-bottom: 14pt;
+    page-break-inside: avoid;
+}
+
+.print__block h2 {
+    font-family: "Source Serif 4", Georgia, serif;
+    font-size: 11pt;
+    font-weight: 600;
+    color: var(--ink);
+    border-left: 3px solid var(--ink);
+    padding-left: 8pt;
+    margin-bottom: 6pt;
+}
+
+.print__question {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 13pt;
+    color: var(--ink);
+    line-height: 1.4;
+    padding: 10pt 12pt;
+    background: rgba(20, 22, 26, 0.04);
+    border-left: 4px solid var(--ink);
+}
+
+.print__format {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 9pt;
+    color: var(--quote);
+    margin-top: 6pt;
+    letter-spacing: 0.04em;
+}
+
+.print__guiding {
+    list-style: decimal inside;
+    padding-left: 0;
+}
+.print__guiding li {
+    padding: 4pt 0;
+    border-bottom: 1px dashed var(--rule);
+    font-size: 10pt;
+    line-height: 1.45;
+    color: var(--ink);
+}
+.print__guiding li strong {
+    font-family: "JetBrains Mono", monospace;
+    color: var(--granted);
+    font-size: 9pt;
+    margin-right: 6pt;
+}
+.print__guiding li:last-child { border-bottom: 0; }
+
+.print__philosophers {
+    list-style: none;
+    padding: 0;
+}
+.print__philosophers li {
+    padding: 6pt 0;
+    border-bottom: 1px solid var(--rule);
+    font-size: 10pt;
+    line-height: 1.5;
+}
+.print__philosophers li:last-child { border-bottom: 0; }
+.print__phil-era {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 8pt;
+    color: var(--quote);
+}
+.print__phil-hook {
+    display: block;
+    margin-top: 2pt;
+    color: var(--quote);
+    font-style: italic;
+    font-size: 9pt;
+}
+
+.print__thoughts {
+    font-size: 10pt;
+    line-height: 1.55;
+    color: var(--ink);
+    padding: 10pt 12pt;
+    background: rgba(20, 22, 26, 0.03);
+    border-left: 2px solid var(--quote);
+    white-space: pre-wrap;
+    font-family: "Inter", sans-serif;
+}
+
+.print__signature {
+    margin-top: 18pt;
+}
+.print__sig-line {
+    border-bottom: 1px solid var(--ink);
+    height: 32pt;
+}
+.print__sig-caption {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 8pt;
+    color: var(--quote);
+    margin-top: 4pt;
+    letter-spacing: 0.04em;
+}
+
+.print__foot {
+    margin-top: 14pt;
+    padding-top: 8pt;
+    border-top: 1px solid var(--rule);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 8pt;
+    color: var(--quote);
+    letter-spacing: 0.02em;
+}
+
+.print__btns {
+    display: flex;
+    gap: 8pt;
+}
+
+.print__btn {
+    background: var(--ink);
+    color: var(--paper);
+    border: 0;
+    padding: 6pt 14pt;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 9pt;
+    cursor: pointer;
+    letter-spacing: 0.05em;
+}
+.print__btn:hover { background: var(--quote); }
+.print__btn:disabled { opacity: 0.6; cursor: not-allowed; }
+.print__btn--ghost {
+    background: transparent;
+    color: var(--ink);
+    border: 1px solid var(--rule);
+}
+.print__btn--ghost:hover { background: var(--ink); color: var(--paper); }
+
+@media print {
+    body { padding: 0; max-width: none; }
+    .print__btn, .print__foot, .print__btns { display: none !important; }
+    @page { margin: 1.5cm; }
+}

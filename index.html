@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Issues Study | SACE Stage 2 Philosophy</title>
+<meta name="description" content="A self-guided introduction to the SACE Stage 2 Philosophy Issues Study (AT3 Investigation). 24 thinkers under cross-examination. By Friday, choose your question. Set it down. Defend it.">
+
+<!-- Open Graph -->
+<meta property="og:title" content="Issues Study — Cross-Examination">
+<meta property="og:description" content="By Friday, choose your question. Set it down. Defend it.">
+<meta property="og:type" content="website">
+
+<!-- Fonts: preconnect + single CSS request -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=Inter:wght@400;500;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- =============================================================
+     STICKY NAV
+     ============================================================= -->
+<nav class="nav" id="nav">
+    <div class="nav__inner">
+        <a href="#hero" class="nav__brand">Issues Study — Cross-Examination</a>
+        <ul class="nav__items">
+            <li><a class="nav__link" href="#what">What this is</a></li>
+            <li><a class="nav__link" href="#domains">Wander</a></li>
+            <li><a class="nav__link" href="#thinkers">Meet the thinkers</a></li>
+            <li><a class="nav__link" href="#workshop">Workshop</a></li>
+            <li><a class="nav__link" href="#commit">Commit</a></li>
+        </ul>
+        <a class="nav__cta" href="#workshop">Open Workshop &rsaquo;</a>
+    </div>
+</nav>
+
+<!-- Background texture (skin-driven, behind everything) -->
+<div class="skin-texture" aria-hidden="true"></div>
+
+<!-- =============================================================
+     §1 HERO
+     ============================================================= -->
+<header class="hero" id="hero">
+    <video class="hero__video" autoplay muted loop playsinline aria-hidden="true">
+        <!-- Veo-generated coin rotation, 1080p, 8s -->
+        <source src="assets/video/veo_1777215392_0.mp4" type="video/mp4">
+    </video>
+    <div class="hero__veil"></div>
+    <button class="hero__sound-toggle" id="soundToggle" type="button" aria-label="Toggle ambient sound">Sound: off</button>
+    <div class="hero__content">
+        <p class="hero__eyebrow">SACE Stage 2 Philosophy · AT3 Investigation · 30%</p>
+        <p class="hero__typed" id="heroTyped">
+            <span id="heroTypedText"></span><span class="hero__caret"></span>
+        </p>
+        <h1 class="hero__deliverable">By Friday — choose your question. Set it down. Defend it.</h1>
+        <a class="btn hero__cta" href="#what">Begin &rsaquo;</a>
+    </div>
+    <p class="hero__scroll-hint">↓ Scroll</p>
+</header>
+
+<!-- =============================================================
+     §2 WHAT THIS IS
+     ============================================================= -->
+<section class="section what" id="what">
+    <div class="container">
+        <header class="section__head">
+            <p class="section__eyebrow">§2 — What this is</p>
+            <h2 class="section__title">A philosophical issue, examined under cross-examination.</h2>
+            <p class="section__lede">
+                Your task is to take a philosophical issue, map the positions philosophers hold on it, weigh the objections, and set down your own position with reasons. Five guiding questions. Eight criteria. Two thousand words, twelve minutes, or multimodal equivalent. Thirty per cent of your final grade.
+            </p>
+        </header>
+
+        <div class="what__grid">
+            <!-- LEFT: criteria -->
+            <div class="what__criteria">
+                <h3 class="h-section-sub">The five criteria SACE moderators emphasise</h3>
+                <div id="criteriaList"></div>
+
+                <dl class="what__limits">
+                    <dt>Format:</dt> <dd>Written 2,000 words · Oral 12 min · Multimodal equiv.</dd>
+                    <dt>Weighting:</dt> <dd>30% of Stage 2 grade</dd>
+                    <dt>Assessment:</dt> <dd>External (sent to SACE moderators)</dd>
+                </dl>
+
+                <details class="details-block">
+                    <summary class="details-summary">All eight criteria, for completeness</summary>
+                    <ul id="allCriteriaList" class="details-list"></ul>
+                </details>
+            </div>
+
+            <!-- RIGHT: exemplars -->
+            <div class="what__exemplars">
+                <h3 class="h-section-sub">Three SACE-moderated exemplars</h3>
+                <div id="exemplarsList"></div>
+                <p id="exemplarsKey" class="exemplar-key"></p>
+            </div>
+        </div>
+
+        <!-- ====================================================
+             About the assignment — rich expandable reference
+             ==================================================== -->
+        <section class="about-task" id="about-task">
+            <h3 class="about-task__title">About the assignment, in detail</h3>
+            <p class="about-task__intro">Below are the questions students most often ask in the first week. Click any heading to expand. The substance comes directly from the SACE Subject Outline and the 2025 Assessment Advice — translated into plain English where it would otherwise be opaque.</p>
+
+            <details>
+                <summary>What exactly is the Issues Study (AT3 Investigation)?</summary>
+                <p>It is the culminating external assessment for Stage 2 Philosophy and the only task where all eight assessment criteria — KU1, KU2, RA1, RA2, RA3, CA1, C1, C2 — are assessed together. You choose a philosophical issue, in negotiation with your teacher, from one of three key areas: <strong>Ethics</strong>, <strong>Epistemology</strong>, or <strong>Metaphysics</strong> (Political Philosophy, Philosophy of Religion, Philosophy of Mind &amp; Tech, and Aesthetics are all subdomains within these three).</p>
+                <p>Your final response examines the issue, maps the positions philosophers hold on it, weighs the objections, and ends with your own defended position.</p>
+            </details>
+
+            <details>
+                <summary>How is this different from AT2 (Issues Analysis)?</summary>
+                <p>AT2 is shorter (around 1,000 words) and focuses on analysing a single issue from a stimulus given to you. AT3 is longer, externally assessed (sent to SACE moderators rather than marked in school), and you choose your own issue. AT3 is also where RA3 — formulating and defending your own position — carries the most weight.</p>
+            </details>
+
+            <details>
+                <summary>How long is it, and what formats can I work in?</summary>
+                <table class="about-task__format-table">
+                    <thead>
+                        <tr><th>Format</th><th>Limit</th><th>What it looks like</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Written</strong></td>
+                            <td>2,000 words max</td>
+                            <td>An essay-style response with clear sections answering each of the five guiding questions. References at the end. The most familiar format and what most students choose.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Oral</strong></td>
+                            <td>12 minutes max</td>
+                            <td>A recorded spoken presentation, scripted or notes-based. Often paired with slides or a reference document. Genuinely good for students who think out loud rather than on the page — but you cannot ramble; the same depth has to fit in 12 minutes.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Multimodal</strong></td>
+                            <td>Equivalent</td>
+                            <td>A combination — written + audio, video, infographic, or interactive — that adds up to the equivalent of either of the above. Negotiate the exact equivalency with Peter. Strong for students with a creative angle that genuinely serves the philosophy. Weak as an excuse to write less.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </details>
+
+            <details>
+                <summary>The five guiding questions, mapped to the assessment criteria</summary>
+                <p>Your final response, in any format, must answer all five of these. The mapping shows which criterion each guiding question is evidence for:</p>
+                <ol class="about-task__guiding-map">
+                    <li><strong>Why is it a philosophical issue?</strong> <span class="crit-tag">RA1</span><br>Show that the question cannot be settled by sociology, psychology, neuroscience, polling, or history alone — it lives in the space of meaning, value, possibility, or what-it-is-to-be.</li>
+                    <li><strong>What positions do various philosophers hold?</strong> <span class="crit-tag">KU1, KU2</span><br>Map at least three distinct philosophical positions on the issue. Name the philosophers; state their position clearly.</li>
+                    <li><strong>What are the philosophers' reasons for holding these positions?</strong> <span class="crit-tag">KU2, RA2</span><br>Show the reasoning, not just the conclusion. The C+ exemplar named Descartes but never engaged his arguments — that loses KU2 marks every time.</li>
+                    <li><strong>What objections or counter-examples are relevant?</strong> <span class="crit-tag">CA1</span><br>Pit the strengths against the weaknesses. The two should meet on the page — listing them in separate paragraphs is the C-band move.</li>
+                    <li><strong>What is your own position, and why?</strong> <span class="crit-tag">RA3</span><br>Defend it. Don't slip your view in as a parenthetical aside (the C+ exemplar did this and lost RA3 entirely). Build the argument so the reader can see why you hold the position you do.</li>
+                </ol>
+            </details>
+
+            <details>
+                <summary>Do I have to use exactly three philosophers?</summary>
+                <p>Three is the SACE minimum to score well on KU1 and KU2 (each criterion expects multiple positions and reasons). You can use more — the A− exemplar engaged seven thinkers (Sartre, Kierkegaard, Kant, Plato, Aquinas, Paley, Dawkins). You cannot use fewer than three without sacrificing significant marks.</p>
+                <p>The three philosopher slots in the Workshop on this site are a starting commitment, not a hard cap.</p>
+            </details>
+
+            <details>
+                <summary>Can I change my question after starting?</summary>
+                <p>Yes — but only if you find a real philosophical reason to change it, not because you've stalled. The point of "Set It Down" by Friday is to commit to <em>something</em> defensible, so the rest of your work has direction. If the question turns out to be unworkable once you've started researching, talk to Peter; revisions happen, but not in week three.</p>
+            </details>
+
+            <details>
+                <summary>How is my work submitted?</summary>
+                <p>Through your normal SACE submission portal at the end of term. The work goes externally to SACE moderators — Peter doesn't grade it himself. This is why the question-formulation stage matters so much: there is no second-guessing, no in-class feedback round on the final submission.</p>
+            </details>
+
+            <details>
+                <summary>What if my chosen question turns out to be unanswerable?</summary>
+                <p>Most strong philosophical questions <em>are</em> unanswerable in any final sense — that's part of why they're worth asking. Your job is not to settle the question for all time. Your job is to take a position, defend it with reasons, engage seriously with the strongest objections, and explain why you still hold the position despite those objections. SACE wants to see <em>you reasoning</em>, not <em>you concluding</em>.</p>
+            </details>
+
+            <details>
+                <summary>How long should each section of the response be?</summary>
+                <p>For a 2,000-word written response, a workable rough split: 200 words establishing why the issue is philosophical (RA1); 600 mapping the philosophers' positions and reasons (KU1, KU2); 400 on objections and counter-examples (CA1); 600 defending your own position (RA3); 200 conclusion. These are guides, not rules — adjust to where your argument actually lives. Avoid 500-word introductions that re-introduce the question for two pages.</p>
+            </details>
+
+            <details>
+                <summary>I'm stuck. What do I do?</summary>
+                <p>Email Peter at <a href="mailto:peter.ellis.teacher@gmail.com">peter.ellis.teacher@gmail.com</a>. He'll get back to you on Monday. In the meantime: pick the strongest hook from §3, hover the philosopher whose position best names your discomfort with it, listen to their soliloquy, and start typing in the Workshop. Bad first drafts that exist are infinitely more useful than perfect drafts that don't.</p>
+            </details>
+
+            <details>
+                <summary>What about the A-grade Annotated Work Sample I keep hearing about?</summary>
+                <p>SACE published an annotated student response from 2008 — the question was <em>"To what extent is democracy the most appropriate form of government?"</em> — that demonstrates an A standard. Worth reading in full once. The biggest takeaway: the response defends a clear position from the first paragraph onwards, treats objections seriously instead of as decorations, and uses each philosopher to do specific work in the argument rather than as a name-check. Ask Peter for a copy if you'd like to read it.</p>
+            </details>
+
+            <p class="about-task__source-note">Source: 2025 Stage 2 Philosophy Subject Outline — Issues Study, and 2025 Philosophy Subject Assessment Advice — Issues Study (SACE Board of South Australia). Quotes paraphrased into plain English.</p>
+        </section>
+    </div>
+</section>
+
+<!-- =============================================================
+     §3 WANDER THE DOMAINS
+     ============================================================= -->
+<section class="section domains" id="domains">
+    <div class="container">
+        <header class="section__head">
+            <p class="section__eyebrow">§3 — Wander</p>
+            <h2 class="section__title">Seven domains. Find where your discomfort lives.</h2>
+            <p class="section__lede">
+                Click a domain to see the questions inside it. Starred questions are new for 2026 — picked because you can't read them without already taking a side.
+            </p>
+        </header>
+
+        <div class="domain-constellation" id="domainConstellation"></div>
+        <div class="domain-detail" id="domainDetail" hidden>
+            <div class="domain-detail__head">
+                <h3 class="domain-detail__title" id="domainDetailTitle"></h3>
+                <span class="domain-detail__count" id="domainDetailCount"></span>
+            </div>
+            <ol class="domain-detail__questions" id="domainDetailQuestions"></ol>
+        </div>
+    </div>
+</section>
+
+<!-- =============================================================
+     §4 MEET THE THINKERS
+     ============================================================= -->
+<section class="section thinkers" id="thinkers">
+    <div class="container">
+        <header class="section__head">
+            <p class="section__eyebrow">§4 — Meet the thinkers</p>
+            <h2 class="section__title">Twenty-four philosophers, taking the stand.</h2>
+            <p class="section__lede">
+                Each speaks for forty seconds in the first person — a hook, a position, the questions they speak to in this bank. Hover for the hook. Click to hear them.
+            </p>
+        </header>
+
+        <div id="thinkersClusters"></div>
+    </div>
+</section>
+
+<!-- THINKER MODAL -->
+<div class="modal-backdrop" id="modalBackdrop" role="dialog" aria-modal="true" aria-labelledby="modalName">
+    <div class="modal" id="modal">
+        <button class="modal__close" id="modalClose" aria-label="Close">Close ×</button>
+        <div class="modal__portrait-wrap">
+            <img class="modal__portrait" id="modalPortrait" alt="">
+        </div>
+        <div class="modal__content">
+            <p class="modal__era" id="modalEra"></p>
+            <h3 class="modal__name" id="modalName"></h3>
+            <p class="modal__primary-text" id="modalPrimaryText"></p>
+            <blockquote class="modal__hook" id="modalHook"></blockquote>
+            <p class="modal__bio" id="modalBio"></p>
+            <div class="modal__player">
+                <audio id="modalAudio" controls preload="none"></audio>
+                <button class="modal__transcript-toggle" id="modalTranscriptToggle">Show transcript</button>
+                <div class="modal__transcript" id="modalTranscript"></div>
+            </div>
+            <div class="modal__speaks-to">
+                <p class="modal__speaks-to-label">Speaks to these questions</p>
+                <ul class="modal__speaks-to-list" id="modalSpeaksToList"></ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- =============================================================
+     §5 QUESTION WORKSHOP
+     ============================================================= -->
+<section class="section workshop" id="workshop">
+    <div class="container">
+        <header class="section__head">
+            <p class="section__eyebrow">§5 — Workshop</p>
+            <h2 class="section__title">Draft your question. Cross-examine it. Set it down.</h2>
+            <p class="section__lede">
+                Type a draft below. The five criteria sit on the right. For each one, read the worked examples and decide for yourself whether your draft holds. The site does not tell you. Philosophy is judgement; this is your first move.
+            </p>
+        </header>
+
+        <div class="workshop__name-block">
+            <label class="workshop__name-label" for="nameInput">Your name <span class="workshop__name-hint">— so the printable records who set this question down</span></label>
+            <input class="workshop__name-input" id="nameInput" type="text" placeholder="e.g. Asha Bevan" autocomplete="name" maxlength="80" required>
+            <p class="workshop__autosave-hint" id="autosaveHint">Saves to this browser as you type. Won't be lost if you close the tab.</p>
+        </div>
+
+        <div class="workshop__guiding">
+            <p class="workshop__guiding-title">The five guiding questions your final response must answer</p>
+            <ol class="workshop__guiding-list" id="guidingList"></ol>
+        </div>
+
+        <div class="workshop__grid">
+            <!-- LEFT: draft + thinkers + thoughts -->
+            <div class="workshop__draft">
+                <p class="workshop__panel-head">Your question (the topic, in interrogative form)</p>
+                <textarea class="workshop__draft-input" id="draftInput" placeholder="e.g. Is it morally permissible to...?"></textarea>
+
+                <p class="workshop__panel-head workshop__panel-head--mt">Three philosophers you'll engage</p>
+                <div class="workshop__philosopher-picker">
+                    <select id="picker1"><option value="">— pick first —</option></select>
+                    <select id="picker2"><option value="">— pick second —</option></select>
+                    <select id="picker3"><option value="">— pick third —</option></select>
+                </div>
+
+                <p class="workshop__panel-head workshop__panel-head--mt">First thoughts on your position (one paragraph)</p>
+                <textarea class="workshop__thoughts-input" id="thoughtsInput" placeholder="What's your provisional answer? What would you have to defend? What objection worries you most?"></textarea>
+            </div>
+
+            <!-- MIDDLE: criteria evidence (collapsible) -->
+            <div class="workshop__evidence">
+                <p class="workshop__panel-head">Evidence for each criterion</p>
+                <p class="workshop__panel-intro">Click a criterion on the right to see worked examples. Decide for yourself whether your draft meets it.</p>
+                <div id="evidencePanel" class="evidence-panel"></div>
+            </div>
+
+            <!-- RIGHT: criteria adjudication margin -->
+            <div class="workshop__margin">
+                <p class="workshop__panel-head">Adjudicate</p>
+                <p class="workshop__criteria-intro">Click a mark to cycle: <span class="workshop__criteria-intro--granted">✓ Granted</span> · <span class="workshop__criteria-intro--examining">? Examining</span> · <span class="workshop__criteria-intro--struck">✗ Struck</span>.</p>
+                <ul class="workshop__criteria" id="criteriaCheck"></ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- =============================================================
+     §6 COMMITMENT
+     ============================================================= -->
+<section class="section commit" id="commit">
+    <div class="container">
+        <header class="section__head">
+            <p class="section__eyebrow">§6 — Commit</p>
+            <h2 class="section__title">Set it down.</h2>
+            <p class="section__lede">
+                You are setting down this question as the position you will defend. Your draft becomes a one-page printable that you bring to Peter on Monday. He'll meet you where you are; what matters is having something to meet.
+            </p>
+        </header>
+
+        <div class="commit__inner">
+            <p class="commit__line" id="commitLine">Choose your format. The site will produce a one-page printable for Peter.</p>
+
+            <p class="commit__hint">
+                Your draft, your three philosophers, and your first thoughts will be saved to this browser as you type. They'll still be here if you close the tab. When you're ready, set it down — your printable will open in a new window. Print it, or save as PDF.
+            </p>
+
+            <fieldset class="commit__format-picker" id="formatPicker">
+                <legend class="visually-hidden">Format you'll work in</legend>
+                <label><input type="radio" name="format" value="written" checked><span>Written (2,000 w)</span></label>
+                <label><input type="radio" name="format" value="oral"><span>Oral (12 min)</span></label>
+                <label><input type="radio" name="format" value="multimodal"><span>Multimodal</span></label>
+            </fieldset>
+
+            <div class="commit__actions">
+                <button class="btn btn--commit" id="setDownBtn">Set it down &amp; download PDF &rarr;</button>
+                <a class="btn btn--ghost" id="mailtoBtn" href="#" target="_blank" rel="noopener">Email it to Peter instead</a>
+            </div>
+            <p class="commit__pdf-status" id="pdfStatus" aria-live="polite"></p>
+
+            <div class="stuck">
+                Stuck? Email Peter at <a href="mailto:peter.ellis.teacher@gmail.com">peter.ellis.teacher@gmail.com</a>. He'll get back to you Monday. Start somewhere on the question — you can refine it.
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- =============================================================
+     SCRIPTS
+     html2canvas + jsPDF for true PDF download (not print dialog).
+     Loaded with defer + integrity-pinned versions.
+     ============================================================= -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js" defer></script>
+<script src="script.js" defer></script>
+
+</body>
+</html>

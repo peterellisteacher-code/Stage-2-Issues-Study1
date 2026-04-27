@@ -1,0 +1,88 @@
+{
+  "primary_five": [
+    {
+      "id": "interrogative",
+      "label": "Is it a question, not a topic?",
+      "sace_tag": "RA1",
+      "explainer": "A topic is a label. A question is a question. SACE moderation is explicit: students who set a 'topic' tend to write information reports and lose marks. The question form is what forces you to take a position.",
+      "examples": [
+        {"verdict": "topic", "text": "Existentialism", "why": "A label. There is nothing here you have to argue. Anyone could write a Wikipedia article."},
+        {"verdict": "question", "text": "Could society operate based entirely on existentialist principles?", "why": "Same content, but you now have to take a position. This is the A− SACE exemplar question — note the work the question itself is doing."},
+        {"verdict": "topic", "text": "Arguments for and against the traditional concept of God", "why": "This is the C+ exemplar's title. It is structured as a list, not a position. Predictably, the response became an information report."},
+        {"verdict": "question", "text": "Does the existence of suffering disprove the existence of a loving God?", "why": "The same material, framed to force a defended answer."}
+      ]
+    },
+    {
+      "id": "philosophical",
+      "label": "Is it genuinely philosophical, not empirical?",
+      "sace_tag": "RA1 / KU1",
+      "explainer": "If your question is best answered by sociology, psychology, neuroscience, history, or polling — it is not a philosophical issue and you cannot earn KU1/KU2 marks on it. Look for questions about meaning, value, possibility, or what counts as a thing — not about what is the case.",
+      "examples": [
+        {"verdict": "empirical", "text": "How many people in Australia are religious?", "why": "Answered by a survey. Not philosophy."},
+        {"verdict": "empirical", "text": "Does meditation reduce anxiety?", "why": "Answered by neuroscience. Not philosophy."},
+        {"verdict": "philosophical", "text": "Does meditation give access to a kind of knowledge science cannot capture?", "why": "Same area, but the answer requires you to argue about the nature of knowledge itself."},
+        {"verdict": "philosophical", "text": "What makes an action morally justifiable?", "why": "Cannot be settled empirically. Must be argued."}
+      ]
+    },
+    {
+      "id": "multi-position",
+      "label": "Does it afford three or more positions?",
+      "sace_tag": "KU1, KU2",
+      "explainer": "Strong questions let you map out at least three philosophers' positions. If only one answer is plausible — or if every philosopher would just agree — you have a definitional question, not a contested one.",
+      "examples": [
+        {"verdict": "single-position", "text": "Is gratuitous cruelty wrong?", "why": "Almost no philosopher would say no. Very little to argue."},
+        {"verdict": "multi-position", "text": "Is it ever morally permissible to lie to protect someone?", "why": "Kantians say no. Utilitarians say yes. Virtue ethicists say it depends. Care ethicists say the question is malformed. At least four positions live in this question."},
+        {"verdict": "multi-position", "text": "Does personal identity persist through time?", "why": "Locke, Hume, and Parfit each give different answers, with different reasons. A genuine multi-position question."}
+      ]
+    },
+    {
+      "id": "live-objections",
+      "label": "Are there live objections to your likely position?",
+      "sace_tag": "CA1",
+      "explainer": "If your answer is obvious to you, the question is too easy. A strong question has an answer you find compelling — and serious counter-arguments you'll have to take seriously. CA1 is the criterion C-band responses most often miss: strengths get listed, weaknesses get listed, and the two never meet.",
+      "examples": [
+        {"verdict": "no-live-objections", "text": "Is slavery wrong?", "why": "No serious philosophical position defends it today. The objections are not live."},
+        {"verdict": "live-objections", "text": "Is it ethical to bring a child into a world this bad?", "why": "Antinatalists (Benatar) and existentialists answer differently. The objections are alive and uncomfortable."},
+        {"verdict": "live-objections", "text": "Should an AI ever be granted moral status?", "why": "Functionalists say yes if it behaves indistinguishably; Cartesians say no without consciousness. Both positions have live counter-arguments."}
+      ]
+    },
+    {
+      "id": "defensible",
+      "label": "Can you defend a position on it — your own?",
+      "sace_tag": "RA3",
+      "explainer": "RA3 — the criterion that asks you to defend your own position — is the one C-band responses most often skip. The C+ SACE exemplar slipped personal opinion into parenthetical asides ('personally it's not because...') rather than building it into the argument. Your question must be one where you can picture yourself drawing a line and defending it.",
+      "examples": [
+        {"verdict": "indefensible", "text": "Is the universe meaningful?", "why": "Too vast. Hard to find a position you can defend in 2,000 words without dissolving into vagueness."},
+        {"verdict": "defensible", "text": "Should a self-driving car be programmed to swerve toward the smaller group in an unavoidable crash?", "why": "Bounded enough to argue clearly. Multiple positions you could defend with reasons."},
+        {"verdict": "defensible", "text": "Is it possible to give consent to something you don't fully understand?", "why": "Specific enough to take a position; rich enough to defend with multiple philosophical arguments."}
+      ]
+    }
+  ],
+  "all_eight": [
+    {"tag": "KU1", "label": "Knowledge of philosophical issues and positions", "emphasis": "primary"},
+    {"tag": "KU2", "label": "Understanding of philosophers' reasons and arguments", "emphasis": "primary"},
+    {"tag": "RA1", "label": "Explanation of the philosophical nature of the issue", "emphasis": "primary"},
+    {"tag": "RA2", "label": "Explanation of the flow of logic and evidence in arguments", "emphasis": "primary"},
+    {"tag": "RA3", "label": "Formulation and defence of philosophical positions", "emphasis": "primary"},
+    {"tag": "CA1", "label": "Critical analysis of strengths and weaknesses", "emphasis": "primary"},
+    {"tag": "C1", "label": "Communication of philosophical issues using conventions", "emphasis": "secondary"},
+    {"tag": "C2", "label": "Use of philosophical terminology and acknowledgment of sources", "emphasis": "secondary"}
+  ],
+  "task_guiding_questions": [
+    {"n": 1, "text": "Why is it a philosophical issue?", "maps_to": "RA1"},
+    {"n": 2, "text": "What positions do various philosophers hold?", "maps_to": "KU1, KU2"},
+    {"n": 3, "text": "What are the philosophers' reasons for holding these positions?", "maps_to": "KU2, RA2"},
+    {"n": 4, "text": "What objections or counter-examples are relevant to these positions?", "maps_to": "CA1"},
+    {"n": 5, "text": "What is your own position, and why?", "maps_to": "RA3"}
+  ],
+  "format_options": [
+    {"id": "written", "label": "Written response", "limit": "2,000 words max"},
+    {"id": "oral", "label": "Oral presentation", "limit": "12 minutes max"},
+    {"id": "multimodal", "label": "Multimodal", "limit": "equivalent (negotiate with teacher)"}
+  ],
+  "weighting": {
+    "task": "AT3 — Issues Study (Investigation)",
+    "share_of_grade": "30% of final Stage 2 Philosophy grade",
+    "assessment_type": "External — sent to SACE moderators"
+  }
+}

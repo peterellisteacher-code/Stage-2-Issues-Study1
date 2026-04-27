@@ -1,0 +1,670 @@
+[
+  {
+    "id": "aristotle",
+    "name": "Aristotle",
+    "domain": "ethics",
+    "era": "Ancient Greece, 384–322 BCE",
+    "accent": "#B89B5C",
+    "name_aliases": [
+      "Aristotle"
+    ],
+    "hook": "What does a flourishing life look like, really?",
+    "bio": "Greek philosopher who taught Alexander the Great and founded the Lyceum. Argued that the good life — eudaimonia — is not a feeling but an activity: living in accordance with reason and cultivating the virtues across a whole lifetime. The character you build is the answer.",
+    "primary_text": "Nicomachean Ethics",
+    "period_descriptor": "ancient Greek philosopher of the 4th century BCE in his fifties, fit and bearded, in a plain unadorned charcoal wool himation, intellectually composed but not severe",
+    "linked_question_ids": [
+      "q027",
+      "q031",
+      "q128",
+      "q130",
+      "q131",
+      "q068",
+      "q138",
+      "q116",
+      "q157",
+      "q163"
+    ],
+    "question_count": 10,
+    "portrait": "assets/portraits/aristotle.png",
+    "audio": "assets/audio/aristotle.wav",
+    "transcript": "assets/audio/aristotle.txt"
+  },
+  {
+    "id": "mill",
+    "name": "John Stuart Mill",
+    "domain": "ethics",
+    "era": "Britain, 1806–1873",
+    "accent": "#95A05B",
+    "name_aliases": [
+      "Mill",
+      "John Stuart Mill"
+    ],
+    "hook": "Whose pleasure counts? And how much?",
+    "bio": "British philosopher and social reformer who refined utilitarianism into the principle that an action is right insofar as it produces the greatest happiness for the greatest number. Insisted higher pleasures (intellectual, moral) outweigh lower ones — and defended individual liberty against the tyranny of majorities.",
+    "primary_text": "On Liberty / Utilitarianism",
+    "period_descriptor": "19th-century British philosopher in his forties, clean-shaven, intelligent thoughtful eyes, in a sober dark frock coat and waistcoat with a high collar",
+    "linked_question_ids": [
+      "q127",
+      "q129",
+      "q133",
+      "q111",
+      "q146",
+      "q147",
+      "q148",
+      "q149",
+      "q157",
+      "q159"
+    ],
+    "question_count": 10,
+    "portrait": "assets/portraits/mill.png",
+    "audio": "assets/audio/mill.wav",
+    "transcript": "assets/audio/mill.txt"
+  },
+  {
+    "id": "singer",
+    "name": "Peter Singer",
+    "domain": "ethics",
+    "era": "Australia/USA, 1946–",
+    "accent": "#C57B4A",
+    "name_aliases": [
+      "Singer",
+      "Peter Singer"
+    ],
+    "hook": "If you'd save a drowning child in front of you, why not the starving one across the world?",
+    "bio": "Australian utilitarian, currently teaching at Princeton. Made the argument for animal liberation a global movement and applied moral arithmetic to global poverty: if distance and nationality don't change the value of a life, then refusing to give to effective aid is comparable to letting a child drown.",
+    "primary_text": "Practical Ethics",
+    "period_descriptor": "21st-century Australian philosopher in his late seventies, white hair, clean-shaven, plain charcoal jumper over a shirt, calm and direct",
+    "linked_question_ids": [
+      "q010",
+      "q128"
+    ],
+    "question_count": 2,
+    "portrait": "assets/portraits/singer.png",
+    "audio": "assets/audio/singer.wav",
+    "transcript": "assets/audio/singer.txt"
+  },
+  {
+    "id": "foot",
+    "name": "Philippa Foot",
+    "domain": "ethics",
+    "era": "Britain, 1920–2010",
+    "accent": "#7B8970",
+    "name_aliases": [
+      "Foot",
+      "Philippa Foot"
+    ],
+    "hook": "A trolley heads for five. Divert it to kill one. What do you do?",
+    "bio": "British philosopher who revived virtue ethics in the 20th century and posed the original trolley problem. Argued that morality is grounded in what makes human lives flourish — not in what produces pleasure or in abstract duty but in the kind of practical wisdom that lets us act well under uncertainty.",
+    "primary_text": "Natural Goodness",
+    "period_descriptor": "20th-century British philosopher in her sixties, short grey hair pinned simply, charcoal cardigan over a high-collared blouse, sharp considered gaze",
+    "linked_question_ids": [
+      "q127",
+      "q130",
+      "q133"
+    ],
+    "question_count": 3,
+    "portrait": "assets/portraits/foot.png",
+    "audio": "assets/audio/foot.wav",
+    "transcript": "assets/audio/foot.txt"
+  },
+  {
+    "id": "gilligan",
+    "name": "Carol Gilligan",
+    "domain": "ethics",
+    "era": "USA, 1936–",
+    "accent": "#B08A8E",
+    "name_aliases": [
+      "Gilligan",
+      "Carol Gilligan"
+    ],
+    "hook": "Justice and care are different moral languages, not different levels.",
+    "bio": "American psychologist and ethicist whose 1982 book In a Different Voice argued that women's moral reasoning was not deficient (as Kohlberg's earlier framework implied) but distinct — emphasising care, relationship, and context where the dominant tradition emphasised abstract justice and rights. Founded the ethics of care.",
+    "primary_text": "In a Different Voice",
+    "period_descriptor": "American philosopher in her seventies, long grey hair, soft warm features but unsentimental gaze, in a dark roll-neck",
+    "linked_question_ids": [
+      "q132"
+    ],
+    "question_count": 1,
+    "portrait": "assets/portraits/gilligan.png",
+    "audio": "assets/audio/gilligan.wav",
+    "transcript": "assets/audio/gilligan.txt"
+  },
+  {
+    "id": "nussbaum",
+    "name": "Martha Nussbaum",
+    "domain": "ethics",
+    "era": "USA, 1947–",
+    "accent": "#C49A5C",
+    "name_aliases": [
+      "Nussbaum",
+      "Martha Nussbaum"
+    ],
+    "hook": "Emotions are not the opposite of reason. They are reasoning.",
+    "bio": "American philosopher at the University of Chicago whose capabilities approach reframes social justice in terms of what people can actually do and be. Argued that emotions are intelligent responses to what we value — that grief, indignation, and compassion are themselves forms of moral judgement, not interruptions of it.",
+    "primary_text": "Upheavals of Thought / Creating Capabilities",
+    "period_descriptor": "American philosopher in her seventies, long blonde-grey hair, in a tailored dark jacket, intelligent and unguarded expression",
+    "linked_question_ids": [
+      "q132"
+    ],
+    "question_count": 1,
+    "portrait": "assets/portraits/nussbaum.png",
+    "audio": "assets/audio/nussbaum.wav",
+    "transcript": "assets/audio/nussbaum.txt"
+  },
+  {
+    "id": "confucius",
+    "name": "Confucius",
+    "domain": "ethics",
+    "era": "Ancient China, 551–479 BCE",
+    "accent": "#98612F",
+    "name_aliases": [
+      "Confucius",
+      "Kong Fuzi"
+    ],
+    "hook": "Cultivate the right relationships, and the rest follows.",
+    "bio": "Chinese teacher and political thinker whose Analects centre ethics on relationships — between ruler and subject, parent and child, friend and friend. Argued that moral cultivation is lifelong, that ritual and respect are not empty but the visible form of a humane life, and that society fails when those bonds fail.",
+    "primary_text": "The Analects (via the Sourcebook in Chinese Philosophy)",
+    "period_descriptor": "ancient Chinese philosopher in his sixties, long greying beard pulled to a point, in a plain dark-charcoal scholar's robe with a wrapped cloth headpiece, dignified and watchful",
+    "linked_question_ids": [
+      "q149"
+    ],
+    "question_count": 1,
+    "portrait": "assets/portraits/confucius.png",
+    "audio": "assets/audio/confucius.wav",
+    "transcript": "assets/audio/confucius.txt"
+  },
+  {
+    "id": "hume",
+    "name": "David Hume",
+    "domain": "epistemology",
+    "era": "Scotland, 1711–1776",
+    "accent": "#768499",
+    "name_aliases": [
+      "Hume",
+      "David Hume"
+    ],
+    "hook": "There is no continuous you — only a bundle of perceptions.",
+    "bio": "Scottish empiricist who pushed scepticism to its limits. Argued that all our ideas come from sense experience, that we never observe causation but only constant conjunction, and — most disturbingly — that when we look inward for a continuous self we find only a parade of perceptions, never the perceiver.",
+    "primary_text": "A Treatise of Human Nature / Enquiry concerning Human Understanding",
+    "period_descriptor": "18th-century Scottish philosopher in his fifties, broad face, plain powdered wig, dark coat with white stock, faintly amused intelligent eyes",
+    "linked_question_ids": [
+      "q027",
+      "q131",
+      "q046",
+      "q050",
+      "q053",
+      "q055",
+      "q134",
+      "q136",
+      "q137",
+      "q140",
+      "q141",
+      "q142",
+      "q143",
+      "q144",
+      "q150",
+      "q151",
+      "q152",
+      "q154",
+      "q155",
+      "q160",
+      "q161",
+      "q162",
+      "q163",
+      "q164"
+    ],
+    "question_count": 24,
+    "portrait": "assets/portraits/hume.png",
+    "audio": "assets/audio/hume.wav",
+    "transcript": "assets/audio/hume.txt"
+  },
+  {
+    "id": "descartes",
+    "name": "René Descartes",
+    "domain": "epistemology",
+    "era": "France/Netherlands, 1596–1650",
+    "accent": "#8B7B9A",
+    "name_aliases": [
+      "Descartes",
+      "René Descartes"
+    ],
+    "hook": "I doubt everything — except that I am doubting.",
+    "bio": "French philosopher who tried to rebuild knowledge from a single certainty: the act of doubting itself implies a doubter. From there he reasoned outward to God, mind, and matter — and bequeathed Western philosophy the mind-body problem he could not quite solve.",
+    "primary_text": "Meditations on First Philosophy",
+    "period_descriptor": "17th-century French philosopher in his forties, dark shoulder-length hair, thin moustache, plain dark doublet with a soft white linen collar, intense studious expression",
+    "linked_question_ids": [
+      "q053",
+      "q137",
+      "q084",
+      "q085",
+      "q139",
+      "q140",
+      "q142",
+      "q143",
+      "q144",
+      "q155",
+      "q156",
+      "q158"
+    ],
+    "question_count": 12,
+    "portrait": "assets/portraits/descartes.png",
+    "audio": "assets/audio/descartes.wav",
+    "transcript": "assets/audio/descartes.txt"
+  },
+  {
+    "id": "locke",
+    "name": "John Locke",
+    "domain": "epistemology",
+    "era": "England, 1632–1704",
+    "accent": "#93876A",
+    "name_aliases": [
+      "Locke",
+      "John Locke"
+    ],
+    "hook": "Your mind starts as a blank slate. Everything you know came in through your senses.",
+    "bio": "English philosopher and physician who argued the mind at birth is a tabula rasa, that personal identity is grounded in continuity of memory rather than soul or substance, and that legitimate political authority rests on consent. The single thinker most embedded in modern liberal thought.",
+    "primary_text": "An Essay concerning Human Understanding / Two Treatises of Government",
+    "period_descriptor": "17th-century English philosopher in his sixties, long curly natural-grey hair to the shoulders, plain sombre dark robe, lined intelligent face",
+    "linked_question_ids": [
+      "q050",
+      "q051",
+      "q055",
+      "q134",
+      "q135",
+      "q136",
+      "q141",
+      "q143",
+      "q105",
+      "q145",
+      "q146",
+      "q148"
+    ],
+    "question_count": 12,
+    "portrait": "assets/portraits/locke.png",
+    "audio": "assets/audio/locke.wav",
+    "transcript": "assets/audio/locke.txt"
+  },
+  {
+    "id": "kant",
+    "name": "Immanuel Kant",
+    "domain": "epistemology",
+    "era": "Prussia, 1724–1804",
+    "accent": "#5E7589",
+    "name_aliases": [
+      "Kant",
+      "Immanuel Kant"
+    ],
+    "hook": "Could everyone do what you're about to do? If not, don't.",
+    "bio": "Prussian philosopher whose Critical project tried to settle what reason can and cannot know. In ethics, he argued morality is rooted in duty rather than consequences: act only on principles you could rationally will every person to follow. The categorical imperative is the test.",
+    "primary_text": "Groundwork of the Metaphysics of Morals / Critique of Pure Reason",
+    "period_descriptor": "18th-century Prussian philosopher in his sixties, slight build, powdered wig, dark coat with white stock, sharp focused gaze",
+    "linked_question_ids": [
+      "q027",
+      "q031",
+      "q038",
+      "q127",
+      "q128",
+      "q129",
+      "q130",
+      "q132",
+      "q133",
+      "q045",
+      "q046",
+      "q071",
+      "q084",
+      "q111",
+      "q145",
+      "q147",
+      "q157",
+      "q160",
+      "q163"
+    ],
+    "question_count": 19,
+    "portrait": "assets/portraits/kant.png",
+    "audio": "assets/audio/kant.wav",
+    "transcript": "assets/audio/kant.txt"
+  },
+  {
+    "id": "russell",
+    "name": "Bertrand Russell",
+    "domain": "epistemology",
+    "era": "Britain, 1872–1970",
+    "accent": "#8A9CA8",
+    "name_aliases": [
+      "Russell",
+      "Bertrand Russell"
+    ],
+    "hook": "Why should we believe what we think we know?",
+    "bio": "British philosopher, mathematician, and public conscience for most of the 20th century. Co-author of Principia Mathematica, prosecutor of fuzzy thinking, defender of analytic philosophy as the willingness to make claims small enough to be testable, and a working sceptic about the foundations of belief.",
+    "primary_text": "The Problems of Philosophy",
+    "period_descriptor": "20th-century British philosopher in his eighties, wispy white hair, lean weathered face, dark wool jumper over a shirt, alert and slightly mischievous expression",
+    "linked_question_ids": [
+      "q138",
+      "q139",
+      "q140",
+      "q141",
+      "q142",
+      "q144",
+      "q150",
+      "q151",
+      "q152",
+      "q154",
+      "q156"
+    ],
+    "question_count": 11,
+    "portrait": "assets/portraits/russell.png",
+    "audio": "assets/audio/russell.wav",
+    "transcript": "assets/audio/russell.txt"
+  },
+  {
+    "id": "jackson",
+    "name": "Frank Jackson",
+    "domain": "epistemology",
+    "era": "Australia, 1943–",
+    "accent": "#C45A5A",
+    "name_aliases": [
+      "Jackson",
+      "Frank Jackson"
+    ],
+    "hook": "Mary knows everything physical about colour, but she's never seen red. The day she walks out, does she learn something new?",
+    "bio": "Australian philosopher who set the modern philosophy of mind on fire with one thought experiment: Mary the colour scientist, raised in black and white, who walks outside for the first time. If she learns something new, then physical knowledge cannot exhaust mental life — and the mind is not just the brain.",
+    "primary_text": "'Epiphenomenal Qualia' (1982) / 'What Mary Didn't Know'",
+    "period_descriptor": "21st-century Australian philosopher in his seventies, short white hair, clean-shaven, plain mid-grey jumper, calm methodical eyes",
+    "linked_question_ids": [
+      "q139",
+      "q155",
+      "q156",
+      "q158"
+    ],
+    "question_count": 4,
+    "portrait": "assets/portraits/jackson.png",
+    "audio": "assets/audio/jackson.wav",
+    "transcript": "assets/audio/jackson.txt"
+  },
+  {
+    "id": "anscombe",
+    "name": "G. E. M. Anscombe",
+    "domain": "epistemology",
+    "era": "Britain, 1919–2001",
+    "accent": "#6A8472",
+    "name_aliases": [
+      "Anscombe",
+      "G. E. M. Anscombe",
+      "Elizabeth Anscombe"
+    ],
+    "hook": "What you intend, and what you know you're doing — those are not the same question.",
+    "bio": "Catholic British philosopher and Wittgenstein's literary executor who relaunched virtue ethics in 1958 with 'Modern Moral Philosophy' and wrote the foundational 20th-century book on intention. Argued that moral language stripped of its theological background was incoherent, and that you cannot understand action without understanding what the agent took herself to be doing.",
+    "primary_text": "Intention / 'Modern Moral Philosophy'",
+    "period_descriptor": "20th-century British philosopher in her sixties, short grey hair, no makeup, plain dark cardigan, formidable steady gaze",
+    "linked_question_ids": [
+      "q129"
+    ],
+    "question_count": 1,
+    "portrait": "assets/portraits/anscombe.png",
+    "audio": "assets/audio/anscombe.wav",
+    "transcript": "assets/audio/anscombe.txt"
+  },
+  {
+    "id": "plato",
+    "name": "Plato",
+    "domain": "metaphysics",
+    "era": "Ancient Greece, c. 427–347 BCE",
+    "accent": "#C9B36E",
+    "name_aliases": [
+      "Plato"
+    ],
+    "hook": "What if everything you see is just shadows on a wall?",
+    "bio": "Greek philosopher, founder of the Academy, and Socrates' most consequential student. Argued that the things we can see and touch are imperfect shadows of unchanging Forms — that real knowledge is of the Forms, that justice is a property of the soul, and that the philosopher's job is to drag others up out of the cave.",
+    "primary_text": "Republic / Apology / Phaedo",
+    "period_descriptor": "ancient Greek philosopher in his fifties, full beard, dignified and weighty, in a plain unadorned grey wool himation",
+    "linked_question_ids": [
+      "q027",
+      "q058",
+      "q138",
+      "q160",
+      "q162"
+    ],
+    "question_count": 5,
+    "portrait": "assets/portraits/plato.png",
+    "audio": "assets/audio/plato.wav",
+    "transcript": "assets/audio/plato.txt"
+  },
+  {
+    "id": "nietzsche",
+    "name": "Friedrich Nietzsche",
+    "domain": "metaphysics",
+    "era": "Germany, 1844–1900",
+    "accent": "#9F4438",
+    "name_aliases": [
+      "Nietzsche",
+      "Friedrich Nietzsche"
+    ],
+    "hook": "God is dead — and we killed him. What now?",
+    "bio": "German philologist turned philosopher who diagnosed the death of God as the catastrophe Europe had not yet noticed. Pressed his readers to invent values that could survive without divine guarantee, condemned the slave morality of resentment, and asked whether you could affirm your life so completely you would live it again, eternally.",
+    "primary_text": "Beyond Good and Evil / On the Genealogy of Morals / Thus Spoke Zarathustra",
+    "period_descriptor": "late-19th-century German philosopher in his forties, large drooping moustache, intense dark sunken eyes, plain dark suit jacket, fierce concentrated expression",
+    "linked_question_ids": [
+      "q064",
+      "q065",
+      "q067",
+      "q068",
+      "q071",
+      "q111",
+      "q116",
+      "q153",
+      "q159",
+      "q161",
+      "q162",
+      "q164"
+    ],
+    "question_count": 12,
+    "portrait": "assets/portraits/nietzsche.png",
+    "audio": "assets/audio/nietzsche.wav",
+    "transcript": "assets/audio/nietzsche.txt"
+  },
+  {
+    "id": "sartre",
+    "name": "Jean-Paul Sartre",
+    "domain": "metaphysics",
+    "era": "France, 1905–1980",
+    "accent": "#5C5C5C",
+    "name_aliases": [
+      "Sartre",
+      "Jean-Paul Sartre"
+    ],
+    "hook": "You are condemned to be free.",
+    "bio": "French existentialist who argued there is no human nature that comes before the choices that make a human. We exist first; we choose ourselves into being. To pretend you had no choice — to plead your role, your circumstances, your nature — is bad faith. The freedom is total. So is the responsibility.",
+    "primary_text": "Being and Nothingness / Existentialism Is a Humanism",
+    "period_descriptor": "20th-century French philosopher in his fifties, dark-rimmed glasses, slight wall-eyed gaze, hair receding, plain dark wool jumper, cigarette between his fingers, intent expression",
+    "linked_question_ids": [
+      "q045",
+      "q046",
+      "q055",
+      "q059",
+      "q065",
+      "q153",
+      "q161",
+      "q164"
+    ],
+    "question_count": 8,
+    "portrait": "assets/portraits/sartre.png",
+    "audio": "assets/audio/sartre.wav",
+    "transcript": "assets/audio/sartre.txt"
+  },
+  {
+    "id": "beauvoir",
+    "name": "Simone de Beauvoir",
+    "domain": "metaphysics",
+    "era": "France, 1908–1986",
+    "accent": "#A85F65",
+    "name_aliases": [
+      "Beauvoir",
+      "de Beauvoir",
+      "Simone de Beauvoir"
+    ],
+    "hook": "One is not born, but rather becomes, a woman.",
+    "bio": "French philosopher, novelist, and existentialist whose The Second Sex showed that woman has been constructed as the Other — defined relative to man, denied an existence on her own terms. Took Sartrean freedom and asked what happens to it when half the population is socialised into not exercising it.",
+    "primary_text": "The Second Sex",
+    "period_descriptor": "20th-century French philosopher in her forties, dark hair pulled up severely into a turban-style headwrap, sharp intelligent features, in a plain dark blouse, direct unflinching gaze",
+    "linked_question_ids": [
+      "q075",
+      "q112"
+    ],
+    "question_count": 2,
+    "portrait": "assets/portraits/beauvoir.png",
+    "audio": "assets/audio/beauvoir.wav",
+    "transcript": "assets/audio/beauvoir.txt"
+  },
+  {
+    "id": "kierkegaard",
+    "name": "Søren Kierkegaard",
+    "domain": "metaphysics",
+    "era": "Denmark, 1813–1855",
+    "accent": "#7B6A8E",
+    "name_aliases": [
+      "Kierkegaard",
+      "Søren Kierkegaard"
+    ],
+    "hook": "Truth is subjectivity. Faith is the leap.",
+    "bio": "Danish philosopher and theologian, often called the first existentialist. Wrote against the Hegelian system from inside it, arguing that the most important truths cannot be proved — they have to be lived, chosen, leapt to. Faith, for him, was not certainty but the willingness to commit when reason runs out.",
+    "primary_text": "Fear and Trembling / Concluding Unscientific Postscript",
+    "period_descriptor": "19th-century Danish philosopher in his thirties, slight build, full sandy hair swept up, severe high collar with cravat, intense melancholic eyes",
+    "linked_question_ids": [
+      "q064",
+      "q112",
+      "q150",
+      "q151",
+      "q152",
+      "q153",
+      "q154"
+    ],
+    "question_count": 7,
+    "portrait": "assets/portraits/kierkegaard.png",
+    "audio": "assets/audio/kierkegaard.wav",
+    "transcript": "assets/audio/kierkegaard.txt"
+  },
+  {
+    "id": "parfit",
+    "name": "Derek Parfit",
+    "domain": "metaphysics",
+    "era": "Britain, 1942–2017",
+    "accent": "#7392A0",
+    "name_aliases": [
+      "Parfit",
+      "Derek Parfit"
+    ],
+    "hook": "What if the person you'll be in ten years isn't 'you' at all?",
+    "bio": "British philosopher who lived in his Oxford rooms and worked relentlessly on personal identity, ethics, and the question of what we ultimately are. Argued that personal identity is not what matters — psychological continuity is — and that what we have feared as death may be much less than what we feared.",
+    "primary_text": "Reasons and Persons",
+    "period_descriptor": "20th-century British philosopher in his sixties, wild grey hair, thin face, plain charcoal jumper, intense focused gaze, slight asymmetry of feature",
+    "linked_question_ids": [
+      "q050",
+      "q051",
+      "q134",
+      "q135",
+      "q136",
+      "q137",
+      "q158",
+      "q159"
+    ],
+    "question_count": 8,
+    "portrait": "assets/portraits/parfit.png",
+    "audio": "assets/audio/parfit.wav",
+    "transcript": "assets/audio/parfit.txt"
+  },
+  {
+    "id": "williams",
+    "name": "Bernard Williams",
+    "domain": "metaphysics",
+    "era": "Britain, 1929–2003",
+    "accent": "#8C7E6A",
+    "name_aliases": [
+      "Williams",
+      "Bernard Williams"
+    ],
+    "hook": "Imagine you live forever. After enough centuries, would there still be a you left?",
+    "bio": "British philosopher who pushed back at utilitarianism, at Kantian impartiality, and at the assumption that immortality would be a gift. Argued that what makes a life recognisably yours — the projects, attachments, loves — eventually exhaust themselves; that endless life would not be your life forever, but the slow erasure of what made it yours.",
+    "primary_text": "Problems of the Self / Ethics and the Limits of Philosophy",
+    "period_descriptor": "20th-century British philosopher in his sixties, wavy grey hair brushed back, dark jacket and white shirt with no tie, lined sceptical face",
+    "linked_question_ids": [
+      "q051",
+      "q135"
+    ],
+    "question_count": 2,
+    "portrait": "assets/portraits/williams.png",
+    "audio": "assets/audio/williams.wav",
+    "transcript": "assets/audio/williams.txt"
+  },
+  {
+    "id": "hobbes",
+    "name": "Thomas Hobbes",
+    "domain": "political",
+    "era": "England, 1588–1679",
+    "accent": "#6B5A4A",
+    "name_aliases": [
+      "Hobbes",
+      "Thomas Hobbes"
+    ],
+    "hook": "Without society, life is nasty, brutish, and short.",
+    "bio": "English political philosopher and theorist of the social contract who argued that life in a state of nature — outside organised society — would be a war of all against all. Legitimate authority is the price we pay to escape that war: a sovereign powerful enough to hold the contract together.",
+    "primary_text": "Leviathan",
+    "period_descriptor": "17th-century English philosopher in his sixties, long natural-grey hair, slight beard, dark scholar's robe over a white collar, severe intelligent gaze",
+    "linked_question_ids": [
+      "q067",
+      "q101",
+      "q105",
+      "q145",
+      "q146",
+      "q147",
+      "q148",
+      "q149"
+    ],
+    "question_count": 8,
+    "portrait": "assets/portraits/hobbes.png",
+    "audio": "assets/audio/hobbes.wav",
+    "transcript": "assets/audio/hobbes.txt"
+  },
+  {
+    "id": "zizek",
+    "name": "Slavoj Žižek",
+    "domain": "political",
+    "era": "Slovenia, 1949–",
+    "accent": "#8E3B3B",
+    "name_aliases": [
+      "Žižek",
+      "Zizek",
+      "Slavoj Žižek"
+    ],
+    "hook": "Ideology is the lie we live to make reality bearable.",
+    "bio": "Slovenian philosopher and cultural critic working at the seam of Hegel, Marx, and Lacan. Argues that ideology is not what we believe but what we do — the practical fictions that hold our social world together — and that the most dangerous ideologies are the ones we are sure we have seen through.",
+    "primary_text": "The Sublime Object of Ideology / Violence",
+    "period_descriptor": "21st-century Slovenian philosopher in his seventies, full unkempt grey beard, large expressive features, plain worn black t-shirt, mid-objection mid-thought, deeply animated face",
+    "linked_question_ids": [],
+    "question_count": 0,
+    "portrait": "assets/portraits/zizek.png",
+    "audio": "assets/audio/zizek.wav",
+    "transcript": "assets/audio/zizek.txt"
+  },
+  {
+    "id": "murdoch",
+    "name": "Iris Murdoch",
+    "domain": "ethics",
+    "era": "Britain, 1919–1999",
+    "accent": "#8B7E5E",
+    "name_aliases": [
+      "Murdoch",
+      "Iris Murdoch"
+    ],
+    "hook": "Moral progress begins with seeing the other person clearly. Real attention is itself a moral act.",
+    "bio": "British philosopher and novelist who pushed back at the analytic tradition's narrow image of the moral life. Argued that ethics is fundamentally about how we see — that moral failure is usually a failure of attention, that loving someone clearly is hard work, and that goodness is harder to fake than philosophers thought.",
+    "primary_text": "The Sovereignty of Good / The Idea of Perfection",
+    "period_descriptor": "20th-century Anglo-Irish philosopher in her sixties, short pageboy grey hair, no makeup, plain dark turtleneck, watchful contemplative eyes",
+    "linked_question_ids": [
+      "q131"
+    ],
+    "question_count": 1,
+    "portrait": "assets/portraits/murdoch.png",
+    "audio": "assets/audio/murdoch.wav",
+    "transcript": "assets/audio/murdoch.txt"
+  }
+]

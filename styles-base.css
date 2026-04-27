@@ -1,0 +1,608 @@
+/* ==================================================================
+   ISSUES STUDY — Cross-Examination
+   Base tokens, reset, grid helpers, motion utilities, narrow fallback.
+   See aesthetic-brief.md for the full design contract.
+   ================================================================== */
+
+/* ==================================================================
+   TOKENS — closed layer. Use ONLY these values.
+   ================================================================== */
+:root {
+    /* === COLOUR (Cross-Examination palette) === */
+    --ground:   #0E0F12;   /* Adversarial Black — flat, no gradient */
+    --paper:    #F2EEE6;   /* Witness Paper — warm-leaning off-white */
+    --aged:     #E8DDC9;   /* Aged Document — fleshier ivory */
+    --struck:   #C8423A;   /* Struck Through — objection ink */
+    --granted:  #5B6A78;   /* Granted Point — cold grey-blue */
+
+    /* Semantic role aliases (do not redefine) */
+    --color-bg:        var(--ground);
+    --color-text:      var(--paper);
+    --color-heading:   var(--paper);
+    --color-quote:     var(--aged);
+    --color-objection: var(--struck);
+    --color-grant:     var(--granted);
+    --color-rule:      rgba(242, 238, 230, 0.18);     /* faint witness-paper line */
+    --color-overlay:   rgba(14, 15, 18, 0.7);         /* nav backdrop */
+
+    /* === SPACING — 8px grid === */
+    --space-xs:  8px;
+    --space-sm:  16px;
+    --space-md:  24px;
+    --space-lg:  32px;
+    --space-xl:  48px;
+    --space-2xl: 64px;
+    --space-3xl: 96px;
+    --space-4xl: 128px;
+
+    /* === TYPE — Perfect Fourth from 18px === */
+    --text-sm:   14px;     /* captions, meta — never body */
+    --text-base: 18px;     /* body */
+    --text-lg:   24px;     /* subheadings */
+    --text-xl:   32px;     /* section subheads */
+    --text-2xl:  43px;     /* section headings */
+    --text-3xl:  57px;     /* hero / domain titles */
+    --text-4xl:  76px;     /* hero overlay only */
+
+    /* === FONT FAMILIES === */
+    --f-display: "Source Serif 4", Georgia, serif;       /* the courtroom */
+    --f-body:    "Inter", -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;  /* the witness */
+    --f-hook:    "JetBrains Mono", "Cascadia Code", Consolas, monospace;  /* the evidence */
+
+    /* === MOTION === */
+    --ease-considered: cubic-bezier(0.16, 1, 0.3, 1);  /* slow start, slow end */
+    --ease-strike:     cubic-bezier(0.25, 0.1, 0.25, 1);
+    --t-slow:          1000ms;
+    --t-considered:    700ms;
+    --t-medium:        400ms;
+    --t-strike:        180ms;
+    --t-quick:         220ms;
+
+    /* === LAYOUT === */
+    --content-max:   1440px;
+    --grid-gutter:   var(--space-md);   /* 24px */
+    --nav-height:    56px;
+}
+
+/* ==================================================================
+   RESET — minimal, opinionated
+   ================================================================== */
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: var(--nav-height);  /* anchor links land below nav */
+}
+
+body {
+    background: var(--color-bg);
+    color: var(--color-text);
+    font-family: var(--f-body);
+    font-size: var(--text-base);
+    line-height: 1.65;
+    font-weight: 400;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    /* IMPORTANT: this site IS scroll-driven. Do NOT lock viewport. */
+    overflow-x: hidden;
+}
+
+img, video, picture { max-width: 100%; display: block; }
+a { color: inherit; text-decoration: none; }
+button { font: inherit; background: none; border: none; color: inherit; cursor: pointer; }
+input, textarea { font: inherit; color: inherit; }
+
+/* Remove default focus ring; use a deliberate one */
+:focus { outline: none; }
+:focus-visible {
+    outline: 2px solid var(--paper);
+    outline-offset: 4px;
+}
+
+/* Selection — inverted, witness-paper on adversarial-black gets strong contrast */
+::selection {
+    background: var(--paper);
+    color: var(--ground);
+}
+
+/* ==================================================================
+   TYPOGRAPHY — every rule pinned to a font role
+   ================================================================== */
+h1, h2, h3 {
+    font-family: var(--f-display);
+    font-weight: 600;
+    color: var(--color-heading);
+    letter-spacing: -0.01em;
+    line-height: 1.15;
+}
+h1 { font-size: var(--text-3xl); }
+h2 { font-size: var(--text-2xl); }
+h3 { font-size: var(--text-xl); }
+h4 { font-size: var(--text-lg); font-family: var(--f-display); font-weight: 600; }
+
+p { max-width: 64ch; }
+
+/* Hook quotes / evidence on the table — JetBrains Mono */
+.hook,
+.question,
+.draft {
+    font-family: var(--f-hook);
+    font-weight: 400;
+    line-height: 1.55;
+    letter-spacing: 0;
+}
+
+/* Voice of a philosopher quoting themselves */
+.quote {
+    color: var(--color-quote);
+    font-family: var(--f-body);
+    font-style: italic;
+    font-size: var(--text-lg);
+    line-height: 1.5;
+    max-width: 50ch;
+}
+
+/* Caption / margin annotation */
+.caption,
+.annotation {
+    font-size: var(--text-sm);
+    color: var(--color-grant);
+    font-family: var(--f-body);
+    line-height: 1.5;
+}
+
+/* Strikethrough — for objected/topic-style examples */
+.strikethrough {
+    position: relative;
+    color: var(--paper);
+    opacity: 0.85;
+}
+.strikethrough::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    height: 2px;
+    background: var(--struck);
+    transform-origin: left center;
+    transform: scaleX(1);
+}
+.strikethrough--animate::after {
+    transform: scaleX(0);
+    animation: strike-cross var(--t-quick) var(--ease-strike) 500ms forwards;
+}
+
+@keyframes strike-cross {
+    to { transform: scaleX(1); }
+}
+
+/* ==================================================================
+   GRID — 12 col, asymmetric; never auto-fit
+   ================================================================== */
+.container {
+    width: 100%;
+    max-width: var(--content-max);
+    margin: 0 auto;
+    padding-left: var(--space-lg);
+    padding-right: var(--space-lg);
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: var(--grid-gutter);
+}
+
+/* Asymmetric column spans (Cross-Examination prefers these) */
+.col-7  { grid-column: span 7; }
+.col-5  { grid-column: span 5; }
+.col-8  { grid-column: span 8; }
+.col-4  { grid-column: span 4; }
+.col-3  { grid-column: span 3; }
+.col-9  { grid-column: span 9; }
+.col-12 { grid-column: 1 / -1; }
+
+/* Workshop has a three-column dialectic: 5 / 4 / 3 */
+.col-w-draft     { grid-column: span 5; }
+.col-w-evidence  { grid-column: span 4; }
+.col-w-margin    { grid-column: span 3; }
+
+/* ==================================================================
+   SECTION — full-viewport scroll stops
+   ================================================================== */
+.section {
+    min-height: 100dvh;
+    padding: var(--space-3xl) 0 var(--space-4xl);
+    position: relative;
+    scroll-margin-top: var(--nav-height);
+}
+
+.section--hero {
+    /* hero gets full bleed — the Veo video occupies the viewport */
+    min-height: 100dvh;
+    padding: 0;
+    overflow: hidden;
+}
+
+.section + .section {
+    border-top: 1px solid var(--color-rule);
+}
+
+.section__head {
+    margin-bottom: var(--space-2xl);
+}
+
+.section__eyebrow {
+    font-family: var(--f-hook);
+    font-size: var(--text-sm);
+    color: var(--color-grant);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin-bottom: var(--space-sm);
+}
+
+.section__title {
+    font-family: var(--f-display);
+    font-weight: 600;
+    font-size: var(--text-2xl);
+    line-height: 1.1;
+    letter-spacing: -0.01em;
+    max-width: 22ch;
+}
+
+.section__lede {
+    font-family: var(--f-body);
+    font-size: var(--text-lg);
+    line-height: 1.55;
+    color: var(--color-text);
+    max-width: 50ch;
+    margin-top: var(--space-md);
+}
+
+/* ==================================================================
+   STICKY NAV — courtroom register
+   ================================================================== */
+.nav {
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    height: var(--nav-height);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    background: var(--color-overlay);
+    border-bottom: 1px solid var(--color-rule);
+    display: flex;
+    align-items: center;
+}
+
+.nav__inner {
+    width: 100%;
+    max-width: var(--content-max);
+    margin: 0 auto;
+    padding: 0 var(--space-lg);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--space-lg);
+}
+
+.nav__brand {
+    font-family: var(--f-display);
+    font-weight: 600;
+    font-size: var(--text-base);
+    letter-spacing: -0.01em;
+    color: var(--paper);
+    white-space: nowrap;
+}
+
+.nav__items {
+    display: flex;
+    align-items: center;
+    gap: var(--space-md);
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav__link {
+    font-family: var(--f-hook);
+    font-size: var(--text-sm);
+    color: var(--color-text);
+    opacity: 0.7;
+    padding: var(--space-xs) var(--space-sm);
+    transition: opacity var(--t-quick) var(--ease-strike);
+}
+.nav__link:hover,
+.nav__link[aria-current="true"] {
+    opacity: 1;
+}
+
+.nav__cta {
+    font-family: var(--f-hook);
+    font-size: var(--text-sm);
+    color: var(--ground);
+    background: var(--paper);
+    padding: var(--space-xs) var(--space-md);
+    transition: background var(--t-quick) var(--ease-strike);
+    min-height: 36px;
+    display: inline-flex;
+    align-items: center;
+}
+.nav__cta:hover {
+    background: var(--aged);
+}
+
+/* ==================================================================
+   BUTTONS — square edges, no rounding
+   ================================================================== */
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--space-xs);
+    min-height: 48px;
+    padding: var(--space-sm) var(--space-lg);
+    font-family: var(--f-hook);
+    font-size: var(--text-base);
+    font-weight: 400;
+    letter-spacing: 0;
+    background: var(--paper);
+    color: var(--ground);
+    border: 1px solid var(--paper);
+    transition: background var(--t-quick) var(--ease-strike),
+                color var(--t-quick) var(--ease-strike);
+}
+.btn:hover {
+    background: var(--aged);
+    border-color: var(--aged);
+}
+.btn--ghost {
+    background: transparent;
+    color: var(--paper);
+    border-color: var(--color-rule);
+}
+.btn--ghost:hover {
+    background: rgba(242, 238, 230, 0.08);
+    border-color: var(--paper);
+    color: var(--paper);
+}
+.btn--commit {
+    background: var(--paper);
+    color: var(--ground);
+    font-size: var(--text-lg);
+    padding: var(--space-md) var(--space-2xl);
+    min-height: 64px;
+}
+.btn--commit:hover {
+    background: var(--aged);
+}
+
+/* ==================================================================
+   MOTION UTILITIES — match the brief
+   ================================================================== */
+.fx-fade-in {
+    opacity: 0;
+    transition: opacity var(--t-considered) var(--ease-considered);
+}
+.fx-fade-in.is-visible { opacity: 1; }
+
+.fx-rise {
+    opacity: 0;
+    transform: translateY(12px);
+    transition:
+        opacity var(--t-considered) var(--ease-considered),
+        transform var(--t-considered) var(--ease-considered);
+}
+.fx-rise.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.fx-margin-pin {
+    opacity: 0;
+    transform: translateX(12px) rotate(1.5deg);
+    transition:
+        opacity var(--t-considered) var(--ease-considered),
+        transform var(--t-considered) var(--ease-considered);
+}
+.fx-margin-pin.is-visible {
+    opacity: 1;
+    transform: translateX(0) rotate(0deg);
+}
+
+@media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+        animation-duration: 1ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 1ms !important;
+        scroll-behavior: auto !important;
+    }
+}
+
+/* ==================================================================
+   NARROW VIEWPORT FALLBACK — graceful, not designed
+   The site is desktop-first; this just prevents breakage on phones.
+   ================================================================== */
+@media (max-width: 800px) {
+    :root {
+        --grid-gutter: var(--space-sm);
+        --text-3xl: 43px;
+        --text-4xl: 57px;
+    }
+
+    .container {
+        padding-left: var(--space-md);
+        padding-right: var(--space-md);
+    }
+
+    .section {
+        padding: var(--space-2xl) 0 var(--space-3xl);
+        min-height: auto;
+    }
+
+    .section__head {
+        margin-bottom: var(--space-xl);
+    }
+
+    /* Collapse all asymmetric grids to single column */
+    .grid {
+        grid-template-columns: 1fr;
+        gap: var(--space-xl);
+    }
+    .col-3, .col-4, .col-5, .col-7, .col-8, .col-9, .col-12,
+    .col-w-draft, .col-w-evidence, .col-w-margin {
+        grid-column: 1 / -1;
+    }
+
+    .nav__items {
+        gap: var(--space-sm);
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+    .nav__link { white-space: nowrap; }
+
+    /* Hide all but workshop CTA on tiny screens */
+    .nav__brand { display: none; }
+}
+
+/* ==================================================================
+   DYNAMIC SKIN LAYER — domain + philosopher
+   Two-layer system. JS swaps [data-domain] and [data-thinker] on <html>
+   when a section/portrait is active. The base aesthetic remains
+   Cross-Examination; skins shift hue, accent, texture, and music.
+
+   Activation rules (handled in script.js):
+   - Default (no selection): no data attrs, base tokens apply.
+   - Section enters viewport: <html data-domain="ethics" etc.>
+   - Thinker modal opens: <html data-domain="..." data-thinker="plato">
+   - Modal closes: data-thinker is removed; data-domain persists from section.
+
+   The skins are SUBTLE — the metaphor relies on coherence, not jukebox.
+   ================================================================== */
+
+/* === Domain skins (7) — subtle ground hue + objection ink + texture === */
+
+html[data-domain="ethics"] {
+    --ground:  #11100D;     /* slightly warmer */
+    --struck:  #C95234;     /* objection in burnt sienna */
+    --granted: #6B7567;     /* moss-grey */
+    --texture: url("assets/textures/paper-grain.svg");
+}
+
+html[data-domain="metaphysics"] {
+    --ground:  #0B0D12;     /* slightly cooler, blue undertone */
+    --struck:  #B23E55;     /* deeper rose */
+    --granted: #4F6178;     /* stone blue */
+    --texture: url("assets/textures/void-stipple.svg");
+}
+
+html[data-domain="epistemology"] {
+    --ground:  #101216;     /* paler, lifted */
+    --struck:  #BC4439;     /* base struck */
+    --granted: #5A7080;     /* steel */
+    --texture: url("assets/textures/fog-noise.svg");
+}
+
+html[data-domain="political"] {
+    --ground:  #0C0D10;     /* denser */
+    --struck:  #B83A3A;     /* deep crimson */
+    --granted: #5C6A6E;     /* slate */
+    --texture: url("assets/textures/marble-vein.svg");
+}
+
+html[data-domain="religion"] {
+    --ground:  #110D08;     /* warmer, sepia undertone */
+    --struck:  #B8503A;     /* clay */
+    --granted: #807060;     /* aged gold */
+    --texture: url("assets/textures/parchment-flecks.svg");
+}
+
+html[data-domain="mind-tech"] {
+    --ground:  #0A0E14;     /* cold dim */
+    --struck:  #B83E50;     /* magenta-tinted */
+    --granted: #4A6878;     /* circuit-blue */
+    --texture: url("assets/textures/grid-faint.svg");
+}
+
+html[data-domain="aesthetics"] {
+    --ground:  #0F0B12;     /* muted lavender undertone */
+    --struck:  #BC3E4E;     /* rose-red */
+    --granted: #6A6275;     /* dusty mauve-grey */
+    --texture: url("assets/textures/brushstroke-faint.svg");
+}
+
+/* Background texture overlay — lives behind everything */
+.skin-texture {
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    z-index: 0;
+    background-image: var(--texture, none);
+    background-repeat: repeat;
+    background-size: 320px;
+    opacity: 0.04;
+    transition: opacity var(--t-slow) var(--ease-considered),
+                background-image var(--t-slow) var(--ease-considered);
+}
+
+/* === Smooth ground transition between domains === */
+html, body {
+    transition: background-color var(--t-slow) var(--ease-considered);
+}
+
+/* === Per-philosopher accent layer ===
+   Each thinker gets one colour token used for the hook underline and
+   the "speaks to" label inside their modal. Subtle but recognisable.
+   ================================================================== */
+
+html[data-thinker="aristotle"]      { --accent: #B89B5C; }  /* olive gold */
+html[data-thinker="mill"]           { --accent: #95A05B; }  /* utilitarian sage */
+html[data-thinker="singer"]         { --accent: #C57B4A; }  /* applied terracotta */
+html[data-thinker="foot"]           { --accent: #7B8970; }  /* virtue moss */
+html[data-thinker="gilligan"]       { --accent: #B08A8E; }  /* care rose */
+html[data-thinker="nussbaum"]       { --accent: #C49A5C; }  /* capabilities amber */
+html[data-thinker="confucius"]      { --accent: #98612F; }  /* relational chestnut */
+html[data-thinker="hume"]           { --accent: #768499; }  /* empiricist sky */
+html[data-thinker="descartes"]      { --accent: #8B7B9A; }  /* rationalist plum */
+html[data-thinker="locke"]          { --accent: #93876A; }  /* tabula-rasa parchment */
+html[data-thinker="kant"]           { --accent: #5E7589; }  /* deontological steel */
+html[data-thinker="russell"]        { --accent: #8A9CA8; }  /* analytic ice */
+html[data-thinker="jackson"]        { --accent: #C45A5A; }  /* Mary's red */
+html[data-thinker="anscombe"]       { --accent: #6A8472; }  /* intentional jade */
+html[data-thinker="plato"]          { --accent: #C9B36E; }  /* Athenian gold */
+html[data-thinker="nietzsche"]      { --accent: #9F4438; }  /* will-to-power blood */
+html[data-thinker="sartre"]         { --accent: #5C5C5C; }  /* existential graphite */
+html[data-thinker="beauvoir"]       { --accent: #A85F65; }  /* second-sex carmine */
+html[data-thinker="kierkegaard"]    { --accent: #7B6A8E; }  /* leap-of-faith dusk */
+html[data-thinker="parfit"]         { --accent: #7392A0; }  /* personal-identity mist */
+html[data-thinker="williams"]       { --accent: #8C7E6A; }  /* tedium of immortality */
+html[data-thinker="hobbes"]         { --accent: #6B5A4A; }  /* leviathan hide */
+html[data-thinker="zizek"]          { --accent: #8E3B3B; }  /* ideology red */
+html[data-thinker="murdoch"]        { --accent: #8B7E5E; }  /* moral attention bronze */
+
+/* Hook quote underline picks up philosopher accent */
+.hook--styled {
+    border-bottom: 1px solid var(--accent, var(--struck));
+    padding-bottom: 4px;
+    transition: border-color var(--t-considered) var(--ease-considered);
+}
+
+/* "Speaks to" label inside modal */
+.thinker-speaks-to__label {
+    font-family: var(--f-hook);
+    font-size: var(--text-sm);
+    color: var(--accent, var(--granted));
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    transition: color var(--t-considered) var(--ease-considered);
+}
+
+/* ==================================================================
+   PRINT — print-view.html only; screen prints get suppressed
+   ================================================================== */
+@media print {
+    body { background: white; color: black; }
+    .nav, .hero-video, audio, video, .no-print { display: none !important; }
+}
