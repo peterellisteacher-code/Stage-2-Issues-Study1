@@ -4,6 +4,7 @@ Author thinkers.json. 24 thinkers + bios + hooks + auto-linked question IDs
 """
 
 import json
+import os
 from pathlib import Path
 import re
 
@@ -225,8 +226,14 @@ def main():
                     break
         thinker["linked_question_ids"] = linked
         thinker["question_count"] = len(linked)
-        # Asset paths (will be populated when AI media is generated)
-        thinker["portrait"] = f"assets/portraits/{thinker['id']}.png"
+        # Asset paths: detect actual portrait file extension on disk (jpg/jpeg/webp/avif/png)
+        portrait_path = f"assets/portraits/{thinker['id']}.png"
+        for ext in ("jpg", "jpeg", "webp", "avif", "png"):
+            candidate = os.path.join(os.path.dirname(__file__), "..", "assets", "portraits", f"{thinker['id']}.{ext}")
+            if os.path.exists(candidate):
+                portrait_path = f"assets/portraits/{thinker['id']}.{ext}"
+                break
+        thinker["portrait"] = portrait_path
         thinker["audio"] = f"assets/audio/{thinker['id']}.mp3"
         thinker["transcript"] = f"assets/audio/{thinker['id']}.txt"
 
