@@ -45,12 +45,13 @@ const DOMAIN_ORDER = ['ethics','metaphysics','epistemology','political','religio
 
 (async function boot() {
     try {
-        const [q, t, c, e, s] = await Promise.all([
+        const [q, t, c, e, s, pc] = await Promise.all([
             fetch('data/questions.json').then(r => r.json()),
             fetch('data/thinkers.json').then(r => r.json()),
             fetch('data/criteria.json').then(r => r.json()),
             fetch('data/exemplars.json').then(r => r.json()),
-            fetch('data/soliloquies.json').then(r => r.json())
+            fetch('data/soliloquies.json').then(r => r.json()),
+            fetch('data/portrait_credits.json').then(r => r.ok ? r.json() : []).catch(() => [])
         ]);
         STATE.questions = q;
         STATE.thinkers = t;
@@ -58,6 +59,7 @@ const DOMAIN_ORDER = ['ethics','metaphysics','epistemology','political','religio
         STATE.exemplars = e.exemplars;
         STATE.exemplarsKey = e.key_takeaway;
         STATE.soliloquies = s.soliloquies;
+        STATE.portraitCredits = pc;
 
         loadWorkshop();
         renderHero();
@@ -265,6 +267,24 @@ function openThinkerModal(id) {
     document.getElementById('modalBio').textContent = t.bio;
     document.getElementById('modalPortrait').src = t.portrait;
     document.getElementById('modalPortrait').alt = `Portrait of ${t.name}`;
+
+    // Render portrait credit if we have one for this thinker. The credit
+    // sits beneath the portrait as small italic text — discreet enough not
+    // to dominate the modal but explicit enough to identify the work.
+    const creditEl = document.getElementById('modalPortraitCredit');
+    if (creditEl) {
+        const credit = (STATE.portraitCredits || []).find(c => c.id === id);
+        if (credit && credit.credit) {
+            const linkUrl = credit.commons_url || credit.wiki_url || '';
+            creditEl.innerHTML = linkUrl
+                ? `<a href="${escapeHtml(linkUrl)}" target="_blank" rel="noopener noreferrer">${escapeHtml(credit.credit)}</a>`
+                : escapeHtml(credit.credit);
+            creditEl.hidden = false;
+        } else {
+            creditEl.textContent = '';
+            creditEl.hidden = true;
+        }
+    }
 
     const audio = document.getElementById('modalAudio');
     audio.src = `assets/audio/${id}.wav`;
