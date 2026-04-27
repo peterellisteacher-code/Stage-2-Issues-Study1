@@ -25,7 +25,7 @@
       "q163"
     ],
     "question_count": 10,
-    "portrait": "assets/portraits/aristotle.png",
+    "portrait": "assets/portraits/aristotle.webp",
     "audio": "assets/audio/aristotle.wav",
     "transcript": "assets/audio/aristotle.txt"
   },
@@ -56,7 +56,7 @@
       "q159"
     ],
     "question_count": 10,
-    "portrait": "assets/portraits/mill.png",
+    "portrait": "assets/portraits/mill.jpg",
     "audio": "assets/audio/mill.wav",
     "transcript": "assets/audio/mill.txt"
   },
@@ -79,7 +79,7 @@
       "q128"
     ],
     "question_count": 2,
-    "portrait": "assets/portraits/singer.png",
+    "portrait": "assets/portraits/singer.webp",
     "audio": "assets/audio/singer.wav",
     "transcript": "assets/audio/singer.txt"
   },
@@ -103,7 +103,7 @@
       "q133"
     ],
     "question_count": 3,
-    "portrait": "assets/portraits/foot.png",
+    "portrait": "assets/portraits/foot.webp",
     "audio": "assets/audio/foot.wav",
     "transcript": "assets/audio/foot.txt"
   },
@@ -125,7 +125,7 @@
       "q132"
     ],
     "question_count": 1,
-    "portrait": "assets/portraits/gilligan.png",
+    "portrait": "assets/portraits/gilligan.jpg",
     "audio": "assets/audio/gilligan.wav",
     "transcript": "assets/audio/gilligan.txt"
   },
@@ -147,7 +147,7 @@
       "q132"
     ],
     "question_count": 1,
-    "portrait": "assets/portraits/nussbaum.png",
+    "portrait": "assets/portraits/nussbaum.jpg",
     "audio": "assets/audio/nussbaum.wav",
     "transcript": "assets/audio/nussbaum.txt"
   },
@@ -169,7 +169,7 @@
       "q149"
     ],
     "question_count": 1,
-    "portrait": "assets/portraits/confucius.png",
+    "portrait": "assets/portraits/confucius.avif",
     "audio": "assets/audio/confucius.wav",
     "transcript": "assets/audio/confucius.txt"
   },
@@ -214,7 +214,7 @@
       "q164"
     ],
     "question_count": 24,
-    "portrait": "assets/portraits/hume.png",
+    "portrait": "assets/portraits/hume.avif",
     "audio": "assets/audio/hume.wav",
     "transcript": "assets/audio/hume.txt"
   },
@@ -247,7 +247,7 @@
       "q158"
     ],
     "question_count": 12,
-    "portrait": "assets/portraits/descartes.png",
+    "portrait": "assets/portraits/descartes.jpg",
     "audio": "assets/audio/descartes.wav",
     "transcript": "assets/audio/descartes.txt"
   },
@@ -280,7 +280,7 @@
       "q148"
     ],
     "question_count": 12,
-    "portrait": "assets/portraits/locke.png",
+    "portrait": "assets/portraits/locke.jpg",
     "audio": "assets/audio/locke.wav",
     "transcript": "assets/audio/locke.txt"
   },
@@ -320,7 +320,7 @@
       "q163"
     ],
     "question_count": 19,
-    "portrait": "assets/portraits/kant.png",
+    "portrait": "assets/portraits/kant.jpeg",
     "audio": "assets/audio/kant.wav",
     "transcript": "assets/audio/kant.txt"
   },
@@ -352,7 +352,7 @@
       "q156"
     ],
     "question_count": 11,
-    "portrait": "assets/portraits/russell.png",
+    "portrait": "assets/portraits/russell.jpeg",
     "audio": "assets/audio/russell.wav",
     "transcript": "assets/audio/russell.txt"
   },
@@ -377,7 +377,7 @@
       "q158"
     ],
     "question_count": 4,
-    "portrait": "assets/portraits/jackson.png",
+    "portrait": "assets/portraits/jackson.jpeg",
     "audio": "assets/audio/jackson.wav",
     "transcript": "assets/audio/jackson.txt"
   },
@@ -400,7 +400,7 @@
       "q129"
     ],
     "question_count": 1,
-    "portrait": "assets/portraits/anscombe.png",
+    "portrait": "assets/portraits/anscombe.jpeg",
     "audio": "assets/audio/anscombe.wav",
     "transcript": "assets/audio/anscombe.txt"
   },
@@ -425,7 +425,7 @@
       "q162"
     ],
     "question_count": 5,
-    "portrait": "assets/portraits/plato.png",
+    "portrait": "assets/portraits/plato.webp",
     "audio": "assets/audio/plato.wav",
     "transcript": "assets/audio/plato.txt"
   },
@@ -458,7 +458,7 @@
       "q164"
     ],
     "question_count": 12,
-    "portrait": "assets/portraits/nietzsche.png",
+    "portrait": "assets/portraits/nietzsche.jpg",
     "audio": "assets/audio/nietzsche.wav",
     "transcript": "assets/audio/nietzsche.txt"
   },
@@ -487,7 +487,7 @@
       "q164"
     ],
     "question_count": 8,
-    "portrait": "assets/portraits/sartre.png",
+    "portrait": "assets/portraits/sartre.jpg",
     "audio": "assets/audio/sartre.wav",
     "transcript": "assets/audio/sartre.txt"
   },
@@ -511,7 +511,7 @@
       "q112"
     ],
     "question_count": 2,
-    "portrait": "assets/portraits/beauvoir.png",
+    "portrait": "assets/portraits/beauvoir.webp",
     "audio": "assets/audio/beauvoir.wav",
     "transcript": "assets/audio/beauvoir.txt"
   },
@@ -539,7 +539,7 @@
       "q154"
     ],
     "question_count": 7,
-    "portrait": "assets/portraits/kierkegaard.png",
+    "portrait": "assets/portraits/kierkegaard.jpg",
     "audio": "assets/audio/kierkegaard.wav",
     "transcript": "assets/audio/kierkegaard.txt"
   },
@@ -568,7 +568,7 @@
       "q159"
     ],
     "question_count": 8,
-    "portrait": "assets/portraits/parfit.png",
+    "portrait": "assets/portraits/parfit.jpg",
     "audio": "assets/audio/parfit.wav",
     "transcript": "assets/audio/parfit.txt"
   },
@@ -591,7 +591,7 @@
       "q135"
     ],
     "question_count": 2,
-    "portrait": "assets/portraits/williams.png",
+    "portrait": "assets/portraits/williams.jpeg",
     "audio": "assets/audio/williams.wav",
     "transcript": "assets/audio/williams.txt"
   },
@@ -620,7 +620,7 @@
       "q149"
     ],
     "question_count": 8,
-    "portrait": "assets/portraits/hobbes.png",
+    "portrait": "assets/portraits/hobbes.jpeg",
     "audio": "assets/audio/hobbes.wav",
     "transcript": "assets/audio/hobbes.txt"
   },
@@ -641,7 +641,7 @@
     "period_descriptor": "21st-century Slovenian philosopher in his seventies, full unkempt grey beard, large expressive features, plain worn black t-shirt, mid-objection mid-thought, deeply animated face",
     "linked_question_ids": [],
     "question_count": 0,
-    "portrait": "assets/portraits/zizek.png",
+    "portrait": "assets/portraits/zizek.webp",
     "audio": "assets/audio/zizek.wav",
     "transcript": "assets/audio/zizek.txt"
   },
@@ -663,7 +663,7 @@
       "q131"
     ],
     "question_count": 1,
-    "portrait": "assets/portraits/murdoch.png",
+    "portrait": "assets/portraits/murdoch.jpeg",
     "audio": "assets/audio/murdoch.wav",
     "transcript": "assets/audio/murdoch.txt"
   }
