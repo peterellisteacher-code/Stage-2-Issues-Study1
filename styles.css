@@ -513,6 +513,7 @@
 }
 
 .modal__portrait-wrap {
+    position: relative;
     background: var(--ground);
     overflow: hidden;
     display: flex;
@@ -524,6 +525,31 @@
     object-position: center top;
     filter: contrast(1.04);
 }
+
+/* Discreet attribution line beneath the portrait. Sits over the bottom of
+   the image with a soft veil so it stays legible without dominating. */
+.modal__portrait-credit {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+    padding: var(--space-xs) var(--space-md);
+    background: linear-gradient(to top, rgba(14, 15, 18, 0.75), rgba(14, 15, 18, 0));
+    color: var(--paper);
+    font-family: var(--f-body);
+    font-style: italic;
+    font-size: var(--text-xs, 0.78rem);
+    line-height: 1.35;
+    opacity: 0.85;
+}
+.modal__portrait-credit a {
+    color: inherit;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 2px;
+}
+.modal__portrait-credit a:hover { opacity: 1; }
 
 .modal__content {
     padding: var(--space-xl);

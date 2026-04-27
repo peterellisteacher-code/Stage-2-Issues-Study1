@@ -1,0 +1,242 @@
+[
+  {
+    "id": "aristotle",
+    "name": "Aristotle",
+    "wiki_url": "https://en.wikipedia.org/wiki/Aristotle",
+    "commons_url": "https://commons.wikimedia.org/wiki/File:Aristotle_Altemps_Inv8575.jpg",
+    "credit": "Roman copy after the bronze original by Lysippos, c. 330 BCE — Palazzo Altemps, Rome",
+    "license_guess": "PD-old / PD-Art (sculptor Lysippos d. c. 305 BCE; photo of public-domain artwork)",
+    "confidence": "high",
+    "notes": "Most-reproduced portrait of Aristotle. Vienna Kunsthistorisches copy is also widely used; either works. Lead infobox image on en.wikipedia.org/wiki/Aristotle as of recent revisions."
+  },
+  {
+    "id": "plato",
+    "name": "Plato",
+    "wiki_url": "https://en.wikipedia.org/wiki/Plato",
+    "commons_url": "https://commons.wikimedia.org/wiki/File:Plato_Silanion_Musei_Capitolini_MC1377.jpg",
+    "credit": "Roman copy of a portrait by Silanion, c. 370 BCE — Capitoline Museums, Rome",
+    "license_guess": "PD-old / PD-Art",
+    "confidence": "high",
+    "notes": "Standard Wikipedia infobox image. Silanion was contemporary with Plato; the surviving copy is Roman."
+  },
+  {
+    "id": "confucius",
+    "name": "Confucius",
+    "wiki_url": "https://en.wikipedia.org/wiki/Confucius",
+    "commons_url": "https://commons.wikimedia.org/wiki/File:Confucius_Tang_Dynasty.jpg",
+    "credit": "Tang Dynasty portrait of Confucius — Wu Daozi (c. 685–758)",
+    "license_guess": "PD-old (artist d. c. 758)",
+    "confidence": "verify",
+    "notes": "Wu Daozi rubbing is the most-reproduced premodern image. An alternative is Kong Zi Sheng Ji Tu (Pictures of the Sage's Traces). Verify exact filename — Commons has multiple versions."
+  },
+  {
+    "id": "descartes",
+    "name": "René Descartes",
+    "wiki_url": "https://en.wikipedia.org/wiki/Ren%C3%A9_Descartes",
+    "commons_url": "https://commons.wikimedia.org/wiki/File:Frans_Hals_-_Portret_van_Ren%C3%A9_Descartes.jpg",
+    "credit": "Frans Hals, Portrait of René Descartes, c. 1648 — Louvre Museum",
+    "license_guess": "PD-Art (Hals d. 1666)",
+    "confidence": "high",
+    "notes": "The canonical Descartes portrait. Several Hals workshop variants exist; the Louvre version is the standard reference."
+  },
+  {
+    "id": "hobbes",
+    "name": "Thomas Hobbes",
+    "wiki_url": "https://en.wikipedia.org/wiki/Thomas_Hobbes",
+    "commons_url": "https://commons.wikimedia.org/wiki/File:Thomas_Hobbes_(portrait).jpg",
+    "credit": "John Michael Wright, Portrait of Thomas Hobbes, c. 1669–70 — National Portrait Gallery, London",
+    "license_guess": "PD-Art (Wright d. 1694)",
+    "confidence": "high",
+    "notes": "NPG London holds the canonical late portrait. The Frontispiece engraving from Leviathan (1651) is also widely used and unambiguously PD."
+  },
+  {
+    "id": "locke",
+    "name": "John Locke",
+    "wiki_url": "https://en.wikipedia.org/wiki/John_Locke",
+    "commons_url": "https://commons.wikimedia.org/wiki/File:John_Locke.jpg",
+    "credit": "Godfrey Kneller, Portrait of John Locke, 1697 — Hermitage Museum, St Petersburg",
+    "license_guess": "PD-Art (Kneller d. 1723)",
+    "confidence": "high",
+    "notes": "Standard Wikipedia infobox image. Kneller painted Locke twice; the Hermitage version is the most reproduced."
+  },
+  {
+    "id": "hume",
+    "name": "David Hume",
+    "wiki_url": "https://en.wikipedia.org/wiki/David_Hume",
+    "commons_url": "https://commons.wikimedia.org/wiki/File:Painting_of_David_Hume.jpg",
+    "credit": "Allan Ramsay, Portrait of David Hume, 1766 — Scottish National Portrait Gallery, Edinburgh",
+    "license_guess": "PD-Art (Ramsay d. 1784)",
+    "confidence": "high",
+    "notes": "The definitive Hume portrait by his friend Ramsay. Filename on Commons may vary — check 'Allan Ramsay - David Hume'."
+  },
+  {
+    "id": "kant",
+    "name": "Immanuel Kant",
+    "wiki_url": "https://en.wikipedia.org/wiki/Immanuel_Kant",
+    "commons_url": "https://commons.wikimedia.org/wiki/File:Kant_gemaelde_3.jpg",
+    "credit": "Johann Gottlieb Becker, Portrait of Immanuel Kant, 1768",
+    "license_guess": "PD-Art (Becker 18th-century)",
+    "confidence": "verify",
+    "notes": "Several attributed portraits exist; the 1768 Becker is the most-reproduced. An alternative is the c. 1790 anonymous portrait at the Schiller-Nationalmuseum."
+  },
+  {
+    "id": "mill",
+    "name": "John Stuart Mill",
+    "wiki_url": "https://en.wikipedia.org/wiki/John_Stuart_Mill",
+    "commons_url": "https://commons.wikimedia.org/wiki/File:John_Stuart_Mill_by_London_Stereoscopic_Company,_c1870.jpg",
+    "credit": "London Stereoscopic Company, photograph of John Stuart Mill, c. 1870 — National Portrait Gallery, London",
+    "license_guess": "PD (photo over 100 years old, photographer's term expired)",
+    "confidence": "high",
+    "notes": "Mill is photographable — use a real photo, not a painting. The London Stereoscopic Co. albumen print is the canonical image."
+  },
+  {
+    "id": "nietzsche",
+    "name": "Friedrich Nietzsche",
+    "wiki_url": "https://en.wikipedia.org/wiki/Friedrich_Nietzsche",
+    "commons_url": "https://commons.wikimedia.org/wiki/File:Nietzsche187a.jpg",
+    "credit": "Friedrich Hermann Hartmann, photograph of Friedrich Nietzsche, 1875 (or Gustav-Adolf Schultze, 1882)",
+    "license_guess": "PD (photo > 100 years old)",
+    "confidence": "high",
+    "notes": "Many Nietzsche photos exist on Commons. Avoid the Hans Olde 1899 photographs of him in mental decline — use the prime-of-life images. The 1882 Schultze portrait is widely used."
+  },
+  {
+    "id": "kierkegaard",
+    "name": "Søren Kierkegaard",
+    "wiki_url": "https://en.wikipedia.org/wiki/S%C3%B8ren_Kierkegaard",
+    "commons_url": "https://commons.wikimedia.org/wiki/File:Soren_Kierkegaard_(1813-1855)_-_(Maleri_af_Christian_Albrecht_Jensen,_1840)_(cropped).jpg",
+    "credit": "Niels Christian Kierkegaard, sketch of Søren Kierkegaard, c. 1840 (cousin of the philosopher)",
+    "license_guess": "PD-Art (artist d. 1882)",
+    "confidence": "verify",
+    "notes": "Few authentic likenesses exist — Kierkegaard refused most portraits. The cousin's sketch is the standard. Some sources attribute a similar portrait to Christian Albrecht Jensen."
+  },
+  {
+    "id": "russell",
+    "name": "Bertrand Russell",
+    "wiki_url": "https://en.wikipedia.org/wiki/Bertrand_Russell",
+    "commons_url": "https://commons.wikimedia.org/wiki/File:Honourable_Bertrand_Russell.jpg",
+    "credit": "Bassano Ltd, photograph of Bertrand Russell, 1916 — National Portrait Gallery, London",
+    "license_guess": "PD (UK photo > 70 years post-publication; pre-1929 US public domain)",
+    "confidence": "high",
+    "notes": "Russell lived to 1970, so newer photos are still copyrighted. Use a 1910s–1930s photo. Bassano studio portraits are well-documented PD."
+  },
+  {
+    "id": "sartre",
+    "name": "Jean-Paul Sartre",
+    "wiki_url": "https://en.wikipedia.org/wiki/Jean-Paul_Sartre",
+    "commons_url": "https://commons.wikimedia.org/wiki/File:Jean_Paul_Sartre_1967.jpg",
+    "credit": "Photograph of Jean-Paul Sartre, 1967 — by Dutch National Archives (Anefo)",
+    "license_guess": "CC-BY-SA-3.0-NL (Dutch National Archives release)",
+    "confidence": "high",
+    "notes": "Anefo photos of Sartre and Beauvoir during their 1967 visit to the Netherlands are CC-licensed. Avoid Cartier-Bresson images (© Magnum)."
+  },
+  {
+    "id": "beauvoir",
+    "name": "Simone de Beauvoir",
+    "wiki_url": "https://en.wikipedia.org/wiki/Simone_de_Beauvoir",
+    "commons_url": "https://commons.wikimedia.org/wiki/File:Simone_de_Beauvoir2.png",
+    "credit": "Photograph of Simone de Beauvoir, 1967 — by Dutch National Archives (Anefo) / Moshe Milner",
+    "license_guess": "CC-BY-SA-3.0-NL",
+    "confidence": "high",
+    "notes": "Same Anefo 1967 series as Sartre. There's also an Israeli Government Press Office image from her 1967 visit that's CC-BY-SA."
+  },
+  {
+    "id": "foot",
+    "name": "Philippa Foot",
+    "wiki_url": "https://en.wikipedia.org/wiki/Philippa_Foot",
+    "commons_url": null,
+    "credit": "Photograph of Philippa Foot — source to be selected by teacher",
+    "license_guess": "verify — likely CC-BY-SA if from Wikipedia",
+    "confidence": "low",
+    "notes": "Foot is harder; her Wikipedia article uses a non-free image under fair use. Possible alternatives: a Somerville College Oxford archive photo (request use), or contact the Foot estate. Some lecture photos are CC. May need teacher's institutional contact for a clean source."
+  },
+  {
+    "id": "anscombe",
+    "name": "G. E. M. Anscombe",
+    "wiki_url": "https://en.wikipedia.org/wiki/G._E._M._Anscombe",
+    "commons_url": null,
+    "credit": "Photograph of G. E. M. Anscombe — source to be selected by teacher",
+    "license_guess": "verify — Wikipedia likely uses fair use",
+    "confidence": "low",
+    "notes": "Like Foot, Anscombe's Wikipedia image is fair-use. For a CC-licensed alternative, check the Wittgenstein Archive Cambridge or the Anscombe Bioethics Centre. The teacher's institutional fair-use coverage probably permits the Wikipedia image."
+  },
+  {
+    "id": "murdoch",
+    "name": "Iris Murdoch",
+    "wiki_url": "https://en.wikipedia.org/wiki/Iris_Murdoch",
+    "commons_url": null,
+    "credit": "Photograph of Iris Murdoch — source to be selected by teacher",
+    "license_guess": "verify — likely fair use",
+    "confidence": "low",
+    "notes": "Murdoch's Wikipedia image is also typically fair-use. Ida Kar's 1957 photograph at NPG London is the canonical likeness; check NPG's CC-BY-NC offerings or whether the Kar portrait is now PD (Kar d. 1974)."
+  },
+  {
+    "id": "williams",
+    "name": "Bernard Williams",
+    "wiki_url": "https://en.wikipedia.org/wiki/Bernard_Williams",
+    "commons_url": null,
+    "credit": "Photograph of Bernard Williams — source to be selected by teacher",
+    "license_guess": "verify",
+    "confidence": "low",
+    "notes": "Steve Pyke's portrait is iconic but © Pyke. Wikipedia uses fair use. King's College Cambridge or All Souls Oxford may have institutional photos available for educational use."
+  },
+  {
+    "id": "parfit",
+    "name": "Derek Parfit",
+    "wiki_url": "https://en.wikipedia.org/wiki/Derek_Parfit",
+    "commons_url": null,
+    "credit": "Photograph of Derek Parfit — source to be selected by teacher",
+    "license_guess": "verify",
+    "confidence": "low",
+    "notes": "Steve Pyke's Parfit portrait is iconic but copyrighted. Wikipedia's image is fair-use. All Souls College Oxford or Rutgers (where he taught) may have permissioned photos."
+  },
+  {
+    "id": "jackson",
+    "name": "Frank Jackson",
+    "wiki_url": "https://en.wikipedia.org/wiki/Frank_Cameron_Jackson",
+    "commons_url": null,
+    "credit": "Photograph of Frank Jackson — Australian National University staff photo or similar",
+    "license_guess": "verify",
+    "confidence": "low",
+    "notes": "Living philosopher; ANU and Princeton (where he visits) may have permissioned headshots. As an educator at an Australian institution, the teacher may have direct access to ANU's image library."
+  },
+  {
+    "id": "nussbaum",
+    "name": "Martha Nussbaum",
+    "wiki_url": "https://en.wikipedia.org/wiki/Martha_Nussbaum",
+    "commons_url": "https://commons.wikimedia.org/wiki/File:Martha_Nussbaum_wikipedia_10-10.jpg",
+    "credit": "Photograph of Martha Nussbaum — Wikipedia user submission, October 2010",
+    "license_guess": "CC-BY-SA-3.0",
+    "confidence": "verify",
+    "notes": "Nussbaum has multiple CC-BY-SA images on Commons from her many lectures. The 2010 one is widely used; newer talks have newer photos."
+  },
+  {
+    "id": "gilligan",
+    "name": "Carol Gilligan",
+    "wiki_url": "https://en.wikipedia.org/wiki/Carol_Gilligan",
+    "commons_url": null,
+    "credit": "Photograph of Carol Gilligan — NYU faculty profile or conference snapshot",
+    "license_guess": "verify",
+    "confidence": "low",
+    "notes": "Gilligan is harder to source CC images for. NYU Steinhardt may have a permissioned faculty photo. Some conference recordings have stills that authors release CC-BY."
+  },
+  {
+    "id": "singer",
+    "name": "Peter Singer",
+    "wiki_url": "https://en.wikipedia.org/wiki/Peter_Singer",
+    "commons_url": "https://commons.wikimedia.org/wiki/File:Peter_Singer_MIT_Veritas_Forum_2009.jpg",
+    "credit": "Photograph of Peter Singer at MIT Veritas Forum, 2009",
+    "license_guess": "CC-BY-SA-3.0",
+    "confidence": "high",
+    "notes": "Singer has the most CC-licensed photos of any living philosopher on this list — he speaks publicly often. Multiple high-quality options on Commons; pick a flattering recent one."
+  },
+  {
+    "id": "zizek",
+    "name": "Slavoj Žižek",
+    "wiki_url": "https://en.wikipedia.org/wiki/Slavoj_%C5%BDi%C5%BEek",
+    "commons_url": "https://commons.wikimedia.org/wiki/File:Slavoj_Zizek_in_Liverpool.jpg",
+    "credit": "Mariusz Kubik, photograph of Slavoj Žižek in Liverpool, 2008",
+    "license_guess": "CC-BY-SA-3.0 (photographer Mariusz Kubik widely releases CC-BY)",
+    "confidence": "high",
+    "notes": "Mariusz Kubik's Žižek portraits are the canonical Wikipedia images and are explicitly CC-BY-SA. Multiple poses available."
+  }
+]
