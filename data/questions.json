@@ -1,0 +1,1752 @@
+[
+  {
+    "id": "q001",
+    "text": "Is the death sentence morally justifiable?",
+    "domain": "ethics",
+    "subdomain": "Applied & normative ethics",
+    "source": "recurring; Tom Burgess and Daisy Wellington (past cohorts)",
+    "suggested_thinkers": [],
+    "origin": "bank"
+  },
+  {
+    "id": "q002",
+    "text": "Is it morally justifiable to use animals as a food source?",
+    "domain": "ethics",
+    "subdomain": "Applied & normative ethics",
+    "source": "James Spurritt",
+    "suggested_thinkers": [],
+    "origin": "bank"
+  },
+  {
+    "id": "q003",
+    "text": "Animals should have the same moral worth as humans. Discuss this in relation to various philosophical positions.",
+    "domain": "ethics",
+    "subdomain": "Applied & normative ethics",
+    "source": "2019; 640404F",
+    "suggested_thinkers": [],
+    "origin": "bank"
+  },
+  {
+    "id": "q004",
+    "text": "Is anthropophagy morally wrong?",
+    "domain": "ethics",
+    "subdomain": "Applied & normative ethics",
+    "source": "historical exemplar",
+    "suggested_thinkers": [],
+    "origin": "bank"
+  },
+  {
+    "id": "q005",
+    "text": "Is abortion morally justifiable?",
+    "domain": "ethics",
+    "subdomain": "Applied & normative ethics",
+    "source": "Georgie Myers",
+    "suggested_thinkers": [],
+    "origin": "bank"
+  },
+  {
+    "id": "q006",
+    "text": "Is stem cell research morally justifiable?",
+    "domain": "ethics",
+    "subdomain": "Applied & normative ethics",
+    "source": "Anna Williams",
+    "suggested_thinkers": [],
+    "origin": "bank"
+  },
+  {
+    "id": "q007",
+    "text": "Is euthanasia morally justified?",
+    "domain": "ethics",
+    "subdomain": "Applied & normative ethics",
+    "source": "historical exemplar",
+    "suggested_thinkers": [],
+    "origin": "bank"
+  },
+  {
+    "id": "q008",
+    "text": "Should voluntary euthanasia be justified as an option for terminally ill patients?",
+    "domain": "ethics",
+    "subdomain": "Applied & normative ethics",
+    "source": "2022; Ava Mitchell (270592E)",
+    "suggested_thinkers": [],
+    "origin": "bank"
+  },
+  {
+    "id": "q009",
+    "text": "Is germline therapy implemented in the genetic modification of foetus' an ethical practice?",
+    "domain": "ethics",
+    "subdomain": "Applied & normative ethics",
+    "source": "2020; 856146G",
+    "suggested_thinkers": [],
+    "origin": "bank"
+  },
+  {
+    "id": "q010",
+    "text": "Is the rapid development of Artificial Intelligence morally justifiable?",
+    "domain": "ethics",
+    "subdomain": "Applied & normative ethics",
+    "source": "Moderation guide; suggested philosophers: Nick Bostrom, Peter Singer, Thomas Metzinger",
+    "suggested_thinkers": [
+      "Nick Bostrom",
+      "Peter Singer",
+      "Thomas Metzinger"
+    ],
+    "origin": "bank"
+  },
+  {
+    "id": "q011",
+    "text": "Should the potential of AI be fully embraced?",
+    "domain": "ethics",
+    "subdomain": "Applied & normative ethics",
+    "source": "2019; 691331W",
+    "suggested_thinkers": [],
+    "origin": "bank"
+  },
+  {
+    "id": "q012",
+    "text": "Should the Australian government seek to have AI in every part of our society?",
+    "domain": "ethics",
+    "subdomain": "Applied & normative ethics",
+    "source": "Master list; suggested: Bentham",
+    "suggested_thinkers": [
+      "Bentham"
+    ],
+    "origin": "bank"
+  },
+  {
+    "id": "q013",
+    "text": "To what extent does someone's personhood get taken away when modified by technology?",
+    "domain": "ethics",
+    "subdomain": "Applied & normative ethics",
+    "source": "2024; 616085X",
+    "suggested_thinkers": [],
+    "origin": "bank"
+  },
+  {
+    "id": "q014",
+    "text": "Insects should replace poultry as a source of protein and carbohydrates.",
+    "domain": "ethics",
+    "subdomain": "Applied & normative ethics",
+    "source": "2022; Riley Kevitt (343535G)",
+    "suggested_thinkers": [],
+    "origin": "bank"
+  },
+  {
+    "id": "q015",
+    "text": "Should the intentional infliction of torture on those who have committed or believed to have committed a criminal act be legal?",
+    "domain": "ethics",
+    "subdomain": "Applied & normative ethics",
+    "source": "2020; 737426X",
+    "suggested_thinkers": [],
+    "origin": "bank"
+  },
+  {
+    "id": "q016",
+    "text": "Should mentally ill be allowed to raise children, or whether those children should be taken from them for their own good?",
+    "domain": "ethics",
+    "subdomain": "Applied & normative ethics",
+    "source": "2022; Ozan Koch (715703T)",
+    "suggested_thinkers": [],
+    "origin": "bank"
+  },
+  {
+    "id": "q017",
+    "text": "Should double jeopardy reform be approved?",
+    "domain": "ethics",
+    "subdomain": "Applied & normative ethics",
+    "source": "2023; 236145F",
+    "suggested_thinkers": [],
+    "origin": "bank"
+  },
+  {
+    "id": "q018",
+    "text": "Is government sanctioned population control morally justifiable?",
+    "domain": "ethics",
+    "subdomain": "Applied & normative ethics",
+    "source": "Bryony Hardy",
+    "suggested_thinkers": [],
+    "origin": "bank"
+  },
+  {
+    "id": "q019",
+    "text": "Is it ethical to bear children?",
+    "domain": "ethics",
+    "subdomain": "Applied & normative ethics",
+    "source": "Moderation guide; suggested: Benatar, Häyry, Hursthouse, Smilansky, Wasserman",
+    "suggested_thinkers": [
+      "Benatar",
+      "Häyry",
+      "Hursthouse",
+      "Smilansky",
+      "Wasserman"
+    ],
+    "origin": "bank"
+  },
+  {
+    "id": "q020",
+    "text": "Do we have a moral obligation to future generations?",
+    "domain": "ethics",
+    "subdomain": "Applied & normative ethics",
+    "source": "Moderation guide; intergenerational equity, environmental sustainability, scarce resource distribution",
+    "suggested_thinkers": [],
+    "origin": "bank"
+  },
+  {
+    "id": "q021",
+    "text": "What ethical responsibility do we as the human race have to the environment?",
+    "domain": "ethics",
+    "subdomain": "Applied & normative ethics",
+    "source": "2024; Oscar Nugent (938514W)",
+    "suggested_thinkers": [],
+    "origin": "bank"
+  },
+  {
+    "id": "q022",
+    "text": "Is the existence of god and religious scripture necessary for humanity's sense of morality?",
+    "domain": "ethics",
+    "subdomain": "Meta-ethics & moral theory",
+    "source": "Jake Stewart",
+    "suggested_thinkers": [],
+    "origin": "bank"
+  },
+  {
+    "id": "q023",
+    "text": "To what extent can morality exist in the absence of organised religion?",
+    "domain": "ethics",
+    "subdomain": "Meta-ethics & moral theory",
+    "source": "2025; 438833G; also Max (2025 cohort)",
+    "suggested_thinkers": [],
+    "origin": "bank"
+  },
+  {
+    "id": "q024",
+    "text": "Are humans inherently good?",
+    "domain": "ethics",
+    "subdomain": "Meta-ethics & moral theory",
+    "source": "2025; 398564J",
+    "suggested_thinkers": [],
+    "origin": "bank"
+  },
+  {
+    "id": "q025",
+    "text": "'Our moral code has no special status, it is merely one among many.' Would the world benefit from adopting normative ethical relativism?",
+    "domain": "ethics",
+    "subdomain": "Meta-ethics & moral theory",
+    "source": "Master list; also 2018, 374308E",
+    "suggested_thinkers": [],
+    "origin": "bank"
+  },
+  {
+    "id": "q026",
+    "text": "Do we have an obligation to respect all cultural differences?",
+    "domain": "ethics",
+    "subdomain": "Meta-ethics & moral theory",
+    "source": "Master list",
+    "suggested_thinkers": [],
+    "origin": "bank"
+  },
+  {
+    "id": "q027",
+    "text": "Should the teaching of morality replace the teaching of religion?",
+    "domain": "ethics",
+    "subdomain": "Meta-ethics & moral theory",
+    "source": "Master list; suggested: Aristotle, Kant, Hume, Plato, Aquinas",
+    "suggested_thinkers": [
+      "Aristotle",
+      "Kant",
+      "Hume",
+      "Plato",
+      "Aquinas"
+    ],
+    "origin": "bank"
+  },
+  {
+    "id": "q028",
+    "text": "Should morality be taught in Australian schools?",
+    "domain": "ethics",
+    "subdomain": "Meta-ethics & moral theory",
+    "source": "2019; 759700W",
+    "suggested_thinkers": [],
+    "origin": "bank"
+  },
+  {
+    "id": "q029",
+    "text": "Should the rights of an individual trump the rights of the general population?",
+    "domain": "ethics",
+    "subdomain": "Meta-ethics & moral theory",
+    "source": "Master list; suggested: Ludwig von Mises",
+    "suggested_thinkers": [
+      "Ludwig von Mises"
+    ],
+    "origin": "bank"
+  },
+  {
+    "id": "q030",
+    "text": "We, as human beings, are products of our environment. What are the implications of this in reference to an individual's moral responsibility for their actions?",
+    "domain": "ethics",
+    "subdomain": "Meta-ethics & moral theory",
+    "source": "Will Mackenzie",
+    "suggested_thinkers": [],
+    "origin": "bank"
+  },
+  {
+    "id": "q031",
+    "text": "To what extent can we be held accountable for our moral actions if our decisions are a product of external factors?",
+    "domain": "ethics",
+    "subdomain": "Meta-ethics & moral theory",
+    "source": "Moderation guide; suggested: Kant, Aristotle",
+    "suggested_thinkers": [
+      "Kant",
+      "Aristotle"
+    ],
+    "origin": "bank"
+  },
+  {
+    "id": "q032",
+    "text": "How does free-will and determinism shape our view on criminal responsibility?",
+    "domain": "ethics",
+    "subdomain": "Meta-ethics & moral theory",
+    "source": "2023; 844774X (also: Metaphysics)",
+    "suggested_thinkers": [],
+    "origin": "bank"
+  },
+  {
+    "id": "q033",
+    "text": "Hedonism should be used as a guide to living a good life.",
+    "domain": "ethics",
+    "subdomain": "Meta-ethics & moral theory",
+    "source": "2022; 216777F",
+    "suggested_thinkers": [],
+    "origin": "bank"
+  },
+  {
+    "id": "q034",
+    "text": "Pleasure is the ultimate goal of life.",
+    "domain": "ethics",
+    "subdomain": "Meta-ethics & moral theory",
+    "source": "2023; 220652J",
+    "suggested_thinkers": [],
+    "origin": "bank"
+  },
+  {
+    "id": "q035",
+    "text": "Should humans pursue pleasure at all cost?",
+    "domain": "ethics",
+    "subdomain": "Meta-ethics & moral theory",
+    "source": "Georgia Middleton",
+    "suggested_thinkers": [],
+    "origin": "bank"
+  },
+  {
+    "id": "q036",
+    "text": "Modern, western society should encourage men to openly express emotions like grief, joy and pity. Discuss this in relation to Stoicism.",
+    "domain": "ethics",
+    "subdomain": "Meta-ethics & moral theory",
+    "source": "2020; 919432L",
+    "suggested_thinkers": [],
+    "origin": "bank"
+  },
+  {
+    "id": "q037",
+    "text": "Can one nation waging war over another be morally justified?",
+    "domain": "ethics",
+    "subdomain": "War, violence & political ethics (cross-listed in Political Philosophy)",
+    "source": "Carly Kwaterski",
+    "suggested_thinkers": [],
+    "origin": "bank"
+  },
+  {
+    "id": "q038",
+    "text": "Can political violence be ethically justified?",
+    "domain": "ethics",
+    "subdomain": "War, violence & political ethics (cross-listed in Political Philosophy)",
+    "source": "Moderation guide; suggested: Kant, Walter Benjamin, Simone Weil",
+    "suggested_thinkers": [
+      "Kant",
+      "Walter Benjamin",
+      "Simone Weil"
+    ],
+    "origin": "bank"
+  },
+  {
+    "id": "q039",
+    "text": "Should political violence against the state be justified?",
+    "domain": "ethics",
+    "subdomain": "War, violence & political ethics (cross-listed in Political Philosophy)",
+    "source": "2019; 137213G",
+    "suggested_thinkers": [],
+    "origin": "bank"
+  },
+  {
+    "id": "q040",
+    "text": "When is violence societally acceptable and when is it morally acceptable?",
+    "domain": "ethics",
+    "subdomain": "War, violence & political ethics (cross-listed in Political Philosophy)",
+    "source": "Moderation guide; references Aquinas, Plato, Walter Benjamin",
+    "suggested_thinkers": [],
+    "origin": "bank"
+  },
+  {
+    "id": "q041",
+    "text": "In the face of the climate crisis, is civil disobedience ethically justified?",
+    "domain": "ethics",
+    "subdomain": "War, violence & political ethics (cross-listed in Political Philosophy)",
+    "source": "2022; Winter Birkett (508978E)",
+    "suggested_thinkers": [],
+    "origin": "bank"
+  },
+  {
+    "id": "q042",
+    "text": "In light of the recent mass-protests in Hong Kong, should an individual's social liberty be deemed more important than state control?",
+    "domain": "ethics",
+    "subdomain": "War, violence & political ethics (cross-listed in Political Philosophy)",
+    "source": "2019; 703465G",
+    "suggested_thinkers": [],
+    "origin": "bank"
+  },
+  {
+    "id": "q043",
+    "text": "Do nation-states have a moral obligation to intervene in foreign conflicts such as the Russia-Ukraine War?",
+    "domain": "ethics",
+    "subdomain": "War, violence & political ethics (cross-listed in Political Philosophy)",
+    "source": "2024; 728095X",
+    "suggested_thinkers": [],
+    "origin": "bank"
+  },
+  {
+    "id": "q044",
+    "text": "Should wealthy nations be obliged to support poor nations?",
+    "domain": "ethics",
+    "subdomain": "War, violence & political ethics (cross-listed in Political Philosophy)",
+    "source": "2023; 907988W",
+    "suggested_thinkers": [],
+    "origin": "bank"
+  },
+  {
+    "id": "q127",
+    "text": "A surgeon could save five patients by harvesting organs from one healthy visitor. Should she? Does the act of saving more lives always justify what is done to get there?",
+    "domain": "ethics",
+    "subdomain": "Applied & normative ethics",
+    "source": "Hook-augmented (2026 Issues Study site)",
+    "suggested_thinkers": [
+      "Foot",
+      "Kant",
+      "Mill"
+    ],
+    "origin": "hook-augmented"
+  },
+  {
+    "id": "q128",
+    "text": "You can donate $5,000 to save a child dying overseas right now, or spend it on a family holiday. Singer argues there is no morally relevant difference between this and letting a child drown in front of you. Is he right?",
+    "domain": "ethics",
+    "subdomain": "Applied & normative ethics",
+    "source": "Hook-augmented (2026 Issues Study site)",
+    "suggested_thinkers": [
+      "Singer",
+      "Kant",
+      "Aristotle"
+    ],
+    "origin": "hook-augmented"
+  },
+  {
+    "id": "q129",
+    "text": "A drug company can run a trial that will save thousands but requires deceiving participants about the risks. Is deception ever morally permissible when the stakes are high enough?",
+    "domain": "ethics",
+    "subdomain": "Applied & normative ethics",
+    "source": "Hook-augmented (2026 Issues Study site)",
+    "suggested_thinkers": [
+      "Kant",
+      "Mill",
+      "Anscombe"
+    ],
+    "origin": "hook-augmented"
+  },
+  {
+    "id": "q130",
+    "text": "Enhancement drugs let soldiers feel no remorse after killing. If the drugs work, does moral responsibility for battlefield deaths shift to the commanders who prescribed them?",
+    "domain": "ethics",
+    "subdomain": "Applied & normative ethics",
+    "source": "Hook-augmented (2026 Issues Study site)",
+    "suggested_thinkers": [
+      "Aristotle",
+      "Kant",
+      "Foot"
+    ],
+    "origin": "hook-augmented"
+  },
+  {
+    "id": "q131",
+    "text": "You discover a beloved teacher plagiarised their entire PhD, but spent 30 years doing genuine good. Does past dishonesty permanently negate a life of virtue?",
+    "domain": "ethics",
+    "subdomain": "Meta-ethics & moral theory",
+    "source": "Hook-augmented (2026 Issues Study site)",
+    "suggested_thinkers": [
+      "Aristotle",
+      "Hume",
+      "Murdoch"
+    ],
+    "origin": "hook-augmented"
+  },
+  {
+    "id": "q132",
+    "text": "Gilligan argues that an ethic of care is as rationally defensible as an ethic of rights. Is caring for those close to us a moral strength or a form of systematic bias?",
+    "domain": "ethics",
+    "subdomain": "Meta-ethics & moral theory",
+    "source": "Hook-augmented (2026 Issues Study site)",
+    "suggested_thinkers": [
+      "Gilligan",
+      "Kant",
+      "Nussbaum"
+    ],
+    "origin": "hook-augmented"
+  },
+  {
+    "id": "q133",
+    "text": "A self-driving car must choose: swerve to kill its passenger and save five pedestrians, or stay straight and kill the five. Who should program the decision — and is programming a moral choice?",
+    "domain": "ethics",
+    "subdomain": "Applied & normative ethics",
+    "source": "Hook-augmented (2026 Issues Study site)",
+    "suggested_thinkers": [
+      "Mill",
+      "Kant",
+      "Foot"
+    ],
+    "origin": "hook-augmented"
+  },
+  {
+    "id": "q045",
+    "text": "Do humans have free will, or are our actions determined prior by causes beyond our control?",
+    "domain": "metaphysics",
+    "subdomain": "Free will & determinism",
+    "source": "2025; Arabella (2025 cohort) and 293680W; suggested: Kant, Spinoza, Sartre",
+    "suggested_thinkers": [
+      "Kant",
+      "Spinoza",
+      "Sartre"
+    ],
+    "origin": "bank"
+  },
+  {
+    "id": "q046",
+    "text": "How free are we?",
+    "domain": "metaphysics",
+    "subdomain": "Free will & determinism",
+    "source": "recurring; 2025 (Caitlin) and 2023 (985521W); suggested: Sartre, Hume, Kant",
+    "suggested_thinkers": [
+      "Sartre",
+      "Hume",
+      "Kant"
+    ],
+    "origin": "bank"
+  },
+  {
+    "id": "q047",
+    "text": "Is every part of our life determined?",
+    "domain": "metaphysics",
+    "subdomain": "Free will & determinism",
+    "source": "Kelly Pigot",
+    "suggested_thinkers": [],
+    "origin": "bank"
+  },
+  {
+    "id": "q048",
+    "text": "Are we free? Or are we slaves in a modern consumerist society?",
+    "domain": "metaphysics",
+    "subdomain": "Free will & determinism",
+    "source": "Master list; also 2018, 977231R",
+    "suggested_thinkers": [],
+    "origin": "bank"
+  },
+  {
+    "id": "q049",
+    "text": "Does personal identity exist, and if so, does it persist through time?",
+    "domain": "metaphysics",
+    "subdomain": "Personal identity & the self",
+    "source": "2020; 211419H",
+    "suggested_thinkers": [],
+    "origin": "bank"
+  },
+  {
+    "id": "q050",
+    "text": "How does personal identity persist over time?",
+    "domain": "metaphysics",
+    "subdomain": "Personal identity & the self",
+    "source": "Moderation guide; suggested: Locke, Parfit, Hume",
+    "suggested_thinkers": [
+      "Locke",
+      "Parfit",
+      "Hume"
+    ],
+    "origin": "bank"
+  },
+  {
+    "id": "q051",
+    "text": "What connects someone's personal identity throughout a lifetime?",
+    "domain": "metaphysics",
+    "subdomain": "Personal identity & the self",
+    "source": "Master list; also 2021, 638207W; suggested: Locke, Bernard Williams, Parfit",
+    "suggested_thinkers": [
+      "Locke",
+      "Bernard Williams",
+      "Parfit"
+    ],
+    "origin": "bank"
+  },
+  {
+    "id": "q052",
+    "text": "From the environment people are raised in, to the genetics they are born with, there are many influences on an individual's identity. In light of this, what are the factors that shape and influence personal identity?",
+    "domain": "metaphysics",
+    "subdomain": "Personal identity & the self",
+    "source": "2020; 853462H",
+    "suggested_thinkers": [],
+    "origin": "bank"
+  },
+  {
+    "id": "q053",
+    "text": "Is the self an illusion?",
+    "domain": "metaphysics",
+    "subdomain": "Personal identity & the self",
+    "source": "2025; Asha O (2025 cohort) and 846315X; suggested: Descartes, Watts, Hume",
+    "suggested_thinkers": [
+      "Descartes",
+      "Watts",
+      "Hume"
+    ],
+    "origin": "bank"
+  },
+  {
+    "id": "q054",
+    "text": "Is personal authenticity essential to the human condition? How does social media impact one's achievement of this?",
+    "domain": "metaphysics",
+    "subdomain": "Personal identity & the self",
+    "source": "Moderation guide; suggested: Hannah Arendt",
+    "suggested_thinkers": [
+      "Hannah Arendt"
+    ],
+    "origin": "bank"
+  },
+  {
+    "id": "q055",
+    "text": "How is the essence of identity and authenticity impacted in the digital age?",
+    "domain": "metaphysics",
+    "subdomain": "Personal identity & the self",
+    "source": "Moderation guide; suggested: Sartre, Hume, Locke",
+    "suggested_thinkers": [
+      "Sartre",
+      "Hume",
+      "Locke"
+    ],
+    "origin": "bank"
+  },
+  {
+    "id": "q056",
+    "text": "The development of the internet and social media in the 21st century has helped individuals establish their identity and sense of self. Discuss.",
+    "domain": "metaphysics",
+    "subdomain": "Personal identity & the self",
+    "source": "2022; Clare Matijevic (786397W)",
+    "suggested_thinkers": [],
+    "origin": "bank"
+  },
+  {
+    "id": "q057",
+    "text": "Are we born a blank slate or veined marble?",
+    "domain": "metaphysics",
+    "subdomain": "Personal identity & the self",
+    "source": "2022; Madison Scaffidi-Muta (672152G)",
+    "suggested_thinkers": [],
+    "origin": "bank"
+  },
+  {
+    "id": "q058",
+    "text": "Is there an afterlife? Discuss this in relation to various philosophical positions relating to the enduring self.",
+    "domain": "metaphysics",
+    "subdomain": "Mortality, time & meaning",
+    "source": "2025; Asha B (2025 cohort) and 790419J; suggested: Plato, Nagarjuna, Socrates, Dalai Lama",
+    "suggested_thinkers": [
+      "Plato",
+      "Nagarjuna",
+      "Socrates",
+      "Dalai Lama"
+    ],
+    "origin": "bank"
+  },
+  {
+    "id": "q059",
+    "text": "How does mortality drive decision-making?",
+    "domain": "metaphysics",
+    "subdomain": "Mortality, time & meaning",
+    "source": "Master list; also 2021, 819183L; suggested: Buddha, Sartre, Schopenhauer",
+    "suggested_thinkers": [
+      "Buddha",
+      "Sartre",
+      "Schopenhauer"
+    ],
+    "origin": "bank"
+  },
+  {
+    "id": "q060",
+    "text": "How does mortality affect our own decision making? Should we be scared to die? Is death the end?",
+    "domain": "metaphysics",
+    "subdomain": "Mortality, time & meaning",
+    "source": "2024; Toby Merrigan (728161E)",
+    "suggested_thinkers": [],
+    "origin": "bank"
+  },
+  {
+    "id": "q061",
+    "text": "The field of cryonics, aimed at preserving human life, is rapidly expanding in the pursuit of immortality. Discuss the metaphysical implications surrounding this concept and the desirability of achieving such a state.",
+    "domain": "metaphysics",
+    "subdomain": "Mortality, time & meaning",
+    "source": "2023; 159695H",
+    "suggested_thinkers": [],
+    "origin": "bank"
+  },
+  {
+    "id": "q062",
+    "text": "How can one cope with the impermanence of time?",
+    "domain": "metaphysics",
+    "subdomain": "Mortality, time & meaning",
+    "source": "2022; Henri Roussos (557946H)",
+    "suggested_thinkers": [],
+    "origin": "bank"
+  },
+  {
+    "id": "q063",
+    "text": "Humans have been seeking an answer to the meaning of life for millennia, and wholly our quest has been fruitless. What relevance does absurdism have in reference to the meaning of life?",
+    "domain": "metaphysics",
+    "subdomain": "Mortality, time & meaning",
+    "source": "Henry Bruce",
+    "suggested_thinkers": [],
+    "origin": "bank"
+  },
+  {
+    "id": "q064",
+    "text": "If people embrace the meaninglessness of life it can be consuming or freeing. Discuss this in relation to philosophical positions on meaning.",
+    "domain": "metaphysics",
+    "subdomain": "Mortality, time & meaning",
+    "source": "Master list; suggested: Kierkegaard, Nietzsche",
+    "suggested_thinkers": [
+      "Kierkegaard",
+      "Nietzsche"
+    ],
+    "origin": "bank"
+  },
+  {
+    "id": "q065",
+    "text": "Sartre stated that man is condemned to be free. Discuss this with reference to people in the first and third world.",
+    "domain": "metaphysics",
+    "subdomain": "Mortality, time & meaning",
+    "source": "Master list; suggested: Sartre, Nietzsche, Heidegger",
+    "suggested_thinkers": [
+      "Sartre",
+      "Nietzsche",
+      "Heidegger"
+    ],
+    "origin": "bank"
+  },
+  {
+    "id": "q066",
+    "text": "'Nothingness lies coiled at the heart of being — like a worm.' Discuss the relevance of Sartre's statement in relation to modern Australian society.",
+    "domain": "metaphysics",
+    "subdomain": "Mortality, time & meaning",
+    "source": "Master list; also 2018, 740111R",
+    "suggested_thinkers": [],
+    "origin": "bank"
+  },
+  {
+    "id": "q067",
+    "text": "Are the principles of individualism appropriate to live by?",
+    "domain": "metaphysics",
+    "subdomain": "Mortality, time & meaning",
+    "source": "Master list; suggested: Nietzsche, Hobbes, Marx",
+    "suggested_thinkers": [
+      "Nietzsche",
+      "Hobbes",
+      "Marx"
+    ],
+    "origin": "bank"
+  },
+  {
+    "id": "q068",
+    "text": "It is often stated that you should strive to live a happy and healthy life. What is the nature of happiness, and how can this be determined?",
+    "domain": "metaphysics",
+    "subdomain": "Happiness",
+    "source": "Master list; also 2021, 114916T; suggested: Nietzsche, Aristotle, Epicurus",
+    "suggested_thinkers": [
+      "Nietzsche",
+      "Aristotle",
+      "Epicurus"
+    ],
+    "origin": "bank"
+  },
+  {
+    "id": "q069",
+    "text": "'Happiness is the meaning and the purpose of life, the whole aim and end of human existence' — Aristotle. Is it possible to be truly happy?",
+    "domain": "metaphysics",
+    "subdomain": "Happiness",
+    "source": "Master list; also 2018, 768537J",
+    "suggested_thinkers": [],
+    "origin": "bank"
+  },
+  {
+    "id": "q070",
+    "text": "There is more to life than happiness.",
+    "domain": "metaphysics",
+    "subdomain": "Happiness",
+    "source": "2023; 964983R",
+    "suggested_thinkers": [],
+    "origin": "bank"
+  },
+  {
+    "id": "q071",
+    "text": "To what extent is happiness important to achieving a purposeful life?",
+    "domain": "metaphysics",
+    "subdomain": "Happiness",
+    "source": "2025; Edie (2025 cohort) and 388022W; suggested: Nietzsche, Kant, Bentham",
+    "suggested_thinkers": [
+      "Nietzsche",
+      "Kant",
+      "Bentham"
+    ],
+    "origin": "bank"
+  },
+  {
+    "id": "q072",
+    "text": "Is love universal or subjective?",
+    "domain": "metaphysics",
+    "subdomain": "Love (metaphysical & existential)",
+    "source": "2025; Farah (2025 cohort) and 107041R",
+    "suggested_thinkers": [],
+    "origin": "bank"
+  },
+  {
+    "id": "q073",
+    "text": "What is love?",
+    "domain": "metaphysics",
+    "subdomain": "Love (metaphysical & existential)",
+    "source": "2020; 271870J",
+    "suggested_thinkers": [],
+    "origin": "bank"
+  },
+  {
+    "id": "q074",
+    "text": "Is love a selfless act, or is it rooted in self-interest?",
+    "domain": "metaphysics",
+    "subdomain": "Love (metaphysical & existential)",
+    "source": "Moderation guide",
+    "suggested_thinkers": [],
+    "origin": "bank"
+  },
+  {
+    "id": "q075",
+    "text": "Love delivers personal fulfilment. Discuss in relation to various philosophical positions.",
+    "domain": "metaphysics",
+    "subdomain": "Love (metaphysical & existential)",
+    "source": "2025; Millie (2025 cohort) and 474046R; suggested: De Beauvoir",
+    "suggested_thinkers": [
+      "De Beauvoir"
+    ],
+    "origin": "bank"
+  },
+  {
+    "id": "q076",
+    "text": "Love drives people's actions in many ways, often for the benefit of the individual and society. Discuss various philosophical positions in relation to the impact of love on people's actions.",
+    "domain": "metaphysics",
+    "subdomain": "Love (metaphysical & existential)",
+    "source": "2020; 764070T",
+    "suggested_thinkers": [],
+    "origin": "bank"
+  },
+  {
+    "id": "q077",
+    "text": "What role does love play in creating meaning and purpose in our life?",
+    "domain": "metaphysics",
+    "subdomain": "Love (metaphysical & existential)",
+    "source": "2024; Emma Venus (649621H); also held in the Examples folder as `venuse issues study.pdf`",
+    "suggested_thinkers": [],
+    "origin": "bank"
+  },
+  {
+    "id": "q078",
+    "text": "What role does aesthetics play in our understanding of love?",
+    "domain": "metaphysics",
+    "subdomain": "Love (metaphysical & existential)",
+    "source": "2023; 206148J (also: Aesthetics)",
+    "suggested_thinkers": [],
+    "origin": "bank"
+  },
+  {
+    "id": "q079",
+    "text": "What is the nature of love within modern gender roles?",
+    "domain": "metaphysics",
+    "subdomain": "Love (metaphysical & existential)",
+    "source": "2023; 666420L",
+    "suggested_thinkers": [],
+    "origin": "bank"
+  },
+  {
+    "id": "q080",
+    "text": "Is it possible for philosophical zombies to exist?",
+    "domain": "metaphysics",
+    "subdomain": "The mind–body problem & consciousness",
+    "source": "SACE exemplar; Student 3 (B)",
+    "suggested_thinkers": [],
+    "origin": "bank"
+  },
+  {
+    "id": "q081",
+    "text": "Humans are just a physical body that only experiences thoughts and emotions as a result of biochemical interactions in the brain. Discuss this statement in relation to various philosophical positions.",
+    "domain": "metaphysics",
+    "subdomain": "The mind–body problem & consciousness",
+    "source": "2020; 568598T",
+    "suggested_thinkers": [],
+    "origin": "bank"
+  },
+  {
+    "id": "q082",
+    "text": "Is evil an entity in itself or a quality of human nature?",
+    "domain": "metaphysics",
+    "subdomain": "The problem of evil",
+    "source": "Moderation guide; suggested: Hillel Steiner, Swinburne, Xun Kuang; counterarguments from Calder, Mackie, Mencius",
+    "suggested_thinkers": [
+      "Hillel Steiner",
+      "Swinburne",
+      "Xun Kuang; counterarguments from Calder",
+      "Mackie",
+      "Mencius"
+    ],
+    "origin": "bank"
+  },
+  {
+    "id": "q083",
+    "text": "Does evil in the world disprove God?",
+    "domain": "metaphysics",
+    "subdomain": "The problem of evil",
+    "source": "historical exemplar (also: Philosophy of Religion)",
+    "suggested_thinkers": [],
+    "origin": "bank"
+  },
+  {
+    "id": "q134",
+    "text": "Imagine you are teleported: your body is scanned, destroyed, and perfectly reconstructed on Mars. The person who steps off is convinced they are you. Are they?",
+    "domain": "metaphysics",
+    "subdomain": "Personal identity & the self",
+    "source": "Hook-augmented (2026 Issues Study site)",
+    "suggested_thinkers": [
+      "Parfit",
+      "Locke",
+      "Hume"
+    ],
+    "origin": "hook-augmented"
+  },
+  {
+    "id": "q135",
+    "text": "Every neuron in your brain is gradually replaced, one by one, with a silicon chip that performs the same function. At what point, if any, do you stop being you?",
+    "domain": "metaphysics",
+    "subdomain": "Personal identity & the self",
+    "source": "Hook-augmented (2026 Issues Study site)",
+    "suggested_thinkers": [
+      "Parfit",
+      "Locke",
+      "Williams"
+    ],
+    "origin": "hook-augmented"
+  },
+  {
+    "id": "q136",
+    "text": "Lightning strikes a swamp, and by pure chance the molecules rearrange into a perfect physical duplicate of you — Swampman — with all your memories. Does Swampman have your identity?",
+    "domain": "metaphysics",
+    "subdomain": "Personal identity & the self",
+    "source": "Hook-augmented (2026 Issues Study site)",
+    "suggested_thinkers": [
+      "Hume",
+      "Locke",
+      "Parfit"
+    ],
+    "origin": "hook-augmented"
+  },
+  {
+    "id": "q137",
+    "text": "If a perfect copy of your brain were uploaded to a computer and you died immediately after, would the digital mind be you, or just a very convincing impersonator?",
+    "domain": "metaphysics",
+    "subdomain": "Personal identity & the self",
+    "source": "Hook-augmented (2026 Issues Study site)",
+    "suggested_thinkers": [
+      "Parfit",
+      "Descartes",
+      "Hume"
+    ],
+    "origin": "hook-augmented"
+  },
+  {
+    "id": "q138",
+    "text": "A heap of sand has one grain removed. It is still a heap. Keep going — at exactly what point does a heap become a non-heap, and what does this tell us about the nature of reality?",
+    "domain": "metaphysics",
+    "subdomain": "Reality & substance",
+    "source": "Hook-augmented (2026 Issues Study site)",
+    "suggested_thinkers": [
+      "Russell",
+      "Plato",
+      "Aristotle"
+    ],
+    "origin": "hook-augmented"
+  },
+  {
+    "id": "q084",
+    "text": "Is it possible to make a knowledge claim?",
+    "domain": "epistemology",
+    "subdomain": "",
+    "source": "Master list; suggested: Descartes, William James, Kant",
+    "suggested_thinkers": [
+      "Descartes",
+      "William James",
+      "Kant"
+    ],
+    "origin": "bank"
+  },
+  {
+    "id": "q085",
+    "text": "Is ignorance bliss? Discuss this in relation to various philosophical positions.",
+    "domain": "epistemology",
+    "subdomain": "",
+    "source": "Master list; also 2021, 540482H; suggested: Descartes, Camus, Rawls, Socrates",
+    "suggested_thinkers": [
+      "Descartes",
+      "Camus",
+      "Rawls",
+      "Socrates"
+    ],
+    "origin": "bank"
+  },
+  {
+    "id": "q086",
+    "text": "When presented the option to hold empirical evidence of one's death date, is ignorance bliss?",
+    "domain": "epistemology",
+    "subdomain": "",
+    "source": "2022; Eliza Wallace (476498R)",
+    "suggested_thinkers": [],
+    "origin": "bank"
+  },
+  {
+    "id": "q087",
+    "text": "Am I awake? A study of Descartes' 'Dream Argument' and counter arguments.",
+    "domain": "epistemology",
+    "subdomain": "",
+    "source": "Master list",
+    "suggested_thinkers": [],
+    "origin": "bank"
+  },
+  {
+    "id": "q088",
+    "text": "Does the nature of dreaming threaten the certainty of our knowledge?",
+    "domain": "epistemology",
+    "subdomain": "",
+    "source": "Master list; suggested: Norman Malcolm",
+    "suggested_thinkers": [
+      "Norman Malcolm"
+    ],
+    "origin": "bank"
+  },
+  {
+    "id": "q089",
+    "text": "To what extent can dreams be considered genuine experiences?",
+    "domain": "epistemology",
+    "subdomain": "",
+    "source": "Moderation guide",
+    "suggested_thinkers": [],
+    "origin": "bank"
+  },
+  {
+    "id": "q090",
+    "text": "To what extent does innate knowledge affect an individual's actions?",
+    "domain": "epistemology",
+    "subdomain": "",
+    "source": "2022; Jarrod Rashleigh (786229T)",
+    "suggested_thinkers": [],
+    "origin": "bank"
+  },
+  {
+    "id": "q091",
+    "text": "What are the epistemic impacts of deepfakes?",
+    "domain": "epistemology",
+    "subdomain": "",
+    "source": "2022; Thomas Venus (690698F)",
+    "suggested_thinkers": [],
+    "origin": "bank"
+  },
+  {
+    "id": "q092",
+    "text": "Is experience necessary to form a belief?",
+    "domain": "epistemology",
+    "subdomain": "",
+    "source": "2022; Zandra Martin (136986J)",
+    "suggested_thinkers": [],
+    "origin": "bank"
+  },
+  {
+    "id": "q093",
+    "text": "To what extent can perception provide reliable knowledge of the world?",
+    "domain": "epistemology",
+    "subdomain": "",
+    "source": "2026 unit planning",
+    "suggested_thinkers": [],
+    "origin": "bank"
+  },
+  {
+    "id": "q094",
+    "text": "Even when beliefs are shaped by culture, ideology, emotion, or history, we can still rationally judge some claims as more justified than others. Discuss.",
+    "domain": "epistemology",
+    "subdomain": "",
+    "source": "2026 unit planning",
+    "suggested_thinkers": [],
+    "origin": "bank"
+  },
+  {
+    "id": "q095",
+    "text": "Developing our emotional awareness reveals truths about human situations and motives more than it reinforces bias and irrational assumptions.",
+    "domain": "epistemology",
+    "subdomain": "",
+    "source": "2026 unit planning",
+    "suggested_thinkers": [],
+    "origin": "bank"
+  },
+  {
+    "id": "q096",
+    "text": "Using emotions to interpret a situation can produce knowledge.",
+    "domain": "epistemology",
+    "subdomain": "",
+    "source": "2026 unit planning",
+    "suggested_thinkers": [],
+    "origin": "bank"
+  },
+  {
+    "id": "q097",
+    "text": "What a culture deems 'common sense' is mostly ideology, not knowledge.",
+    "domain": "epistemology",
+    "subdomain": "",
+    "source": "2026 unit planning",
+    "suggested_thinkers": [],
+    "origin": "bank"
+  },
+  {
+    "id": "q098",
+    "text": "Group membership makes humans systematically unreliable knowers.",
+    "domain": "epistemology",
+    "subdomain": "",
+    "source": "2026 unit planning",
+    "suggested_thinkers": [],
+    "origin": "bank"
+  },
+  {
+    "id": "q099",
+    "text": "Because scientific truth is paradigm-bound, there is no rational basis for claiming scientific progress toward objective truth.",
+    "domain": "epistemology",
+    "subdomain": "",
+    "source": "2026 unit planning",
+    "suggested_thinkers": [],
+    "origin": "bank"
+  },
+  {
+    "id": "q100",
+    "text": "Can scientific knowledge be objective, or is it inevitably influenced by the assumptions and values of its time?",
+    "domain": "epistemology",
+    "subdomain": "",
+    "source": "2026 unit planning",
+    "suggested_thinkers": [],
+    "origin": "bank"
+  },
+  {
+    "id": "q139",
+    "text": "Mary is a brilliant neuroscientist who knows every physical fact about colour vision but has lived her whole life in a black-and-white room. When she sees red for the first time, does she learn something new?",
+    "domain": "epistemology",
+    "subdomain": "Knowledge, mind, and qualia",
+    "source": "Hook-augmented (2026 Issues Study site)",
+    "suggested_thinkers": [
+      "Jackson",
+      "Descartes",
+      "Russell"
+    ],
+    "origin": "hook-augmented"
+  },
+  {
+    "id": "q140",
+    "text": "Edmund Gettier showed that you can have a justified true belief that still is not knowledge. If knowledge is not justified true belief, can we define it at all?",
+    "domain": "epistemology",
+    "subdomain": "What knowledge is",
+    "source": "Hook-augmented (2026 Issues Study site)",
+    "suggested_thinkers": [
+      "Hume",
+      "Descartes",
+      "Russell"
+    ],
+    "origin": "hook-augmented"
+  },
+  {
+    "id": "q141",
+    "text": "Your most trusted friend tells you they witnessed a crime. You have no independent evidence. Is their testimony enough for you to know what happened, or merely enough to believe it?",
+    "domain": "epistemology",
+    "subdomain": "Sources of knowledge",
+    "source": "Hook-augmented (2026 Issues Study site)",
+    "suggested_thinkers": [
+      "Hume",
+      "Locke",
+      "Russell"
+    ],
+    "origin": "hook-augmented"
+  },
+  {
+    "id": "q142",
+    "text": "If everything you believe about the external world could be produced by a perfectly deceptive AI feeding signals directly to your brain, is there any belief you can be certain of?",
+    "domain": "epistemology",
+    "subdomain": "Scepticism",
+    "source": "Hook-augmented (2026 Issues Study site)",
+    "suggested_thinkers": [
+      "Descartes",
+      "Russell",
+      "Hume"
+    ],
+    "origin": "hook-augmented"
+  },
+  {
+    "id": "q143",
+    "text": "You witness a car accident and later see a photo labelled 'the wreck.' Your memory of the crash changes to match the photo. Can you trust any memory as genuine knowledge?",
+    "domain": "epistemology",
+    "subdomain": "Sources of knowledge",
+    "source": "Hook-augmented (2026 Issues Study site)",
+    "suggested_thinkers": [
+      "Hume",
+      "Locke",
+      "Descartes"
+    ],
+    "origin": "hook-augmented"
+  },
+  {
+    "id": "q144",
+    "text": "If all scientific knowledge is produced within cultural paradigms that shape what counts as evidence, is science discovering truth or constructing it?",
+    "domain": "epistemology",
+    "subdomain": "Scientific knowledge",
+    "source": "Hook-augmented (2026 Issues Study site)",
+    "suggested_thinkers": [
+      "Hume",
+      "Russell",
+      "Descartes"
+    ],
+    "origin": "hook-augmented"
+  },
+  {
+    "id": "q101",
+    "text": "Do we / does society need a structured system of governance? If so, is democracy the most effective / best system?",
+    "domain": "political",
+    "subdomain": "Forms of government",
+    "source": "Moderation guide; suggested: Hobbes, Rousseau, Socrates",
+    "suggested_thinkers": [
+      "Hobbes",
+      "Rousseau",
+      "Socrates"
+    ],
+    "origin": "bank"
+  },
+  {
+    "id": "q102",
+    "text": "To what extent is democracy the most appropriate form of government?",
+    "domain": "political",
+    "subdomain": "Forms of government",
+    "source": "SACE Annotated Work Sample (A standard)",
+    "suggested_thinkers": [],
+    "origin": "bank"
+  },
+  {
+    "id": "q103",
+    "text": "From a utilitarian perspective, should governments use democracy as the foundation for the governance of a nation?",
+    "domain": "political",
+    "subdomain": "Forms of government",
+    "source": "2024; 883937G",
+    "suggested_thinkers": [],
+    "origin": "bank"
+  },
+  {
+    "id": "q104",
+    "text": "Is democracy often an ineffective and poor form of government?",
+    "domain": "political",
+    "subdomain": "Forms of government",
+    "source": "2024; Hugo Bailes (971231H); critique-style framing",
+    "suggested_thinkers": [],
+    "origin": "bank"
+  },
+  {
+    "id": "q105",
+    "text": "Conservatism vs Liberalism — how would one system be more beneficial to Australia than the other?",
+    "domain": "political",
+    "subdomain": "Forms of government",
+    "source": "Master list and 2019, 691225R; suggested: Hobbes, von Mises, Locke",
+    "suggested_thinkers": [
+      "Hobbes",
+      "von Mises",
+      "Locke"
+    ],
+    "origin": "bank"
+  },
+  {
+    "id": "q106",
+    "text": "For modern Australian society to prosper, should the government adopt liberalism, communism, democracy, or nationalism?",
+    "domain": "political",
+    "subdomain": "Forms of government",
+    "source": "Master list; also 2019 variant (918343G): \"should the government adopt Marxist Communism, Völkisch Nationalism or A Democratic Republic?\"",
+    "suggested_thinkers": [],
+    "origin": "bank"
+  },
+  {
+    "id": "q107",
+    "text": "Should the rights of an individual trump the rights of the general population?",
+    "domain": "political",
+    "subdomain": "Civic responsibility, rights, censorship",
+    "source": "Master list; suggested: Ludwig von Mises",
+    "suggested_thinkers": [
+      "Ludwig von Mises"
+    ],
+    "origin": "bank"
+  },
+  {
+    "id": "q108",
+    "text": "How does wealth affect freedom of the individual?",
+    "domain": "political",
+    "subdomain": "Civic responsibility, rights, censorship",
+    "source": "Master list",
+    "suggested_thinkers": [],
+    "origin": "bank"
+  },
+  {
+    "id": "q109",
+    "text": "Should the government and government-run sectors have a stricter set of rules and a watchdog to make sure that they are always doing the right thing by the people, being that they are public servants?",
+    "domain": "political",
+    "subdomain": "Civic responsibility, rights, censorship",
+    "source": "2022; Hamish Smith (824251R)",
+    "suggested_thinkers": [],
+    "origin": "bank"
+  },
+  {
+    "id": "q110",
+    "text": "Is censorship a necessary safeguard for social unity, or a covert mechanism for control and limitation?",
+    "domain": "political",
+    "subdomain": "Civic responsibility, rights, censorship",
+    "source": "2024; 857560G",
+    "suggested_thinkers": [],
+    "origin": "bank"
+  },
+  {
+    "id": "q111",
+    "text": "Should the Australian government allow more refugees to enter Australia?",
+    "domain": "political",
+    "subdomain": "Civic responsibility, rights, censorship",
+    "source": "Master list; also 2019, 782125E; suggested: Nietzsche, Mill, Kant, Stevenson",
+    "suggested_thinkers": [
+      "Nietzsche",
+      "Mill",
+      "Kant",
+      "Stevenson"
+    ],
+    "origin": "bank"
+  },
+  {
+    "id": "q112",
+    "text": "How relevant is marriage in modern Australian society?",
+    "domain": "political",
+    "subdomain": "Civic responsibility, rights, censorship",
+    "source": "Master list; also 2019, 581275L; suggested: De Beauvoir, Kierkegaard",
+    "suggested_thinkers": [
+      "De Beauvoir",
+      "Kierkegaard"
+    ],
+    "origin": "bank"
+  },
+  {
+    "id": "q145",
+    "text": "You must design the rules of your society without knowing whether you will be born rich or poor, able-bodied or disabled, majority or minority. What principles of justice would you choose — and why?",
+    "domain": "political",
+    "subdomain": "Justice & the state",
+    "source": "Hook-augmented (2026 Issues Study site)",
+    "suggested_thinkers": [
+      "Kant",
+      "Hobbes",
+      "Locke"
+    ],
+    "origin": "hook-augmented"
+  },
+  {
+    "id": "q146",
+    "text": "Robert Nozick argues that taxing your wages to fund welfare is morally equivalent to forcing you to work for others. Is redistribution a matter of justice or a form of compulsion?",
+    "domain": "political",
+    "subdomain": "Justice & the state",
+    "source": "Hook-augmented (2026 Issues Study site)",
+    "suggested_thinkers": [
+      "Locke",
+      "Hobbes",
+      "Mill"
+    ],
+    "origin": "hook-augmented"
+  },
+  {
+    "id": "q147",
+    "text": "A government installs cameras on every street corner and crime drops by 40%. If no innocent person is ever punished, has any wrong been done?",
+    "domain": "political",
+    "subdomain": "Liberty & the state",
+    "source": "Hook-augmented (2026 Issues Study site)",
+    "suggested_thinkers": [
+      "Mill",
+      "Kant",
+      "Hobbes"
+    ],
+    "origin": "hook-augmented"
+  },
+  {
+    "id": "q148",
+    "text": "Should citizens who refuse to vote be fined? Discuss in relation to various philosophical positions on the duties of citizenship.",
+    "domain": "political",
+    "subdomain": "Liberty & the state",
+    "source": "Hook-augmented (2026 Issues Study site)",
+    "suggested_thinkers": [
+      "Hobbes",
+      "Locke",
+      "Mill"
+    ],
+    "origin": "hook-augmented"
+  },
+  {
+    "id": "q149",
+    "text": "Confucius held that social harmony requires people to accept their role in a hierarchy. Mill held that society flourishes when individuals are free to challenge convention. Whose vision is more defensible for a modern democracy?",
+    "domain": "political",
+    "subdomain": "Liberty & the state",
+    "source": "Hook-augmented (2026 Issues Study site)",
+    "suggested_thinkers": [
+      "Confucius",
+      "Mill",
+      "Hobbes"
+    ],
+    "origin": "hook-augmented"
+  },
+  {
+    "id": "q113",
+    "text": "Arguments for and against the traditional concept of God.",
+    "domain": "religion",
+    "subdomain": "",
+    "source": "SACE exemplar; Student 2 (C+)",
+    "suggested_thinkers": [],
+    "origin": "bank"
+  },
+  {
+    "id": "q114",
+    "text": "Does evil in the world disprove God?",
+    "domain": "religion",
+    "subdomain": "",
+    "source": "historical exemplar",
+    "suggested_thinkers": [],
+    "origin": "bank"
+  },
+  {
+    "id": "q115",
+    "text": "Is the existence of god and religious scripture necessary for humanity's sense of morality?",
+    "domain": "religion",
+    "subdomain": "",
+    "source": "Jake Stewart",
+    "suggested_thinkers": [],
+    "origin": "bank"
+  },
+  {
+    "id": "q116",
+    "text": "A deity or God provides many people in the world a purpose to life. Discuss this in relation to the role of religion in providing meaning and purpose in the world we live today.",
+    "domain": "religion",
+    "subdomain": "",
+    "source": "Master list; also 2021, 724393X; suggested: Aquinas, Aristotle, Nietzsche",
+    "suggested_thinkers": [
+      "Aquinas",
+      "Aristotle",
+      "Nietzsche"
+    ],
+    "origin": "bank"
+  },
+  {
+    "id": "q117",
+    "text": "Should religion still be taught in schools?",
+    "domain": "religion",
+    "subdomain": "",
+    "source": "2018; 950556W",
+    "suggested_thinkers": [],
+    "origin": "bank"
+  },
+  {
+    "id": "q118",
+    "text": "To what extent should the United Nations protect human rights breached by religious practices?",
+    "domain": "religion",
+    "subdomain": "",
+    "source": "2023; 315042W",
+    "suggested_thinkers": [],
+    "origin": "bank"
+  },
+  {
+    "id": "q119",
+    "text": "Religious values provide a framework for life. Discuss.",
+    "domain": "religion",
+    "subdomain": "",
+    "source": "Master list",
+    "suggested_thinkers": [],
+    "origin": "bank"
+  },
+  {
+    "id": "q150",
+    "text": "If God is perfectly loving, why does he hide from reasonable people who are genuinely searching for him? Does the existence of sincere, searching non-believers disprove the existence of a loving God?",
+    "domain": "religion",
+    "subdomain": "Existence of God",
+    "source": "Hook-augmented (2026 Issues Study site)",
+    "suggested_thinkers": [
+      "Kierkegaard",
+      "Hume",
+      "Russell"
+    ],
+    "origin": "hook-augmented"
+  },
+  {
+    "id": "q151",
+    "text": "Pascal argued that since you cannot know whether God exists, rational self-interest demands you bet on belief. Is deciding to believe on the grounds of personal advantage a genuine religious act — or a category error?",
+    "domain": "religion",
+    "subdomain": "Faith & reason",
+    "source": "Hook-augmented (2026 Issues Study site)",
+    "suggested_thinkers": [
+      "Kierkegaard",
+      "Hume",
+      "Russell"
+    ],
+    "origin": "hook-augmented"
+  },
+  {
+    "id": "q152",
+    "text": "If an all-powerful God could have created a world without suffering and chose not to, is God morally responsible for every act of child abuse, every earthquake, every cancer? Discuss.",
+    "domain": "religion",
+    "subdomain": "Problem of evil",
+    "source": "Hook-augmented (2026 Issues Study site)",
+    "suggested_thinkers": [
+      "Hume",
+      "Russell",
+      "Kierkegaard"
+    ],
+    "origin": "hook-augmented"
+  },
+  {
+    "id": "q153",
+    "text": "Nietzsche declared that God is dead and we have killed him. Did modernity destroy not just religious belief but the moral framework that depended on it — and can we build a new one?",
+    "domain": "religion",
+    "subdomain": "After belief",
+    "source": "Hook-augmented (2026 Issues Study site)",
+    "suggested_thinkers": [
+      "Nietzsche",
+      "Kierkegaard",
+      "Sartre"
+    ],
+    "origin": "hook-augmented"
+  },
+  {
+    "id": "q154",
+    "text": "Can a person hold both that the universe is 13.8 billion years old and that it was created by a personal God — or are scientific and religious knowledge claims fundamentally incompatible?",
+    "domain": "religion",
+    "subdomain": "Faith & reason",
+    "source": "Hook-augmented (2026 Issues Study site)",
+    "suggested_thinkers": [
+      "Hume",
+      "Russell",
+      "Kierkegaard"
+    ],
+    "origin": "hook-augmented"
+  },
+  {
+    "id": "q120",
+    "text": "Is it possible for philosophical zombies to exist?",
+    "domain": "mind-tech",
+    "subdomain": "",
+    "source": "SACE exemplar; Student 3 (B)",
+    "suggested_thinkers": [],
+    "origin": "bank"
+  },
+  {
+    "id": "q121",
+    "text": "Humans are just a physical body that only experiences thoughts and emotions as a result of biochemical interactions in the brain. Discuss.",
+    "domain": "mind-tech",
+    "subdomain": "",
+    "source": "2020; 568598T",
+    "suggested_thinkers": [],
+    "origin": "bank"
+  },
+  {
+    "id": "q122",
+    "text": "Is the rapid development of Artificial Intelligence morally justifiable?",
+    "domain": "mind-tech",
+    "subdomain": "",
+    "source": "Moderation guide",
+    "suggested_thinkers": [],
+    "origin": "bank"
+  },
+  {
+    "id": "q123",
+    "text": "Should the potential of AI be fully embraced?",
+    "domain": "mind-tech",
+    "subdomain": "",
+    "source": "2019; 691331W",
+    "suggested_thinkers": [],
+    "origin": "bank"
+  },
+  {
+    "id": "q124",
+    "text": "To what extent does someone's personhood get taken away when modified by technology?",
+    "domain": "mind-tech",
+    "subdomain": "",
+    "source": "2024; 616085X",
+    "suggested_thinkers": [],
+    "origin": "bank"
+  },
+  {
+    "id": "q155",
+    "text": "A robot passes every behavioural test for consciousness — it reports pain, forms plans, expresses preferences. Is there any reason to deny that it suffers?",
+    "domain": "mind-tech",
+    "subdomain": "AI consciousness",
+    "source": "Hook-augmented (2026 Issues Study site)",
+    "suggested_thinkers": [
+      "Descartes",
+      "Jackson",
+      "Hume"
+    ],
+    "origin": "hook-augmented"
+  },
+  {
+    "id": "q156",
+    "text": "John Searle placed a person in a room who manipulates Chinese symbols by rule without understanding Chinese. The room outputs perfect Chinese. Does the room understand Chinese — and does this settle whether AI can think?",
+    "domain": "mind-tech",
+    "subdomain": "AI consciousness",
+    "source": "Hook-augmented (2026 Issues Study site)",
+    "suggested_thinkers": [
+      "Descartes",
+      "Jackson",
+      "Russell"
+    ],
+    "origin": "hook-augmented"
+  },
+  {
+    "id": "q157",
+    "text": "An algorithm trained on biased historical data systematically recommends harsher sentences for defendants from minority backgrounds. Is the algorithm racist? Can an object be morally responsible?",
+    "domain": "mind-tech",
+    "subdomain": "Ethics of AI",
+    "source": "Hook-augmented (2026 Issues Study site)",
+    "suggested_thinkers": [
+      "Kant",
+      "Aristotle",
+      "Mill"
+    ],
+    "origin": "hook-augmented"
+  },
+  {
+    "id": "q158",
+    "text": "If a brain emulation of a recently deceased person could be run on a server, responding to messages as they would have, does the digital entity have rights?",
+    "domain": "mind-tech",
+    "subdomain": "Ethics of AI",
+    "source": "Hook-augmented (2026 Issues Study site)",
+    "suggested_thinkers": [
+      "Descartes",
+      "Parfit",
+      "Jackson"
+    ],
+    "origin": "hook-augmented"
+  },
+  {
+    "id": "q159",
+    "text": "Nozick's Experience Machine can give you a life of perfect simulated happiness. You will never know it is simulated. Should you plug in — and what does your answer reveal about what makes life genuinely valuable?",
+    "domain": "mind-tech",
+    "subdomain": "What makes life valuable",
+    "source": "Hook-augmented (2026 Issues Study site)",
+    "suggested_thinkers": [
+      "Parfit",
+      "Mill",
+      "Nietzsche"
+    ],
+    "origin": "hook-augmented"
+  },
+  {
+    "id": "q125",
+    "text": "What role does aesthetics play in our understanding of love?",
+    "domain": "aesthetics",
+    "subdomain": "",
+    "source": "2023; 206148J",
+    "suggested_thinkers": [],
+    "origin": "bank"
+  },
+  {
+    "id": "q126",
+    "text": "The issue of the subjectivity of beauty and its significant influence on rates of cosmetic surgery.",
+    "domain": "aesthetics",
+    "subdomain": "",
+    "source": "2022; Lucy Beamond (710799R)",
+    "suggested_thinkers": [],
+    "origin": "bank"
+  },
+  {
+    "id": "q160",
+    "text": "Kant argued that when we call something beautiful we make a claim with universal authority — yet people disagree constantly about beauty. Is aesthetic judgment objective, subjective, or something in between?",
+    "domain": "aesthetics",
+    "subdomain": "Aesthetic judgement",
+    "source": "Hook-augmented (2026 Issues Study site)",
+    "suggested_thinkers": [
+      "Hume",
+      "Plato",
+      "Kant"
+    ],
+    "origin": "hook-augmented"
+  },
+  {
+    "id": "q161",
+    "text": "A painting created by an AI trained on ten million artworks wins a major prize. Has it created art — or very sophisticated pattern-matching? Does the absence of intention, suffering, or a human story disqualify it?",
+    "domain": "aesthetics",
+    "subdomain": "What art is",
+    "source": "Hook-augmented (2026 Issues Study site)",
+    "suggested_thinkers": [
+      "Hume",
+      "Nietzsche",
+      "Sartre"
+    ],
+    "origin": "hook-augmented"
+  },
+  {
+    "id": "q162",
+    "text": "Banksy's shredded painting — destroyed the moment it sold — doubled in value. If an artwork's meaning is completed by its own destruction, can destruction be an aesthetic act?",
+    "domain": "aesthetics",
+    "subdomain": "What art is",
+    "source": "Hook-augmented (2026 Issues Study site)",
+    "suggested_thinkers": [
+      "Hume",
+      "Nietzsche",
+      "Plato"
+    ],
+    "origin": "hook-augmented"
+  },
+  {
+    "id": "q163",
+    "text": "We instinctively call a mountain range sublime and a shopping centre ugly. Is our aesthetic response to nature a form of knowledge about the world, or merely a projection of human preferences?",
+    "domain": "aesthetics",
+    "subdomain": "Sublime & beauty",
+    "source": "Hook-augmented (2026 Issues Study site)",
+    "suggested_thinkers": [
+      "Hume",
+      "Kant",
+      "Aristotle"
+    ],
+    "origin": "hook-augmented"
+  },
+  {
+    "id": "q164",
+    "text": "If you listen to a piece of music and feel profound sadness, but the composer intended it to express joy, have you understood the work or misunderstood it? Who owns the meaning of art?",
+    "domain": "aesthetics",
+    "subdomain": "Meaning & interpretation",
+    "source": "Hook-augmented (2026 Issues Study site)",
+    "suggested_thinkers": [
+      "Hume",
+      "Sartre",
+      "Nietzsche"
+    ],
+    "origin": "hook-augmented"
+  }
+]

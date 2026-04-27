@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Issues Study — Set Down</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=Inter:wght@400;500;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="print.css">
+</head>
+<body>
+
+<header class="print__head">
+    <p class="print__eyebrow">SACE Stage 2 Philosophy · AT3 Investigation · 30%</p>
+    <h1 class="print__title">My question, set down.</h1>
+    <p class="print__author" id="printAuthor"></p>
+    <p class="print__date" id="printDate"></p>
+</header>
+
+<main>
+    <section class="print__block">
+        <h2>The question I will defend</h2>
+        <p class="print__question" id="printQuestion">[Your question will appear here when you fill in the workshop.]</p>
+        <p class="print__format" id="printFormat"></p>
+    </section>
+
+    <section class="print__block">
+        <h2>The five guiding questions my final response must answer</h2>
+        <ol class="print__guiding">
+            <li><strong>RA1</strong> — Why is it a philosophical issue?</li>
+            <li><strong>KU1, KU2</strong> — What positions do various philosophers hold?</li>
+            <li><strong>KU2, RA2</strong> — What are the philosophers' reasons for holding these positions?</li>
+            <li><strong>CA1</strong> — What objections or counter-examples are relevant?</li>
+            <li><strong>RA3</strong> — What is my own position, and why?</li>
+        </ol>
+    </section>
+
+    <section class="print__block">
+        <h2>Three philosophers I will engage</h2>
+        <ul class="print__philosophers" id="printPhilosophers">
+            <li>[Pick philosopher 1]</li>
+            <li>[Pick philosopher 2]</li>
+            <li>[Pick philosopher 3]</li>
+        </ul>
+    </section>
+
+    <section class="print__block">
+        <h2>First thoughts on my position</h2>
+        <div class="print__thoughts" id="printThoughts">[Your first thoughts will appear here when you fill in the workshop.]</div>
+    </section>
+
+    <section class="print__block print__signature">
+        <h2>Signed</h2>
+        <div class="print__sig-line"></div>
+        <p class="print__sig-caption">Bring this to Peter on Monday. Be ready to be cross-examined on it.</p>
+    </section>
+</main>
+
+<footer class="print__foot">
+    <p>Issues Study · Cross-Examination · Set down on <span id="printDateBottom"></span></p>
+    <div class="print__btns">
+        <button class="print__btn" id="downloadPdfBtn" type="button">Download PDF</button>
+        <button class="print__btn print__btn--ghost" onclick="window.print()" type="button">Print (browser dialog)</button>
+    </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+
+<script>
+const LS_KEY = 'issues-study-workshop-v1';
+
+(function fillIn() {
+    let saved = {};
+    try { saved = JSON.parse(localStorage.getItem(LS_KEY) || '{}'); } catch (e) {}
+
+    const today = new Date();
+    const dateStr = today.toLocaleDateString('en-AU', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
+    document.getElementById('printDate').textContent = dateStr;
+    document.getElementById('printDateBottom').textContent = dateStr;
+
+    if (saved.name) {
+        document.getElementById('printAuthor').textContent = saved.name;
+    } else {
+        document.getElementById('printAuthor').textContent = '[name not entered]';
+    }
+
+    if (saved.draft) {
+        document.getElementById('printQuestion').textContent = saved.draft;
+    }
+
+    const fmtMap = {
+        'written': 'Written response (max 2,000 words)',
+        'oral': 'Oral presentation (max 12 minutes)',
+        'multimodal': 'Multimodal (equivalent)'
+    };
+    if (saved.format) {
+        document.getElementById('printFormat').textContent = `Format: ${fmtMap[saved.format] || saved.format}`;
+    }
+
+    if (saved.thoughts) {
+        document.getElementById('printThoughts').textContent = saved.thoughts;
+    }
+
+    // Philosophers — fetch thinkers.json to display readable names
+    if (saved.philosophers) {
+        fetch('data/thinkers.json').then(r => r.json()).then(thinkers => {
+            const ul = document.getElementById('printPhilosophers');
+            ul.innerHTML = saved.philosophers.map((id, i) => {
+                if (!id) return `<li><em>[Philosopher ${i + 1} not chosen]</em></li>`;
+                const t = thinkers.find(x => x.id === id);
+                if (!t) return `<li>${id}</li>`;
+                return `<li><strong>${t.name}</strong> <span class="print__phil-era">— ${t.era}</span><br><span class="print__phil-hook">${t.hook}</span></li>`;
+            }).join('');
+        }).catch(() => { /* ignore — keep placeholder */ });
+    }
+
+    // True PDF download — uses html2canvas + jsPDF, NOT print dialog
+    document.getElementById('downloadPdfBtn').addEventListener('click', async () => {
+        const btn = document.getElementById('downloadPdfBtn');
+        const orig = btn.textContent;
+        btn.textContent = 'Preparing PDF…';
+        btn.disabled = true;
+        try {
+            if (!window.html2canvas || !window.jspdf) throw new Error('PDF libraries failed to load');
+            const target = document.body;
+            const canvas = await window.html2canvas(target, {
+                scale: 2, backgroundColor: '#FAFAF6', useCORS: true, logging: false,
+                ignoreElements: el => el.classList && el.classList.contains('print__foot')
+            });
+            const imgData = canvas.toDataURL('image/jpeg', 0.92);
+            const { jsPDF } = window.jspdf;
+            const pdf = new jsPDF({ orientation: 'portrait', unit: 'mm', format: 'a4' });
+            const pageW = pdf.internal.pageSize.getWidth();
+            const pageH = pdf.internal.pageSize.getHeight();
+            const imgW = pageW;
+            const imgH = (canvas.height * imgW) / canvas.width;
+            let heightLeft = imgH, position = 0;
+            pdf.addImage(imgData, 'JPEG', 0, position, imgW, imgH);
+            heightLeft -= pageH;
+            while (heightLeft > 0) {
+                position = heightLeft - imgH;
+                pdf.addPage();
+                pdf.addImage(imgData, 'JPEG', 0, position, imgW, imgH);
+                heightLeft -= pageH;
+            }
+            const safeName = (saved.name || 'Unnamed').replace(/[^\w\s-]/g, '').replace(/\s+/g, '-');
+            pdf.save(`Issues-Study-${safeName}-${new Date().toISOString().slice(0,10)}.pdf`);
+            btn.textContent = 'Saved.';
+            setTimeout(() => { btn.textContent = orig; btn.disabled = false; }, 2000);
+        } catch (err) {
+            console.error('PDF download failed:', err);
+            btn.textContent = 'Failed — try Print instead';
+            setTimeout(() => { btn.textContent = orig; btn.disabled = false; }, 3000);
+        }
+    });
+})();
+</script>
+
+</body>
+</html>

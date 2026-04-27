@@ -1,0 +1,38 @@
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Python build-script cache
+__pycache__/
+*.py[cod]
+*.pyc
+
+# Local-only Claude Code config (keep launch.json, drop everything else)
+.claude/settings.local.json
+.claude/projects/
+.claude/cache/
+
+# Intermediate generation folders (regenerated on demand, not for commit)
+assets/portraits/_gen/
+assets/portraits/_reference/
+assets/audio/_gen/
+
+# Local server / log artefacts
+*.log
+http-server-*.log
+
+# Node/npm if anyone ever adds a build step
+node_modules/
+package-lock.json
+yarn.lock
+
+# Optional: exclude raw video / audio if repo gets too big for GitHub
+# Uncomment these if you want a leaner repo and prefer to host media externally:
+# assets/video/
+# assets/audio/*.wav
+# assets/portraits/

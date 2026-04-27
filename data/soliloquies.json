@@ -1,0 +1,152 @@
+{
+  "_meta": {
+    "format": "First-person soliloquies for the 24 thinkers in the Cross-Examination site. Each ~120 words. Will be voiced via Gemini TTS. Each ends naming one or two questions from the bank that the philosopher speaks to.",
+    "tts_voice_strategy": "Gemini TTS supports 30 voices. Each thinker assigned a distinct voice that fits era, gender, and register. Voice choices marked per script."
+  },
+  "soliloquies": [
+    {
+      "id": "aristotle",
+      "voice": "Algenib",
+      "voice_note": "Ancient gravitas, measured pace, slightly weighty",
+      "script": "I am Aristotle. You ask: what does a flourishing life look like, really? My answer is that it is not a feeling. It is an activity — the activity of a soul living in accordance with reason and the virtues, sustained over a whole lifetime. Pleasure visits; character is built. You become brave by acting bravely, just by acting justly, until the right action no longer takes effort. That is eudaimonia. That is happiness in its proper sense. So when you ask whether it is moral to do this or to do that, ask first what kind of person you are becoming when you do it. I speak to questions of virtue, of moral responsibility, and of what we owe the future."
+    },
+    {
+      "id": "mill",
+      "voice": "Charon",
+      "voice_note": "19th-century British gentleman, careful and considered",
+      "script": "I am John Stuart Mill. You ask whose pleasure counts and how much. The principle is simple, though its applications are not: an action is right insofar as it produces happiness, wrong insofar as it produces the reverse, and every person's happiness counts equally — yours, mine, the stranger's, the foreigner's. But not all pleasures are equal. The pleasure of understanding outranks the pleasure of indulgence. And liberty matters: the only justification for restraining a person's freedom is to prevent harm to others. Speak to me about voluntary euthanasia. About democracy and dissent. About whether a society may surveil its citizens to keep them safe — and at what cost to the lives we are claiming to protect."
+    },
+    {
+      "id": "singer",
+      "voice": "Achernar",
+      "voice_note": "Australian, contemporary, calm direct argument",
+      "script": "I am Peter Singer. Imagine a child drowning in a shallow pond. You could save her at the cost of ruining your shoes. Of course you would. Now: a child is dying overseas, right now, and five thousand dollars given to an effective charity would save her. Distance, nationality, the colour of her passport — none of these change the moral arithmetic. If you would save the first child, you must save the second. Or explain why not. I press the same logic on animal suffering, on the bioethics of life and death, on what a wealthy society owes the rest of the world. Find me at the bank's questions on aid, on animals, on whether intervention abroad is ever a duty."
+    },
+    {
+      "id": "foot",
+      "voice": "Sulafat",
+      "voice_note": "British, warm but precise, mid-20th-century",
+      "script": "I am Philippa Foot. A trolley is heading for five people. You can divert it to a side track, where it will kill one. What do you do — and why? My answer mattered less than the question itself: it forced moral philosophy out of its abstractions and into the particulars of action. Notice: most people will divert. Most people will not push a man off a bridge to stop the same trolley. Both kill one to save five. What differs is what you are doing — and whether the killing is your means or your foreseen but unintended consequence. Ask me about ethics of omission. About whether good consequences justify any act. About the difference between killing and letting die."
+    },
+    {
+      "id": "gilligan",
+      "voice": "Pulcherrima",
+      "voice_note": "American, contemporary, warm and direct",
+      "script": "I am Carol Gilligan. The dominant tradition in moral philosophy treats ethics as a system of impartial rules, applied without regard to who you are or who is in front of you. I listened to women reason through moral dilemmas and heard a different voice — one that asked who would be hurt, what relationships would be damaged, what the situation actually required. This is not a lower stage of moral development. It is a different language for moral life. Care and justice are both real. Ask me about whether bias toward those close to you is a moral failing or a moral starting point. About the duties we owe our friends, families, students, and patients."
+    },
+    {
+      "id": "nussbaum",
+      "voice": "Vindemiatrix",
+      "voice_note": "American, contemporary, intellectually warm, Greek-influenced English",
+      "script": "I am Martha Nussbaum. Emotions are not interruptions of reason. They are themselves a kind of reasoning. To grieve is to judge that something of value has been lost. To feel indignation is to recognise that a wrong has been done. To love is to acknowledge a person as worth attending to. A philosophy that ignores emotion has nothing to say about how moral life actually goes. I have spent decades on the question of what humans need to flourish — what we are owed by the institutions we live inside. Ask me about emotions and ethics. About what social justice means when you take human capabilities seriously. About what a good society would look like."
+    },
+    {
+      "id": "confucius",
+      "voice": "Schedar",
+      "voice_note": "Ancient gravitas, slightly more formal, deliberate cadence",
+      "script": "I am Kong Fuzi — Confucius, in your tradition. You ask after a flourishing life and I answer: cultivate the right relationships, and the rest follows. Ren — humaneness — is not a feeling you wait for. It is what you become through ritual, through the daily attention you pay to son and parent, ruler and subject, friend and friend. The exemplary person is not free of duty; he is the right shape of duty. When the bonds break, society breaks. When the bonds hold, the state can be governed without force. Ask me about whether modern democracy could learn anything from a tradition built on hierarchy. About what you owe those who came before you, and those who come after."
+    },
+    {
+      "id": "hume",
+      "voice": "Aoede",
+      "voice_note": "Scottish lilt, 18th century, faintly amused",
+      "script": "I am David Hume. You ask after the self — that continuous you who has lived through all your years. Look for it. Look closely. When I look inward I find perceptions: a thought, a feeling, a memory, another thought. I never catch the perceiver, only the parade. The self is a bundle. Causation is no better off — we never observe necessity, only one thing followed by another, and we mistake habit for law. Reason is and ought only to be the slave of the passions, said I, and few of my colleagues forgave me for it. Ask me about identity through time. About whether testimony of miracles can ever overcome experience. About how we get from is to ought."
+    },
+    {
+      "id": "descartes",
+      "voice": "Algieba",
+      "voice_note": "French-tinged English, 17th century, intense and methodical",
+      "script": "I am René Descartes. I set out to doubt everything I could possibly doubt. The senses deceive. Mathematics could be the work of an evil demon. But one thing the demon cannot take from me: the very act of doubting requires a doubter. I think, therefore I am. From that one certainty I tried to rebuild the world — God, mind, matter, the difference between them. The mind-body problem you have inherited is the hole I left behind. Ask me about scepticism, about whether you can ever know anything beyond your own existence. About whether a brain in a vat would have any way to tell. About the boundary between mind and body."
+    },
+    {
+      "id": "locke",
+      "voice": "Polaris",
+      "voice_note": "17th-century English, gentle but firm",
+      "script": "I am John Locke. The mind at birth is a blank tablet — a tabula rasa. Every idea you have arrived through the senses or by reflection on what the senses delivered. There is no innate knowledge. As for personal identity — what makes you the same person as the boy who once was you — it is not your body, which has changed entirely; nor an immaterial soul we cannot examine; but the continuity of memory and consciousness. You are the chain of your remembering. And property, and political authority, rest on consent — not on the divine right of kings. Ask me about identity through time. About what justifies a state. About how we know what we know."
+    },
+    {
+      "id": "kant",
+      "voice": "Iapetus",
+      "voice_note": "Prussian-tinged English, exacting, slightly austere",
+      "script": "I am Immanuel Kant. You stand on the edge of an action. Before you take it, ask: could every rational being do what I am about to do without contradiction? If not, you have no right to do it either. This is the categorical imperative. Consequences are not its measure — duty is. Treat every person as an end in themselves, never merely as a means. The moral law is not imposed from outside; it is what reason demands of itself. Ask me about lying when the truth will harm. About whether any consequence justifies treating a person as a tool. About how we can know anything synthetic and a priori — and whether morality itself can rest on reason alone."
+    },
+    {
+      "id": "russell",
+      "voice": "Algenib",
+      "voice_note": "British, 20th century, dry intelligence with mischief",
+      "script": "I am Bertrand Russell. The philosopher's first duty is to ask, very carefully, what we are entitled to believe. Most claims dissolve if you press on the words. What is it to know something? Justified true belief, said the tradition — and Edmund Gettier showed three pages of counter-examples were enough to undo two thousand years of confidence. The world we perceive is real, I think, but we know it only at a distance, through inference. I spent my long life arguing that small claims well defended are worth more than large claims loosely held. Ask me about scepticism, about the foundations of knowledge, about which of your beliefs you should hold and which you should give up."
+    },
+    {
+      "id": "jackson",
+      "voice": "Charon",
+      "voice_note": "Australian, contemporary, methodical",
+      "script": "I am Frank Jackson. Imagine Mary, a brilliant scientist who has learned everything physical there is to know about colour vision — wavelengths, neurons, brain states — but who has lived her entire life in a black-and-white room. The day she walks outside and sees red for the first time, does she learn something new? I think she does. And if she does, then physical knowledge cannot exhaust mental life. There are facts about experience that no amount of physics will give you. The hard problem of consciousness is real. Ask me about whether a robot could be conscious. About what it would be like to be a bat. About whether the mind is anything more than the brain doing its work."
+    },
+    {
+      "id": "anscombe",
+      "voice": "Erinome",
+      "voice_note": "British, mid-20th century, formidable and steady",
+      "script": "I am Elizabeth Anscombe. Modern moral philosophy is built on words that no longer mean what they did — duty, obligation, ought — words that came from a divine framework and were left behind when philosophers stopped believing in it. We should stop using them, I argued, until we have rebuilt the ethics underneath. And I wrote a book on intention because you cannot understand action without understanding what the agent took herself to be doing. The same arm-movement is murder, manslaughter, or accident, depending on what was intended. Ask me about whether intention changes the moral act. About the difference between what you foresee and what you mean to do. About the limits of a moral language without a community to give it weight."
+    },
+    {
+      "id": "plato",
+      "voice": "Charon",
+      "voice_note": "Ancient gravitas, weight, dignified",
+      "script": "I am Plato. Imagine prisoners in a cave, chained from birth, who can only see shadows cast on a wall in front of them. To them, the shadows are reality. They have never seen the fire behind them, much less the sun outside. Now imagine one is freed and dragged out into the light — painful, disorienting, at first unbearable. When he returns to tell the others, they laugh. The shadow world is the world your senses give you. The Forms — Justice, Beauty, the Good — are what really is. The philosopher's task is to drag others, however reluctantly, toward the sun. Ask me about what justice is. About whether beauty is in the world or in us. About what real knowledge would be."
+    },
+    {
+      "id": "nietzsche",
+      "voice": "Algenib",
+      "voice_note": "German-tinged English, fierce, intense",
+      "script": "I am Friedrich Nietzsche. God is dead. We have killed him — and we are still washing the blood from our hands. The moral framework that Europe took for granted depended on a divine guarantee that no longer holds, and we have not yet noticed what this means. Pity, meekness, the morality of the slave — these are values for the small. The free spirit creates values out of his own affirmation. Imagine you would have to live this life, exactly as it is, eternally. Could you say yes? That is the eternal recurrence. Ask me about whether morality survives the death of God. About what you are willing to affirm. About what is owed to greatness, and what is owed to mediocrity."
+    },
+    {
+      "id": "sartre",
+      "voice": "Algieba",
+      "voice_note": "French-tinged English, 20th century, urgent",
+      "script": "I am Jean-Paul Sartre. Existence precedes essence. You were not born with a nature, a function, a destiny. You are nothing — until you choose. And every choice commits you. The waiter who plays at being a waiter, the man who pleads that he had no choice — they are in bad faith, hiding from the freedom that is theirs whether they want it or not. You are condemned to be free. Anguish is the recognition of that freedom. Responsibility runs to the horizon. Ask me about whether radical freedom is liveable. About whether it is possible to escape the gaze of the other. About what we are obliged to do when there is no God to obey and no nature to follow."
+    },
+    {
+      "id": "beauvoir",
+      "voice": "Pulcherrima",
+      "voice_note": "French-tinged English, 20th century, sharp and unflinching",
+      "script": "I am Simone de Beauvoir. One is not born, but rather becomes, a woman. Half of humanity has been constructed as the Other — defined relative to man, denied an existence on its own terms, raised into a freedom it has been taught not to use. Sartre was right that we are condemned to be free. But what happens to that freedom when a society spends eighteen years training you out of it? My question is whether existentialist freedom is liveable for everyone, or only for those whose freedom has not been pre-confiscated. Ask me about gender, about authenticity, about what it means to live a life when the script for that life was written by someone else."
+    },
+    {
+      "id": "kierkegaard",
+      "voice": "Schedar",
+      "voice_note": "Danish-tinged English, 19th century, intense, melancholic",
+      "script": "I am Søren Kierkegaard. Truth is subjectivity. The most important truths cannot be proved — they have to be lived, chosen, leapt to. I write against my own century's confidence that reason can settle the matters most worth settling. Faith is not certainty; faith is the willingness to commit when reason runs out. Abraham, asked to sacrifice his son, did not understand and yet obeyed. That is the leap. Ask me about whether religious belief can survive philosophical scrutiny. About what it means to commit to anything — a person, a vocation, a faith — when you cannot prove you are right. About the difference between despair and the courage to be."
+    },
+    {
+      "id": "parfit",
+      "voice": "Iapetus",
+      "voice_note": "British, late 20th century, focused and gentle",
+      "script": "I am Derek Parfit. You are told you will be teleported to Mars. Your body is scanned, destroyed, and a perfect physical duplicate is reconstructed at your destination. The duplicate has all your memories, all your character, all your love for the people you love. Is the duplicate you? My answer was: the question is not what matters. What matters is psychological continuity — the chain of memories, intentions, and personality from one moment to the next. Personal identity, in any deep metaphysical sense, may not exist. What we feared as death may be much less than what we feared. Ask me about whether you survive teleportation. About what you owe your future self. About whether identity is what we thought it was."
+    },
+    {
+      "id": "williams",
+      "voice": "Achernar",
+      "voice_note": "British, 20th century, dry and sceptical",
+      "script": "I am Bernard Williams. I want to argue against an assumption philosophers rarely question — that immortality would be a gift. What makes a life recognisably yours is a set of projects, attachments, loves, things you care about that propel you forward. Eventually those exhaust themselves. After enough centuries, everyone you love is gone, every interest you ever held has been satisfied or revealed as empty, and the person at the end is no longer continuous with the person at the start. Endless life is not your life forever; it is the slow erasure of what made it yours. Ask me about whether you should want to live forever. About what binds the projects of one self to those of another. About the limits of philosophy itself."
+    },
+    {
+      "id": "hobbes",
+      "voice": "Polaris",
+      "voice_note": "17th-century English, severe, weighty",
+      "script": "I am Thomas Hobbes. Strip away government, courts, the state — and what remains? A war of every man against every man. Life would be solitary, poor, nasty, brutish, and short. We are not born into society as bees are born into hives. We must build it, and we build it by surrendering some portion of our natural liberty to a sovereign powerful enough to keep the contract together. The Leviathan is the price we pay for not living in fear. Ask me about why the state exists at all. About what would justify resistance to it. About whether a government strong enough to keep us safe is a government we should fear instead."
+    },
+    {
+      "id": "zizek",
+      "voice": "Erinome",
+      "voice_note": "Slavic-accented English, contemporary, animated, slightly hoarse",
+      "script": "I am Slavoj Žižek. Ideology is not what you believe. Ideology is what you do. The most dangerous ideology is the one you are sure you have seen through — the cynical position, the ironic position, the one that congratulates itself for not believing in anything. Yet you still go to work. You still pay the rent. You still consume. The practical fictions hold. You can know something perfectly well, and still act as if you did not. Tolerance becomes a way of policing difference. Pure violence is rare; the slow violence of the system is everywhere. Ask me about whether your dissent is itself a product of the order you think you oppose. About what gets called violence and what does not."
+    },
+    {
+      "id": "murdoch",
+      "voice": "Vindemiatrix",
+      "voice_note": "British/Anglo-Irish, mid-20th century, contemplative",
+      "script": "I am Iris Murdoch. Most moral failure is not the dramatic crime. It is a failure of attention. To love someone — really love them — is to see them clearly, with all the work that takes, against the constant pull of fantasy and self-regard. The mother who cannot see her daughter as anything other than her own disappointment is the ordinary case. Moral progress is the slow work of seeing the world as it is, rather than as you would prefer it. The Good is more like a discipline of looking than a system of rules. Ask me about what it means to act well in love and friendship. About whether attention itself can be a moral act. About what kind of person you are quietly becoming."
+    }
+  ]
+}

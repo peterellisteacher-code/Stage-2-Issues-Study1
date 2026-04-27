@@ -1,0 +1,94 @@
+{
+  "exemplars": [
+    {
+      "id": "exemplar-a",
+      "grade": "A−",
+      "label": "A− band exemplar (Student 1)",
+      "question": "Could society operate based entirely on existentialist principles?",
+      "question_form": "interrogative",
+      "thinkers_engaged": ["Sartre", "Kierkegaard", "Kant", "Plato", "Aquinas", "Paley", "Dawkins"],
+      "structure": "Intro states question + three sub-questions + method; body addresses God/essence, free will, consequences for society in sequence; conclusion compares existentialist vs Kantian vs Christian society then judges.",
+      "what_earned_grade": [
+        "Genuinely interrogative question with real philosophical scope",
+        "Engages 7 thinkers — well above the 3 minimum for KU1/KU2",
+        "Uses Kant as a sophisticated foil, not just contrast",
+        "Argued personal position emerges from the analysis, not asserted",
+        "Genuine CA1 critical engagement with whether radical freedom is internally consistent"
+      ],
+      "annotated_extracts": [
+        {
+          "passage": "If essence does not precede existence, then humans bear total responsibility for their choices — but a society of radical freedom assumes that every member is willing to carry that weight. Most are not.",
+          "annotation": "RA3 in action: the student is not summarising Sartre, they are pressing on his own argument. The phrase 'most are not' is a defended claim that drives the rest of the response.",
+          "criterion_earned": "RA3"
+        },
+        {
+          "passage": "Where Kant locates moral worth in duty derived from reason, Sartre locates it in the act of choice itself — yet neither can escape the question of whether the chooser is bound to anything beyond herself.",
+          "annotation": "KU2 + CA1: comparing the reasons for two positions, then putting them under the same critical question. This is the move C-band responses miss.",
+          "criterion_earned": "KU2 / CA1"
+        }
+      ]
+    },
+    {
+      "id": "exemplar-b",
+      "grade": "B",
+      "label": "B band exemplar (Student 3)",
+      "question": "Is it possible for philosophical zombies to exist?",
+      "question_form": "interrogative",
+      "thinkers_engaged": ["Chalmers", "Kripke", "Dennett", "(unnamed functionalists/behaviourists)"],
+      "structure": "Numbered sections I–V: thought experiment (cloning machine) → epistemology of other minds → what zombies lack → nature of consciousness → whether zombies are possible. Formal P1/P2/P3 logical argument structures shown explicitly.",
+      "what_earned_grade": [
+        "Strong interrogative question, sophisticated thought experiment",
+        "Logical structure P1/P2/P3 demonstrates RA2 explicitly",
+        "Accurate use of philosophical terminology (qualia, physicalism, dualism, functionalism)",
+        "Position in conclusion is hedged ('yes but cannot be proven') — RA3 partial",
+        "CA1 analysis present but not deep"
+      ],
+      "annotated_extracts": [
+        {
+          "passage": "P1: A philosophical zombie behaves identically to a conscious being. P2: There is no behavioural test that distinguishes them. ∴ The question of consciousness cannot be settled empirically.",
+          "annotation": "RA2 done well: the logic is laid bare and the inference is valid. This is what RA2 looks like in practice.",
+          "criterion_earned": "RA2"
+        },
+        {
+          "passage": "Therefore zombies are conceivable, and conceivable in this strong sense seems to imply possible — but only in a world we cannot prove is ours.",
+          "annotation": "RA3 partial: a position is taken, but the hedge prevents it from being fully defended. This is the gap between A− and B.",
+          "criterion_earned": "RA3 (partial)"
+        }
+      ]
+    },
+    {
+      "id": "exemplar-cplus",
+      "grade": "C+",
+      "label": "C+ band exemplar (Student 2) — note the failure modes",
+      "question": "Arguments for and against the traditional concept of God",
+      "question_form": "topic — NOT interrogative",
+      "thinkers_engaged": ["Paley", "Anselm", "Descartes (named, never engaged)", "Kant", "Pascal", "Hume", "Dawkins"],
+      "structure": "Lists arguments for God (design, ontological, cosmological), then arguments against (problem of evil, natural selection, strong atheism); personal opinion injected in parenthetical asides mid-paragraph rather than developed.",
+      "what_lost_grade": [
+        "Topic framing instead of interrogative — produces an information-report structure",
+        "RA3 collapse: personal position only emerges in fragments ('personally it's not because...') rather than as a defended thesis",
+        "KU2 gap: Descartes is named in the introduction but never actually engaged with his arguments",
+        "CA1 weakness: strengths and weaknesses listed but not compared",
+        "C2 issues: URL-dump references rather than academic citation format"
+      ],
+      "annotated_extracts": [
+        {
+          "passage": "Paley's watchmaker argument suggests that complex objects imply a designer (personally it's not very convincing because evolution explains complexity without one).",
+          "annotation": "RA3 fail: the position is in parentheses rather than argued. The student is hedging by hiding the claim — exactly what C-band does.",
+          "criterion_earned": "RA3 lost"
+        },
+        {
+          "passage": "Descartes also argued for God's existence in the Meditations. [No further engagement.]",
+          "annotation": "KU2 fail: naming a philosopher without explaining his reasoning earns nothing. This is what 'mention without engagement' looks like — and it is the most common failure mode.",
+          "criterion_earned": "KU2 lost"
+        },
+        {
+          "passage": "https://www.britannica.com/topic/God / https://plato.stanford.edu/entries/god/",
+          "annotation": "C2 fail: URL-dump references are not academic citation. Use author surname, year, and a recognisable convention.",
+          "criterion_earned": "C2 lost"
+        }
+      ]
+    }
+  ],
+  "key_takeaway": "Topic-framing is the most common failure, but it is not the only one. The C+ exemplar lost marks across RA3, KU2, CA1, and C2 — and every one of those losses started in the same place: there was no defended position to organise the response around. Set down a question; let everything else hang from it."
+}
