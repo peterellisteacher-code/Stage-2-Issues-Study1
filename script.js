@@ -287,11 +287,60 @@ function openThinkerModal(id) {
 
     document.getElementById('modalBackdrop').classList.add('is-open');
     document.body.style.overflow = 'hidden';
-    // Move focus into the modal for keyboard users
-    setTimeout(() => {
+    // Move focus into the modal for keyboard users. requestAnimationFrame
+    // ensures the modal is visible and laid out before we focus, without
+    // the racy setTimeout that could fire before the browser had painted.
+    requestAnimationFrame(() => {
         const closeBtn = document.getElementById('modalClose');
         if (closeBtn) closeBtn.focus();
-    }, 50);
+    });
+}
+
+// Focusable selectors used by the modal focus trap. Excludes elements that
+// are disabled, tabindex=-1, or hidden by being out of layout.
+const FOCUSABLE_SELECTOR = [
+    'a[href]',
+    'button:not([disabled])',
+    'input:not([disabled])',
+    'select:not([disabled])',
+    'textarea:not([disabled])',
+    'audio[controls]',
+    'video[controls]',
+    '[tabindex]:not([tabindex="-1"])'
+].join(',');
+
+function getModalFocusables() {
+    const backdrop = document.getElementById('modalBackdrop');
+    if (!backdrop) return [];
+    return Array.from(backdrop.querySelectorAll(FOCUSABLE_SELECTOR))
+        .filter(el => !el.hasAttribute('disabled') && el.offsetParent !== null);
+}
+
+function trapModalFocus(e) {
+    if (e.key !== 'Tab') return;
+    const backdrop = document.getElementById('modalBackdrop');
+    if (!backdrop || !backdrop.classList.contains('is-open')) return;
+    const focusables = getModalFocusables();
+    if (!focusables.length) {
+        e.preventDefault();
+        return;
+    }
+    const first = focusables[0];
+    const last = focusables[focusables.length - 1];
+    const active = document.activeElement;
+    // If focus has somehow escaped the modal, pull it back in.
+    if (!backdrop.contains(active)) {
+        e.preventDefault();
+        first.focus();
+        return;
+    }
+    if (e.shiftKey && active === first) {
+        e.preventDefault();
+        last.focus();
+    } else if (!e.shiftKey && active === last) {
+        e.preventDefault();
+        first.focus();
+    }
 }
 
 function closeModal() {
@@ -315,8 +364,12 @@ function wireModal() {
         if (e.target.id === 'modalBackdrop') closeModal();
     });
     document.addEventListener('keydown', e => {
-        if (e.key === 'Escape' && document.getElementById('modalBackdrop').classList.contains('is-open')) {
+        const backdrop = document.getElementById('modalBackdrop');
+        if (!backdrop || !backdrop.classList.contains('is-open')) return;
+        if (e.key === 'Escape') {
             closeModal();
+        } else if (e.key === 'Tab') {
+            trapModalFocus(e);
         }
     });
     document.getElementById('modalTranscriptToggle').addEventListener('click', () => {
@@ -763,32 +816,39 @@ function wireScrollSpy() {
 
 // === WEB AUDIO — synthesised ambient drone (Lyria fallback) =======
 
-function ensureAudio() {
-    if (STATE.audioCtx) {
-        // Browsers may auto-suspend a context that wasn't created in
-        // direct response to a user gesture. Resume on demand.
-        if (STATE.audioCtx.state === 'suspended') {
-            STATE.audioCtx.resume().catch(() => {});
-        }
-        return STATE.audioCtx;
+async function ensureAudio() {
+    if (!STATE.audioCtx) {
+        const Ctx = window.AudioContext || window.webkitAudioContext;
+        if (!Ctx) return null;
+        STATE.audioCtx = new Ctx();
     }
-    const Ctx = window.AudioContext || window.webkitAudioContext;
-    if (!Ctx) return null;
-    STATE.audioCtx = new Ctx();
+    // iOS Safari and several other browsers create the context in 'suspended'
+    // state until a user gesture resumes it. Await the resume promise before
+    // scheduling so oscillator start-times don't fall behind ctx.currentTime
+    // when the clock jumps forward on resume.
     if (STATE.audioCtx.state === 'suspended') {
-        STATE.audioCtx.resume().catch(() => {});
+        try { await STATE.audioCtx.resume(); } catch (e) { /* ignore */ }
     }
     return STATE.audioCtx;
 }
 
-function startDrone() {
-    const ctx = ensureAudio();
+async function startDrone() {
+    const ctx = await ensureAudio();
     if (!ctx) return;
-    // If a stop was scheduled but hasn't completed, cancel it so a rapid
-    // off-then-on toggle doesn't leave the drone permanently silent.
+    // If a stop was scheduled but hasn't completed, cancel it. If the drone
+    // is still alive (mid-fade-out), ramp the gain back up instead of
+    // returning early — otherwise a rapid off-then-on toggle leaves the
+    // drone "on" but silent.
     if (STATE._stopTimer) {
         clearTimeout(STATE._stopTimer);
         STATE._stopTimer = null;
+        if (STATE.drone) {
+            const g = STATE.drone.master.gain;
+            g.cancelScheduledValues(ctx.currentTime);
+            g.setValueAtTime(g.value, ctx.currentTime);
+            g.linearRampToValueAtTime(0.6, ctx.currentTime + 1);
+            return;
+        }
     }
     if (STATE.drone) return;
 
@@ -855,23 +915,24 @@ function stopDrone() {
 function wireSoundToggle() {
     const btn = document.getElementById('soundToggle');
     if (!btn) return;
-    btn.addEventListener('click', () => {
+    btn.addEventListener('click', async () => {
         STATE.soundOn = !STATE.soundOn;
         if (STATE.soundOn) {
-            startDrone();
             btn.textContent = 'Sound: on';
+            await startDrone();
         } else {
-            stopDrone();
             btn.textContent = 'Sound: off';
+            stopDrone();
         }
     });
 }
 
 // === UI SOUNDS — paper rustle / pen scratch / gavel / chord =======
 
-function playUiSound(kind) {
-    const ctx = ensureAudio();
-    if (!ctx || !STATE.soundOn) return;
+async function playUiSound(kind) {
+    if (!STATE.soundOn) return;
+    const ctx = await ensureAudio();
+    if (!ctx) return;
 
     if (kind === 'granted') {
         // soft paper rustle (filtered noise)
